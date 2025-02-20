@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>RDF Graph Control Panel</title>
+  <!-- D3 Library -->
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <!-- N3 Library -->
+  <script src="https://unpkg.com/n3@1.16.2/browser/n3.min.js"></script>
+  <style>
+    body {
+      margin: 0;
+      font-family: sans-serif;
+      display: flex;
+      height: 100vh;
+    }
+    #sidebar {
+      width: 250px;
+      background: #f0f0f0;
+      padding: 15px;
+      border-right: 1px solid #ccc;
+      box-sizing: border-box;
+      overflow-y: auto;
+    }
+    #sidebar h2 {
+      font-size: 18px;
+      margin-top: 0;
+    }
+    #sidebar input,
+    #sidebar button {
+      width: 100%;
+      margin-bottom: 10px;
+      box-sizing: border-box;
+    }
+    #main {
+      flex: 1;
+      position: relative;
+      overflow: hidden;
+    }
+    svg {
+      width: 100%;
+      height: 100%;
+    }
+    .node {
+      stroke: #fff;
+      stroke-width: 1.5px;
+      cursor: pointer;
+    }
+    .node.resource {
+      fill: #1f77b4;
+    }
+    .node.literal {
+      fill: #ff7f0e;
+    }
+    .link {
+      stroke: #999;
+      stroke-opacity: 0.6;
+    }
+    .link-label {
+      font-size: 10px;
+      fill: #555;
+      pointer-events: none;
+    }
+    .labels text {
+      font-size: 12px;
+      pointer-events: none;
+    }
+  </style>
+</head>
+<body>
+  <div id="sidebar">
+    <h2>Controls</h2>
+    <label for="file-input">Choose File:</label>
+    <input type="file" id="file-input" accept=".ttl">
+    <button id="toggle-link-labels">Toggle Link Labels</button>
+    <button id="fit-graph">Fit Graph</button>
+    <button id="export-png">Export as PNG</button>
+    <button id="export-svg">Export as SVG</button>
+  </div>
+
+  <div id="main">
+    <svg></svg>
+  </div>
+
+  <script>
+    let currentContainer, currentSVG, currentZoom;
+    let store = new N3.Store();
+    let simulation;
+    let prefixes = {};
+
+    // Initialize SVG
+    currentSVG = d3.select("svg");
+    currentContainer = currentSVG.append("g");
+
+    document.getElementById("file-input").addEventListener("change", function(e) {
+      const file = e.target.files[0];
+      if (file) {
+        const reader = new FileReader();
+        reader.onload = function(e) {
+          const ttlData = e.target.result;
+          parseTTL(ttlData);
+        };
+        reader.readAsText(file);
+      }
+    });
+
+    function parseTTL(ttlData) {
+      store = new N3.Store();
+      const parser = new N3.Parser();
+      const triples = [];
+      
+      parser.parse(ttlData, (error, triple, pfx) => {
+        if (error) {
+          console.error("Error parsing TTL:", error);
+        } else if (triple) {
+          triples.push(triple);
+          store.add(triple);
+        } else {
+          prefixes = pfx || {};
+          buildGraph(triples, prefixes);
+        }
+      });
+    }
+
+    function shorten(uri, prefixes) {
+      if (typeof uri !== 'string') return uri;
+      for (const prefix in prefixes) {
+        const ns = prefixes[prefix];
+        if (uri.startsWith(ns)) {
+          return prefix + ':' + uri.slice(ns.length);
+        }
+      }
+      return uri;
+    }
+
+    function buildGraph(triples, prefixes) {
+      currentContainer.selectAll("*").remove();
+      if (simulation) simulation.stop();
+
+      const nodesMap = new Map();
+      const links = [];
+      let literalCounter = 0;
+
+      triples.forEach(triple => {
+        const subjectId = triple.subject.value;
+        if (!nodesMap.has(subjectId)) {
+          nodesMap.set(subjectId, { id: subjectId, type: "resource", properties: {} });
+        }
+
+        const predicateUri = triple.predicate.value;
+
+        if (triple.object.termType === "NamedNode") {
+          const objectId = triple.object.value;
+          if (!nodesMap.has(objectId)) {
+            nodesMap.set(objectId, { id: objectId, type: "resource", properties: {} });
+          }
+          links.push({ 
+            source: subjectId, 
+            target: objectId, 
+            predicate: predicateUri 
+          });
+        } else if (triple.object.termType === "Literal") {
+          const literalId = `literal-${literalCounter++}`;
+          nodesMap.set(literalId, { 
+            id: literalId, 
+            type: "literal", 
+            label: triple.object.value 
+          });
+          links.push({ 
+            source: subjectId, 
+            target: literalId, 
+            predicate: predicateUri 
+          });
+        }
+      });
+
+      const nodes = Array.from(nodesMap.values());
+
+      simulation = d3.forceSimulation(nodes)
+        .force("link", d3.forceLink(links).id(d => d.id).distance(150))
+        .force("charge", d3.forceManyBody().strength(-300))
+        .force("center", d3.forceCenter(
+          currentSVG.node().clientWidth / 2, 
+          currentSVG.node().clientHeight / 2
+        ));
+
+      const link = currentContainer.append("g")
+        .attr("class", "links")
+        .selectAll("line")
+        .data(links)
+        .join("line")
+        .attr("class", "link");
+
+      const linkLabels = currentContainer.append("g")
+        .attr("class", "link-labels")
+        .selectAll("text")
+        .data(links)
+        .join("text")
+        .attr("class", "link-label")
+        .text(d => shorten(d.predicate, prefixes));
+
+      const node = currentContainer.append("g")
+        .attr("class", "nodes")
+        .selectAll("circle")
+        .data(nodes)
+        .join("circle")
+        .attr("class", d => `node ${d.type}`)
+        .attr("r", d => d.type === "literal" ? 6 : 10)
+        .call(d3.drag()
+          .on("start", dragstarted)
+          .on("drag", dragged)
+          .on("end", dragended));
+
+      const labels = currentContainer.append("g")
+        .attr("class", "labels")
+        .selectAll("text")
+        .data(nodes)
+        .join("text")
+        .attr("dy", -15)
+        .attr("text-anchor", "middle")
+        .text(d => d.label || shorten(d.id, prefixes));
+
+      simulation.on("tick", () => {
+        link
+          .attr("x1", d => d.source.x)
+          .attr("y1", d => d.source.y)
+          .attr("x2", d => d.target.x)
+          .attr("y2", d => d.target.y);
+
+        linkLabels
+          .attr("x", d => (d.source.x + d.target.x) / 2)
+          .attr("y", d => (d.source.y + d.target.y) / 2);
+
+        node
+          .attr("cx", d => d.x)
+          .attr("cy", d => d.y);
+
+        labels
+          .attr("x", d => d.x)
+          .attr("y", d => d.y);
+      });
+
+      currentZoom = d3.zoom()
+        .scaleExtent([0.1, 10])
+        .on("zoom", (event) => {
+          currentContainer.attr("transform", event.transform);
+        });
+
+      currentSVG.call(currentZoom);
+
+      d3.select("#toggle-link-labels").on("click", () => {
+        const labels = currentContainer.selectAll(".link-label");
+        const currentDisplay = labels.style("display");
+        labels.style("display", currentDisplay === "none" ? "block" : "none");
+      });
+
+      d3.select("#fit-graph").on("click", fitGraph);
+      d3.select("#export-png").on("click", exportPNG);
+      d3.select("#export-svg").on("click", exportSVG);
+
+      fitGraph();
+    }
+
+    function fitGraph() {
+      const bounds = currentContainer.node().getBBox();
+      const parent = currentSVG.node();
+      const fullWidth = parent.clientWidth;
+      const fullHeight = parent.clientHeight;
+      const width = bounds.width;
+      const height = bounds.height;
+      const midX = bounds.x + width / 2;
+      const midY = bounds.y + height / 2;
+      
+      if (width === 0 || height === 0) return;
+      
+      const scale = 0.85 / Math.max(width / fullWidth, height / fullHeight);
+      const translate = [fullWidth / 2 - scale * midX, fullHeight / 2 - scale * midY];
+
+      currentSVG
+        .transition()
+        .duration(750)
+        .call(
+          currentZoom.transform,
+          d3.zoomIdentity
+            .translate(translate[0], translate[1])
+            .scale(scale)
+        );
+    }
+
+    function dragstarted(event, d) {
+      if (!event.active) simulation.alphaTarget(0.3).restart();
+      d.fx = d.x;
+      d.fy = d.y;
+    }
+
+    function dragged(event, d) {
+      d.fx = event.x;
+      d.fy = event.y;
+    }
+
+    function dragended(event, d) {
+      if (!event.active) simulation.alphaTarget(0);
+      d.fx = null;
+      d.fy = null;
+    }
+
+    function exportPNG() {
+      // Create clone with inline styles
+      const clone = currentSVG.node().cloneNode(true);
+      clone.querySelectorAll('.node').forEach(node => {
+        if (node.classList.contains('resource')) {
+          node.setAttribute('fill', '#1f77b4');
+          node.setAttribute('stroke', '#fff');
+        } else if (node.classList.contains('literal')) {
+          node.setAttribute('fill', '#ff7f0e');
+        }
+      });
+      clone.querySelectorAll('.link').forEach(link => {
+        link.setAttribute('stroke', '#999');
+      });
+
+      // Create temporary SVG
+      const tempSVG = document.createElementNS("http://www.w3.org/2000/svg", "svg");
+      tempSVG.setAttribute("width", currentSVG.node().width.baseVal.value);
+      tempSVG.setAttribute("height", currentSVG.node().height.baseVal.value);
+      tempSVG.setAttribute("xmlns", "http://www.w3.org/2000/svg");
+      tempSVG.appendChild(clone);
+
+      // Convert to PNG
+      const svgData = new XMLSerializer().serializeToString(tempSVG);
+      const img = new Image();
+      img.onload = () => {
+        const canvas = document.createElement('canvas');
+        canvas.width = tempSVG.width.baseVal.value * 2;
+        canvas.height = tempSVG.height.baseVal.value * 2;
+        const ctx = canvas.getContext('2d');
+        ctx.scale(2, 2);
+        ctx.fillStyle = 'white';
+        ctx.fillRect(0, 0, canvas.width, canvas.height);
+        ctx.drawImage(img, 0, 0);
+        
+        const link = document.createElement('a');
+        link.download = 'graph.png';
+        link.href = canvas.toDataURL();
+        link.click();
+      };
+      img.src = 'data:image/svg+xml;base64,' + btoa(unescape(encodeURIComponent(svgData)));
+    }
+
+    function exportSVG() {
+      // Create clone with inline styles
+      const clone = currentSVG.node().cloneNode(true);
+      clone.querySelectorAll('.node').forEach(node => {
+        if (node.classList.contains('resource')) {
+          node.setAttribute('fill', '#1f77b4');
+          node.setAttribute('stroke', '#fff');
+        } else if (node.classList.contains('literal')) {
+          node.setAttribute('fill', '#ff7f0e');
+        }
+      });
+      clone.querySelectorAll('.link').forEach(link => {
+        link.setAttribute('stroke', '#999');
+      });
+
+      // Apply current transform
+      const transform = d3.zoomTransform(currentSVG.node());
+      clone.querySelector('g').setAttribute('transform', `translate(${transform.x},${transform.y}) scale(${transform.k})`);
+
+      // Serialize and download
+      const serializer = new XMLSerializer();
+      const source = serializer.serializeToString(clone);
+      const blob = new Blob([source], { type: 'image/svg+xml;charset=utf-8' });
+      const url = URL.createObjectURL(blob);
+
+      const link = document.createElement('a');
+      link.href = url;
+      link.download = 'graph.svg';
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+      URL.revokeObjectURL(url);
+    }
+  </script>
+</body>
+</html>
