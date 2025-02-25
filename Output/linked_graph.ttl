@@ -1,0 +1,1558 @@
+@prefix asb: <http://asb-example.org/> .
+@prefix brcomp: <https://w3id.org/brcomp#> .
+@prefix brot: <https://w3id.org/brot#> .
+@prefix bsdd: <https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dcterms1: <http://purl.org/dc/terms> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix inst: <http://ifc-instance.org/instances/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prop: <https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+inst:28 inst:IfcRelAggregates inst:35 .
+
+inst:hasAsbPset a owl:ObjectProperty .
+
+bsdd:IfcBridge owl:equivalentClass brot:Bridge .
+
+<https://w3id.org/brcomp> a owl:Ontology ;
+    dcterms1:creator [ a foaf:Person ;
+            foaf:name "Al-Hakam Hamdan" ],
+        [ a foaf:Person ;
+            foaf:name "Taras Kozak" ] ;
+    dcterms1:description "Ontology for bridge components and their properties"@en ;
+    dcterms1:license "https://creativecommons.org/licenses/by/1.0" ;
+    dcterms1:modified "23th May 2019" ;
+    dcterms1:title "Bridge Components"@en ;
+    vann:preferredNamespacePrefix "brcomp" ;
+    vann:preferredNamespaceUri "https://w3id.org/brcomp#" ;
+    owl:versionIRI <https://w3id.org/brcomp/0.1> .
+
+brcomp:AbutmentBenching a owl:Class ;
+    rdfs:label "Auflagerbank eines Widerlagers"@de,
+        "Benching of an abutment"@en ;
+    rdfs:comment "Part of a Abutment on which a Bearing is installed."@en ;
+    rdfs:subClassOf brcomp:AbutmentComponent .
+
+brcomp:AbutmentChamberWall a owl:Class ;
+    rdfs:label "Kammerwand eines Widerlagers"@de,
+        "Chamber wall of an abutment"@en ;
+    rdfs:comment "Front wall of Abutment."@en ;
+    rdfs:subClassOf brcomp:AbutmentComponent .
+
+brcomp:AbutmentFooting a owl:Class ;
+    rdfs:label "Fundamentplatte eines Widerlagers"@de ;
+    rdfs:comment "Abutment footing"@en,
+        "Footing / foundation of Abutment."@en ;
+    rdfs:subClassOf brcomp:AbutmentComponent .
+
+brcomp:AbutmentWingWall a owl:Class ;
+    rdfs:label "Fluegelwand eines Widerlagers"@de,
+        "Wing wall of an abutment"@en ;
+    rdfs:comment "Side wall of Abutment."@en ;
+    rdfs:subClassOf brcomp:AbutmentComponent .
+
+brcomp:Arch a owl:Class ;
+    rdfs:label "Brückenbogen"@de,
+        "Arch"@en ;
+    rdfs:comment "No clearly visible separation between the superstructure and the substructure . The arch of the bridge loads the transom diagonally outwards. Both vertical and horizontal forces are transmitted into it."@en ;
+    rdfs:subClassOf brcomp:SubStructureComponent,
+        brcomp:SuperStructureComponent .
+
+brcomp:BearingSeat a owl:Class ;
+    rdfs:label "Lagersockel"@de,
+        "Bearing seat"@en ;
+    rdfs:comment "Component placed on the Bearing and serves to transfer forces over a larger area."@en ;
+    rdfs:subClassOf brcomp:SubStructureComponent .
+
+brcomp:BirdsProtection a owl:Class ;
+    rdfs:label "Vogelschutz"@de,
+        "Birds protection"@en ;
+    rdfs:comment "Components for protecting niches or interstices from birds."@en ;
+    rdfs:subClassOf brcomp:FinishingComponent .
+
+brcomp:Cable a owl:Class ;
+    rdfs:label "Cable"@de,
+        "Seil"@de ;
+    rdfs:comment "Steel cable that is installed on a Pylon and takes tensile loads from the superstructure."@en ;
+    rdfs:subClassOf brcomp:TensionComponent .
+
+brcomp:CableAnchoringDevice a owl:Class ;
+    rdfs:label "Seilverankerung"@de,
+        "Cable anchoring device"@en ;
+    rdfs:comment "Component for anchoring steel cables of a bridge to Pylon."@en ;
+    rdfs:subClassOf brcomp:SuperStructureComponent .
+
+brcomp:ConcreteStayTensionComponent a owl:Class ;
+    rdfs:label "Zugglieder aus Stahlbeton"@de,
+        "Tension component as a concrete stay"@en ;
+    rdfs:comment "Concrete components subjected to tensile stress."@en ;
+    rdfs:subClassOf brcomp:TensionComponent .
+
+brcomp:ConstructionJoint a owl:Class ;
+    rdfs:label "Arbeitsfuge"@de,
+        "Construction joint"@en ;
+    rdfs:comment "Separation lines within components. They occur, for example, in concrete construction as set-down joints between successive concreting sections. Concreting in several stages is often unavoidable due to the construction process. The aim is to create the best possible bond between the adjacent concreting sections. Since the reinforcement runs through the construction joints, a traditional shuttering of the concreting section with wood would be costly. Today, expanded metal is mostly used for this purpose, which can be easily cut and bent to size and guarantees a certain degree of interlocking of the concreting sections. If, for example, a straight line of joints is desired for aesthetic reasons, formwork panels can be used in combination with a reverse bending connection for the reinforcing irons, which allow subsequent interlocking by bending up the reinforcing bars as the concreting process continues. In engineering structures such as bridges, screw connections are used to connect the reinforcement steel over construction joints due to the higher loads."@en ;
+    rdfs:subClassOf brot:Joint .
+
+brcomp:CouplingJoint a owl:Class ;
+    rdfs:label "Koppelfuge"@de,
+        "Coupling joint"@en ;
+    rdfs:comment "Necessary in prestressed concrete construction if the component has to be constructed in several sections, e.g. in bridge construction. The individual components are coupled to each other at the coupling joints and the tendons are connected to each other, e.g. bolted, depending on the prestressing method"@en ;
+    rdfs:subClassOf brot:Joint .
+
+brcomp:Drainage a owl:Class ;
+    rdfs:label "Entwaesserung"@de,
+        "Drainage"@en ;
+    rdfs:comment "Technical systems that counteract waterlogging on the bridge construction."@en ;
+    rdfs:subClassOf brcomp:FinishingComponent .
+
+brcomp:DrilledPile a owl:Class ;
+    rdfs:label "Bohrpfahl"@de,
+        "Drilled pile"@en ;
+    rdfs:comment "Pile that is drilled to the underground by utilizing specifc drilling systems and machines."@en ;
+    rdfs:subClassOf brcomp:Pile .
+
+brcomp:ElastomericBearings a owl:Class ;
+    rdfs:label "Verformungslager"@de,
+        "Elastomeric bearings"@en ;
+    rdfs:comment "Bearings made of chloroprene rubber (CR) or natural rubber (NR)."@en ;
+    rdfs:subClassOf brcomp:FixedBearingComponent .
+
+brcomp:ExpansionJoint a owl:Class ;
+    rdfs:label "Dehnungs-/Bewegungsfuge"@de,
+        "Expansion/movement joint"@en ;
+    rdfs:comment "Joint for interrupting components in order to prevent stress cracking."@en ;
+    rdfs:subClassOf brot:Joint .
+
+brcomp:Footing a owl:Class ;
+    rdfs:label "Gruendung"@de,
+        "Footing"@en ;
+    rdfs:comment "Flat foundation which rests on the ground."@en ;
+    rdfs:subClassOf brcomp:FoundationComponent .
+
+brcomp:GirderBracing a owl:Class ;
+    rdfs:label "Aussteifung (stabfoermiges Component)"@de,
+        "Bracing (bar-shaped component)"@en ;
+    rdfs:comment "Bracing component aggregated in a Girder."@en ;
+    rdfs:subClassOf brcomp:GirderComponent .
+
+brcomp:GirderCrossGirder a owl:Class ;
+    rdfs:label "Querbalken"@de,
+        "Cross girder"@en ;
+    rdfs:comment "Querbalken des Brueckendeckquerschnitts"@de,
+        "cross girder of the bridge beam cross-section"@en ;
+    rdfs:subClassOf brcomp:GirderComponent .
+
+brcomp:GirderDiaphragm a owl:Class ;
+    rdfs:label "Versteifungsdiaphragma"@de,
+        "Stiffening diaphgragm"@en ;
+    rdfs:comment "Plate-shaped component used for bracing the Girder."@en ;
+    rdfs:subClassOf brcomp:GirderComponent .
+
+brcomp:GirderDownPlate a owl:Class ;
+    rdfs:label "Girder down plate"@en,
+        "Unterplatte"@en ;
+    rdfs:comment "Untere Platte des Brueckendeckquerschnitts"@de,
+        "Lower plate of the bridge beam cross-section"@en ;
+    rdfs:subClassOf brcomp:GirderComponent .
+
+brcomp:GirderMainGirder a owl:Class ;
+    rdfs:label "Main girder",
+        "Längsbalken"@de ;
+    rdfs:comment "Balken in der Längsrichtung des Brückendeckquerschnitts"@de,
+        "Girder component in longitudinal direction of the bridge beam cross-section"@en ;
+    rdfs:subClassOf brcomp:GirderComponent .
+
+brcomp:GirderSegment a owl:Class ;
+    rdfs:label "Brueckendecksegment"@de,
+        "Girder segment"@en ;
+    rdfs:comment "\"Brueckendeckssegment\" ist ein Segment von einem Brueckendeck, das ein Fertigteilkomponent bzw. ein Segment eines Betonierabschnitts abbildet.",
+        "\"Girder segment\" is a segment of a bridge deck, which can represent either a prefabrecated component or a section of the construction stage."@en ;
+    rdfs:subClassOf brcomp:Girder,
+        brcomp:GirderComponent .
+
+brcomp:GroundAnchoringDevice a owl:Class ;
+    rdfs:label "Erdverankerung"@de,
+        "Ground anchoring device"@en ;
+    rdfs:comment "Component that anchors the Foundation to the ground below."@en ;
+    rdfs:subClassOf brcomp:SubStructureComponent .
+
+brcomp:Illumination a owl:Class ;
+    rdfs:label "Beleuchtung"@de,
+        "Illumination"@en ;
+    rdfs:comment "Technical system for illuminating the bridge mainly for traffic but also could be also installed for decorative effects."@en ;
+    rdfs:subClassOf brcomp:FinishingComponent .
+
+brcomp:MasticAsphalt a owl:Class ;
+    rdfs:label "Gussasphalt"@de ;
+    rdfs:comment "Mixture of fine and coarse aggregates and bitumen that can be poured and spread during installation. Therefore, no compaction work is necessary when using mastic asphalt. Mastic asphalt is used as road surface, as floor covering and for waterproofing."@en ;
+    rdfs:subClassOf brcomp:Asphalt .
+
+brcomp:NoiseBarrier a owl:Class ;
+    rdfs:label "Laermschutz"@de,
+        "Noise barrier"@en ;
+    rdfs:comment "Components and technical systems for noise abatement and part of immission control. It is intended to ensure the well-being of humans and animals with regard to noise."@en ;
+    rdfs:subClassOf brcomp:FinishingComponent .
+
+brcomp:Pavement a owl:Class ;
+    rdfs:label "Gehweg"@de,
+        "Pavement"@en ;
+    rdfs:comment "Part of a road intended for pedestrian traffic."@en ;
+    rdfs:subClassOf brcomp:FinishingComponent .
+
+brcomp:PinBearing a owl:Class ;
+    rdfs:label "Punktkipplager"@de ;
+    rdfs:comment "Fixed bearings that allow tilting about any axis."@en ;
+    rdfs:subClassOf brcomp:FixedBearingComponent .
+
+brcomp:PotBearings a owl:Class ;
+    rdfs:label "Topflager"@de,
+        "Pot bearings"@en ;
+    rdfs:comment "Bearing that works on the following principle: A disc made of high-quality natural rubber (elastomer) is enclosed on all sides in a steel pot. Under high pressure, the elastomer behaves like a liquid and, thanks to its deformability, can be tilted about any horizontal axis."@en ;
+    rdfs:subClassOf brcomp:FixedBearingComponent .
+
+brcomp:PrefabricatedComponent a owl:Class ;
+    rdfs:label "Fertigteil"@de,
+        "Prefabricated component"@en ;
+    rdfs:comment "Finished parts made of raw materials or semi-finished products that can be used for construction without further processing."@en ;
+    rdfs:subClassOf brot:Component .
+
+brcomp:Pylon a owl:Class ;
+    rdfs:label "Pylon"@de,
+        "Tower/pylon"@en ;
+    rdfs:comment "In bridge construction, the high towering component over which the suspension cables of suspension bridges run or to which the stay cables of cable-stayed bridges are anchored."@en ;
+    rdfs:subClassOf brcomp:SubStructureComponent,
+        brcomp:SuperStructureComponent .
+
+brcomp:ReinforcingBar a owl:Class ;
+    rdfs:label "Bewehrungsstab"@de,
+        "Reinforcing bar"@en ;
+    rdfs:comment "Serves as reinforcement of reinforced concrete components and is cast with concrete after installation in the formwork."@en ;
+    rdfs:subClassOf brcomp:ReinforcingComponent .
+
+brcomp:ReinforcingMesh a owl:Class ;
+    rdfs:label "Bewehrungsmatte"@de,
+        "Reinforcing mesh"@en ;
+    rdfs:comment "Wire mesh made of welded bars of reinforcing steel, which are used for the reinforcement of flat reinforced concrete components."@en ;
+    rdfs:subClassOf brcomp:ReinforcingComponent .
+
+brcomp:RockerBearing a owl:Class ;
+    rdfs:label "Linienkipplager"@de,
+        "Rocker bearing"@en ;
+    rdfs:comment "Fixed bearing that only allows tilting movements around the bearing axis (one-sided tilting). They are only suitable if no significant tilting movements are to be expected across the bridge axis; i.e. for straight or slightly curved bridges with small bearing spacings as well as rigid cross members and rigid piers."@en ;
+    rdfs:subClassOf brcomp:FixedBearingComponent .
+
+brcomp:RollerBearing a owl:Class ;
+    rdfs:label "Rollenlager"@de,
+        "Roller bearing"@en ;
+    rdfs:comment "One-sided movable Bearings which allow one-sided tilting. They have a limited use like the line tilting bearings. One or more cylindrical rollers are located between the plane-parallel surfaces of the upper and lower bearing plates. In the standard version with one roller, tilting around the roller axis is possible. It is possible to transmit horizontal forces perpendicular to the direction of movement. Since the direction of movement must be perpendicular to the tilting direction, they are not suitable for inclined bridges."@en ;
+    rdfs:subClassOf brcomp:MovableBearingComponent .
+
+brcomp:SafetyKerb a owl:Class ;
+    rdfs:label "Schrammbord"@de,
+        "Safety kerb"@en ;
+    rdfs:comment "Protective device made of wood, concrete, asphalt or steel for securing road users or workplaces on or near roads."@en ;
+    rdfs:subClassOf brcomp:FinishingComponent .
+
+brcomp:SlidingBearing a owl:Class ;
+    rdfs:label "Gleitlager"@de,
+        "Sliding bearings"@en ;
+    rdfs:comment "In the case of sliding bearings movable on one side, 2 guide pads with austenitic sheet steel are attached to the sliding plate. They transmit the horizontal forces via embedded PTFE to the upper bearing plate."@en ;
+    rdfs:subClassOf brcomp:MovableBearingComponent .
+
+brcomp:SphericalBearings a owl:Class ;
+    rdfs:label "Kalottenlager"@de,
+        "Spherical bearings"@en ;
+    rdfs:comment "Bearing thatenables the displacement and sliding movement in a flat and a curved sliding surface between the steel bearing plates. Spherical bearings generally act as biaxially displaceable pin bearings."@en ;
+    rdfs:subClassOf brcomp:FixedBearingComponent .
+
+brcomp:Tendon a owl:Class ;
+    rdfs:label "Spannglied"@de,
+        "Tendon"@en ;
+    rdfs:comment "Component made of high-strength steel, which is mainly used for prestressing in prestressed concrete construction."@en ;
+    rdfs:subClassOf brcomp:ReinforcingComponent .
+
+brcomp:TendonAnchoringDevice a owl:Class ;
+    rdfs:label "Spanngliedverankerung"@de,
+        "Tendon anchoring device"@en ;
+    rdfs:comment "The task of the TendonAnchoringDevice is to transfer the forces of the tendon to the concrete. This is usually done with anchor plates to which the prestressing steel transmits the forces through wedge anchoring, upset heads or nuts."@en ;
+    rdfs:subClassOf brcomp:ReinforcingComponent .
+
+brcomp:TrafficBarrier a owl:Class ;
+    rdfs:label "Leiteinrichtung"@de,
+        "Traffic barrier"@en ;
+    rdfs:comment "Road components to clarify traffic guidance for road users."@en ;
+    rdfs:subClassOf brcomp:FinishingComponent .
+
+brcomp:coatingArea a owl:DatatypeProperty ;
+    rdfs:label "Abdichtungsfläche"@de,
+        "coating area"@en ;
+    rdfs:comment """Gibt die Fläche des abgedichteten Bereichs an.
+
+Einheit in [m²]"""@de,
+        """Specifies the area of the used coating on a component.
+
+Unit in [m²]."""@en ;
+    rdfs:domain brot:Coating .
+
+brcomp:coatingThickness a owl:DatatypeProperty ;
+    rdfs:label "Abdichtungsdicke"@de,
+        "coating thickness"@en ;
+    rdfs:comment """Dicke (Dichtungsschicht + Schutzschicht)
+
+Einheit in [cm]"""@de,
+        """Thickness (sealing layer + protective layer)
+
+Unit in [cm]"""@en ;
+    rdfs:domain brot:Coating .
+
+brcomp:concreteCover a owl:DatatypeProperty ;
+    rdfs:label "Betondeckung"@de,
+        "concrete cover"@en ;
+    rdfs:comment "Distance between the concrete surface and the outer edge of a reinforcing steel coated with concrete of a Component."@en .
+
+brcomp:criticalTempSummer a owl:DatatypeProperty ;
+    rdfs:label "Kritische Temperatur Sommer"@de,
+        "Citical Temperature Summer"@en ;
+    rdfs:comment """Gibt die Kritische Temperatur für Lagerbauteile im Sommer an.
+
+Einheit in [Celsius]"""@de,
+        """Specifies the critical temperature for a Bearing in summer.
+
+Unit in [Celsius]."""@en ;
+    rdfs:domain brcomp:Bearing .
+
+brcomp:criticalTempWinter a owl:DatatypeProperty ;
+    rdfs:label "Kritische Temperatur Winter"@de,
+        "Citical Temperature Winter"@en ;
+    rdfs:comment """Gibt die Kritische Temperatur für Lagerbauteile im Winter an.
+
+Einheit in [Celsius]"""@de,
+        """Specifies the critical temperature for a Bearing in winter.
+
+Unit in [Celsius]."""@en ;
+    rdfs:domain brcomp:Bearing .
+
+brcomp:diameter a owl:DatatypeProperty ;
+    rdfs:label "Durchmesser"@de,
+        "diameter"@en ;
+    rdfs:comment """Durchmesser für runde Bauobjekte wie z.B. Pfähle, Pfeiler, etc.
+
+Einheit in [m]."""@de,
+        """Diameter for round Component such as piles, pillars, etc.
+
+Unit in [m]."""@en ;
+    rdfs:domain brot:Component .
+
+brcomp:height a owl:DatatypeProperty ;
+    rdfs:label "Höhe"@de,
+        "height"@en ;
+    rdfs:comment """Gibt die Höhe eines Brückenbauteils an.
+
+Einheit in [m]."""@de,
+        """Specifies the height of a bridge component.
+
+Unit in [m]."""@en ;
+    rdfs:domain brot:Component .
+
+brcomp:installationYear a owl:DatatypeProperty ;
+    rdfs:label "Einbaujahr"@de,
+        "installation year"@en ;
+    rdfs:comment "Year on which the Component has been installed."@en ;
+    rdfs:domain brot:Component .
+
+brcomp:length a owl:DatatypeProperty ;
+    rdfs:label "Länge"@de,
+        "length"@en ;
+    rdfs:comment """Gibt die Länge eines Brückenbauteils an.
+
+Einheit in [m]"""@de,
+        """Specifies the length of a Component.
+
+Unit in [m]"""@en ;
+    rdfs:domain brot:Component .
+
+brcomp:seaWaterContact a owl:DatatypeProperty ;
+    rdfs:label "sea water contact"@en ;
+    rdfs:comment "Defines whether a Component has contact with sea water"@en ;
+    rdfs:domain brot:Component ;
+    rdfs:range xsd:boolean .
+
+brcomp:tendonDirection a owl:DatatypeProperty ;
+    rdfs:label "Vorspannungsrichtung"@de,
+        "tendon direction"@en ;
+    rdfs:comment "Gibt die Vorspannungsrichtung an."@de,
+        "Defines the tendon direction."@en ;
+    rdfs:domain brot:Tendon .
+
+brcomp:tendonInternal a owl:DatatypeProperty ;
+    rdfs:label "Interne Vorspannung"@de,
+        "internal tendon"@en ;
+    rdfs:comment "Gibt an, ob Vorspannung extern oder intern verbaut ist. True bei interner Vorspannung und false bei externer Vorspannung."@de,
+        "Defines whether a tendon is external or internal. True if the tendon is internal. False if the tendon is external."@en ;
+    rdfs:domain brot:Tendon ;
+    rdfs:range xsd:boolean .
+
+brcomp:type a owl:DatatypeProperty ;
+    rdfs:label "Typenbezeichnung"@de,
+        "type specification"@en ;
+    rdfs:comment "Gibt die Bezeichnung des Bauteiltyps an"@de,
+        "Specifies the name of the component type."@en ;
+    rdfs:domain brot:Component .
+
+brcomp:width a owl:DatatypeProperty ;
+    rdfs:label "Breite"@de,
+        "width"@en ;
+    rdfs:comment """Gibt die Breite eines Brückenbauteils an.
+
+Einheit in [m]."""@de,
+        """Specifies the width of a bridge member.
+
+Unit in [m]."""@en ;
+    rdfs:domain brot:Component .
+
+brot: a owl:Ontology ;
+    dcterms:creator [ a foaf:Person ;
+            foaf:name "Al-Hakam Hamdan" ],
+        [ a foaf:Person ;
+            foaf:name "Taras Kozak" ] ;
+    dcterms:description "Ontology that defines the topology of zones and components of bridge constructions"@en ;
+    dcterms:license "https://creativecommons.org/licenses/by/1.0" ;
+    dcterms:modified "29th March 2022" ;
+    dcterms:title "Bridge Topology Ontology"@en ;
+    vann:preferredNamespacePrefix "brot" ;
+    vann:preferredNamespaceUri "https://w3id.org/brot#" ;
+    owl:versionIRI <https://w3id.org/brot/0.21> .
+
+brot:SubStructure a owl:Class ;
+    rdfs:label "Brückenunterbau"@de,
+        "Bridge Substructure"@en ;
+    rdfs:comment """Zone that consists of Components, which serve to transfer the loads of the superstructure into the ground.
+Located below the bridge deck."""@en ;
+    rdfs:subClassOf brot:SpatialZone .
+
+brot:SuperStructure a owl:Class ;
+    rdfs:label "Brückenüberbau"@de,
+        "Bridge Superstructure"@en ;
+    rdfs:comment "Zone that consists of Components that transfer loads to the SubStructure"@en ;
+    rdfs:subClassOf brot:SpatialZone .
+
+brot:adjacentComponent a owl:ObjectProperty,
+        owl:SymmetricProperty ;
+    rdfs:label "benachbartes Component"@de,
+        "adjacent Component"@en ;
+    schema1:domainIncludes brot:Component,
+        brot:SpatialZone ;
+    rdfs:comment "Relation zwischen Componenten und Zonen, die durch eine Berührungsfläche einen physikalischen Kontakt miteinander haben."@de,
+        "Relationship between Components and zones which have physical contact to each other."@en ;
+    rdfs:range brot:Component .
+
+brot:adjacentZone a owl:ObjectProperty,
+        owl:SymmetricProperty ;
+    rdfs:label "benachbarte Zone"@de,
+        "adjacent zone"@en ;
+    schema1:domainIncludes brot:Component,
+        brot:SpatialZone ;
+    rdfs:comment "Relationship between two adjacent Zones."@en ;
+    rdfs:range brot:SpatialZone .
+
+brot:hasCoating a owl:ObjectProperty ;
+    rdfs:label "hat Beschichtung"@de,
+        "has coating"@en ;
+    rdfs:comment "Relationship between a Component and its applied Coating."@en ;
+    rdfs:domain brot:Component ;
+    rdfs:range brot:Coating .
+
+brot:hasJoint a owl:ObjectProperty ;
+    rdfs:label "hat Fuge"@de,
+        "has joint"@en ;
+    rdfs:comment "Relationship between a Component and an aggregated Joint."@en ;
+    rdfs:domain brot:Component ;
+    rdfs:range brot:Joint .
+
+brot:locatedAbove a owl:ObjectProperty,
+        owl:TransitiveProperty ;
+    rdfs:label "befindet sich über"@de,
+        "located above"@en ;
+    schema1:domainIncludes brot:Component,
+        brot:SpatialZone ;
+    schema1:rangeIncludes brot:Component,
+        brot:SpatialZone ;
+    rdfs:comment "Diese Relation stellt dar, dass ein Component sich über einem anderen befindet. Die Componente sind nicht gezwungen einen physicalischen bzw. logischen Kontakt zu haben. Die Relation zeigt bloß das räumliche Verhalten."@de,
+        "This relationship points that in a modell an Component located above an another Component. The Components are not obliged to have a physical or logical connection. The relationship shows only space atittude."@en ;
+    owl:inverseOf brot:locatedBelow .
+
+asb:4B0W1WVP a asb:ASB_Pset_BelagAbdichtung ;
+    asb:ABDICHT asb:210052512000000 ;
+    asb:ABDICHT_NR asb:2 ;
+    asb:AMT "533"^^xsd:string ;
+    asb:BAUJAHR "1978"^^xsd:year ;
+    asb:BAUTEILNR asb:130011151000000 ;
+    asb:BEARBEITER "Holzbach"^^xsd:string ;
+    asb:BEARB_DAT "2018-01-31T09:04:05.999000"^^xsd:dateTime ;
+    asb:BEH_UNTERL asb:210041000000000 ;
+    asb:BEMERKUNG "beim Rückbau der Kappenverbreiterung 2012 wurde keine Abdichtung unter der Kappe vorgefunden ***"^^xsd:string ;
+    asb:BWNR asb:B115 ;
+    asb:DICHTUNG asb:210062000000000 ;
+    asb:DICKE_SCH asb:15_0 ;
+    asb:EINBAUORT "Im Kappenbereich***"^^xsd:string ;
+    asb:FIRMA asb:Fa_Erens_Dueren ;
+    asb:FLAECHE asb:192 ;
+    asb:IDENT asb:4B0W1WVP ;
+    asb:ID_NR asb:B115_0 ;
+    asb:TEIL_BWNR asb:0 ;
+    asb:UNTERLAGE asb:210022000000000 ;
+    asb:VORB_UNTL asb:210038000000000 .
+
+asb:4B0W1WVX a asb:ASB_Pset_Ausstattungen ;
+    asb:AMT "533"^^xsd:string ;
+    asb:ART asb:240012230000000 ;
+    asb:AUSST_NR asb:1 ;
+    asb:BAUTEILNR asb:130011151000000 ;
+    asb:BEARBEITER "Holzbach"^^xsd:string ;
+    asb:BEARB_DAT "2018-01-31T08:13:25.999000"^^xsd:dateTime ;
+    asb:BWNR asb:B115 ;
+    asb:IDENT asb:4B0W1WVX ;
+    asb:ID_NR asb:B115_0 ;
+    asb:LEIT_DURCH asb:0 ;
+    asb:ORT "Kappe außen***"^^xsd:string ;
+    asb:REF_AUSSTA asb:4B0W1X9I ;
+    asb:TEIL_BWNR asb:0 .
+
+asb:4B0W1WVY a asb:ASB_Pset_Ausstattungen ;
+    asb:AMT "533"^^xsd:string ;
+    asb:ART asb:240011111000000 ;
+    asb:AUSST_NR asb:2 ;
+    asb:BAUTEILNR asb:130011151000000 ;
+    asb:BEARBEITER "CODEKERK"^^xsd:string ;
+    asb:BEARB_DAT "2002-08-27T08:07:04"^^xsd:dateTime ;
+    asb:BWNR asb:B115 ;
+    asb:IDENT asb:4B0W1WVY ;
+    asb:ID_NR asb:B115_0 ;
+    asb:LEIT_DURCH asb:200 ;
+    asb:ORT "an der Innenseite der beiden äußeren Längsträger***"^^xsd:string ;
+    asb:REF_AUSSTA asb:4B0W1X9J ;
+    asb:TEIL_BWNR asb:0 .
+
+asb:4B0W1WW4 a asb:ASB_Pset_Fahrbahnuebergang ;
+    asb:AMT "533"^^xsd:string ;
+    asb:ART asb:660015400000000 ;
+    asb:ASPHMIGUT asb:660116200000000 ;
+    asb:AUSF_FIRMA asb:Beton_Asphaltmischwerke_Tholen_GmbH_52511_Geilenkirchen ;
+    asb:BAUJAHR "2013"^^xsd:year ;
+    asb:BAUMONAT asb:0 ;
+    asb:BAUTEILNR asb:0 ;
+    asb:BEARBEITER "Holzbach"^^xsd:string ;
+    asb:BEARB_DAT "2018-01-30T07:29:08.999000"^^xsd:dateTime ;
+    asb:BEMERKUNG "Schutzschicht***"^^xsd:string ;
+    asb:BWNR asb:B115 ;
+    asb:DECKS_KZ asb:0 ;
+    asb:EINBAUORT "Fahrbahn zwischen den Kappen***"^^xsd:string ;
+    asb:FB_BELNR asb:1 ;
+    asb:FLAECHE asb:882 ;
+    asb:IDENT asb:4B0W1WW4 ;
+    asb:ID_NR asb:B115_0 ;
+    asb:REF_SACHV asb:4B0W1X9D ;
+    asb:SCHICHTDIK asb:35 ;
+    asb:SCHICHTNR asb:2 ;
+    asb:TEIL_BWNR asb:0 .
+
+asb:4B0W1WZW a asb:ASB_Pset_Lager ;
+    asb:AMT "533"^^xsd:string ;
+    asb:ANZAHL 1 ;
+    asb:ART asb:190012720000000 ;
+    asb:BAUJAHR "1978"^^xsd:year ;
+    asb:BAUTEILNR asb:40011100000000 ;
+    asb:BEARBEITER "CODEKERK"^^xsd:string ;
+    asb:BEARB_DAT "2002-08-27T08:39:21"^^xsd:dateTime ;
+    asb:BWNR asb:B115 ;
+    asb:EINBAUORT "Auflagerbank***"^^xsd:string ;
+    asb:FELD_NR asb:0 ;
+    asb:HERSTELLER asb:190033410000000 ;
+    asb:IDENT asb:4B0W1WZW ;
+    asb:ID_NR asb:B115_0 ;
+    asb:LAGER_NR asb:1 ;
+    asb:REF_FELDER asb:4B0W1X9W ;
+    asb:REF_LAGER asb:4B0W1X9R ;
+    asb:TEIL_BWNR asb:0 ;
+    asb:TEMP_SOMM asb:0_0 ;
+    asb:TEMP_WINT asb:0_0 .
+
+asb:4B0W1WZX a asb:ASB_Pset_Lager ;
+    asb:AMT "533"^^xsd:string ;
+    asb:ANZAHL 2 ;
+    asb:ART asb:190012820000000 ;
+    asb:BAUJAHR "1978"^^xsd:year ;
+    asb:BAUTEILNR asb:40011100000000 ;
+    asb:BEARBEITER "CODEKERK"^^xsd:string ;
+    asb:BEARB_DAT "2002-08-27T08:39:58.999000"^^xsd:dateTime ;
+    asb:BWNR asb:B115 ;
+    asb:EINBAUORT "Auflagerbank***"^^xsd:string ;
+    asb:FELD_NR asb:0 ;
+    asb:HERSTELLER asb:190033410000000 ;
+    asb:IDENT asb:4B0W1WZX ;
+    asb:ID_NR asb:B115_0 ;
+    asb:LAGER_NR asb:1 ;
+    asb:REF_FELDER asb:4B0W1X9W ;
+    asb:REF_LAGER asb:4B0W1X9S ;
+    asb:TEIL_BWNR asb:0 ;
+    asb:TEMP_SOMM asb:0_0 ;
+    asb:TEMP_WINT asb:0_0 .
+
+asb:4B0W1WZY a asb:ASB_Pset_Lager ;
+    asb:AMT "533"^^xsd:string ;
+    asb:ANZAHL 1 ;
+    asb:ART asb:190012720000000 ;
+    asb:BAUJAHR "1978"^^xsd:year ;
+    asb:BAUTEILNR asb:40011100000000 ;
+    asb:BEARBEITER "CODEKERK"^^xsd:string ;
+    asb:BEARB_DAT "2002-08-27T08:40:40"^^xsd:dateTime ;
+    asb:BWNR asb:B115 ;
+    asb:EINBAUORT "Auflagerbank***"^^xsd:string ;
+    asb:FELD_NR asb:3 ;
+    asb:HERSTELLER asb:190033410000000 ;
+    asb:IDENT asb:4B0W1WZY ;
+    asb:ID_NR asb:B115_0 ;
+    asb:LAGER_NR asb:1 ;
+    asb:REF_FELDER asb:4B0W1X9Z ;
+    asb:REF_LAGER asb:4B0W1X9T ;
+    asb:TEIL_BWNR asb:0 ;
+    asb:TEMP_SOMM asb:0_0 ;
+    asb:TEMP_WINT asb:0_0 .
+
+asb:4B0W1WZZ a asb:ASB_Pset_Lager ;
+    asb:AMT "533"^^xsd:string ;
+    asb:ANZAHL 2 ;
+    asb:ART asb:190012820000000 ;
+    asb:BAUJAHR "1978"^^xsd:year ;
+    asb:BAUTEILNR asb:40011100000000 ;
+    asb:BEARBEITER "CODEKERK"^^xsd:string ;
+    asb:BEARB_DAT "2002-08-27T08:40:55"^^xsd:dateTime ;
+    asb:BWNR asb:B115 ;
+    asb:EINBAUORT "Auflagerbank***"^^xsd:string ;
+    asb:FELD_NR asb:3 ;
+    asb:HERSTELLER asb:190033410000000 ;
+    asb:IDENT asb:4B0W1WZZ ;
+    asb:ID_NR asb:B115_0 ;
+    asb:LAGER_NR asb:1 ;
+    asb:REF_FELDER asb:4B0W1X9Z ;
+    asb:REF_LAGER asb:4B0W1X9U ;
+    asb:TEIL_BWNR asb:0 ;
+    asb:TEMP_SOMM asb:0_0 ;
+    asb:TEMP_WINT asb:0_0 .
+
+asb:4D0JGLT7 a asb:ASB_Pset_Lager ;
+    asb:AMT "533"^^xsd:string ;
+    asb:ANZAHL 3 ;
+    asb:ART asb:190012820000000 ;
+    asb:BAUJAHR "1978"^^xsd:year ;
+    asb:BAUTEILNR asb:40012100000000 ;
+    asb:BEARBEITER "Holzbach"^^xsd:string ;
+    asb:BEARB_DAT "2018-01-31T09:10:46.999000"^^xsd:dateTime ;
+    asb:BWNR asb:B115 ;
+    asb:EINBAUORT "auf jedem Pfeiler eins***"^^xsd:string ;
+    asb:FELD_NR asb:1 ;
+    asb:HERSTELLER asb:190033410000000 ;
+    asb:IDENT asb:4D0JGLT7 ;
+    asb:ID_NR asb:B115_0 ;
+    asb:LAGER_NR asb:1 ;
+    asb:REF_FELDER asb:4B0W1X9X ;
+    asb:REF_LAGER asb:4D0JGLT6 ;
+    asb:TEIL_BWNR asb:0 .
+
+asb:4D0JOGTK a asb:ASB_Pset_Lager ;
+    asb:AMT "533"^^xsd:string ;
+    asb:ANZAHL 3 ;
+    asb:ART asb:190012820000000 ;
+    asb:BAUJAHR "1978"^^xsd:year ;
+    asb:BAUTEILNR asb:40012100000000 ;
+    asb:BEARBEITER "Holzbach"^^xsd:string ;
+    asb:BEARB_DAT "2018-01-31T09:11:29.999000"^^xsd:dateTime ;
+    asb:BWNR asb:B115 ;
+    asb:EINBAUORT "auf jedem Pfeiler eins***"^^xsd:string ;
+    asb:FELD_NR asb:2 ;
+    asb:HERSTELLER asb:190033410000000 ;
+    asb:IDENT asb:4D0JOGTK ;
+    asb:ID_NR asb:B115_0 ;
+    asb:LAGER_NR asb:1 ;
+    asb:REF_FELDER asb:4B0W1X9Y ;
+    asb:REF_LAGER asb:4D0JOGTJ ;
+    asb:TEIL_BWNR asb:0 .
+
+inst:117644 a bsdd:IfcRailing ;
+    rdfs:label "Railing:Vertikale Stäbe mit Handlauf:2683131" ;
+    inst:hasAsbPset asb:4B0W1WY6 ;
+    prop:GlobalId "3$6mKCz4v4o8_HdrI5bUCf" ;
+    prop:ObjectType "Railing:Vertikale Stäbe mit Handlauf" .
+
+inst:32 a bsdd:IfcBridgeGIRDER ;
+    inst:IfcRelContainedInSpatialStructure inst:117644,
+        inst:42750,
+        inst:42796,
+        inst:42819,
+        inst:42841,
+        inst:42863,
+        inst:42885,
+        inst:42894,
+        inst:42916,
+        inst:42925,
+        inst:42934,
+        inst:42952,
+        inst:42976,
+        inst:42999,
+        inst:43008,
+        inst:43017,
+        inst:43032,
+        inst:43048,
+        inst:43067,
+        inst:43090,
+        inst:43395,
+        inst:43411,
+        inst:43741,
+        inst:43757,
+        inst:43776,
+        inst:43792,
+        inst:43815,
+        inst:43825,
+        inst:43834,
+        inst:43856,
+        inst:43865,
+        inst:43874,
+        inst:43896,
+        inst:43905,
+        inst:43914,
+        inst:43936,
+        inst:43945,
+        inst:43954,
+        inst:80795 ;
+    inst:hasAsbPset asb:4B0W1WVO,
+        asb:4B0W1WXL,
+        asb:4B0W1X9V,
+        asb:4D0G3L5Y,
+        asb:B115,
+        asb:B115_0 ;
+    prop:GlobalId "2B9jCywhbBAPv5PLpqgYNX" .
+
+inst:35 a bsdd:IfcSite ;
+    rdfs:label "Default" ;
+    inst:IfcRelAggregates inst:32 ;
+    prop:GlobalId "2B9jCywhbBAPv5PLpqgYNY" .
+
+inst:42750 a bsdd:IfcBridgePartDECK ;
+    rdfs:label "Plattenbalken:Plattenbalken:2545762" ;
+    inst:hasAsbPset asb:4B0W1WW5,
+        asb:4B0W1WXH,
+        asb:4B0W1WZJ,
+        asb:4B0W1WZK,
+        asb:4B0W1WZL,
+        asb:4D0H3CP4,
+        asb:4D0H45VE ;
+    prop:GlobalId "2ssuoJB5rEgxPlqRO4kY5g" ;
+    prop:ObjectType "Plattenbalken:Plattenbalken" .
+
+inst:42796 a bsdd:IfcBridgePartPIER ;
+    rdfs:label "STB Stütze - rund:STB Stütze UKA2:2606948" ;
+    inst:hasAsbPset asb:4B0W1WZP ;
+    prop:GlobalId "0kRT78kK94A9FMWZoC1jgx" ;
+    prop:ObjectType "STB Stütze - rund:STB Stütze UKA2" .
+
+inst:42819 a bsdd:IfcBridgePartPIER ;
+    rdfs:label "STB Stütze - rund:STB Stütze UKA2:2607161" ;
+    inst:hasAsbPset asb:4B0W1WZP ;
+    prop:GlobalId "0kRT78kK94A9FMWZoC1jNc" ;
+    prop:ObjectType "STB Stütze - rund:STB Stütze UKA2" .
+
+inst:42841 a bsdd:IfcBridgePartPIER ;
+    rdfs:label "STB Stütze - rund:STB Stütze UKA2:2607172" ;
+    inst:hasAsbPset asb:4B0W1WZP ;
+    prop:GlobalId "0kRT78kK94A9FMWZoC1jMR" ;
+    prop:ObjectType "STB Stütze - rund:STB Stütze UKA2" .
+
+inst:42863 a bsdd:IfcBridgePartPIER ;
+    rdfs:label "STB Stütze - rund:STB Stütze UKA2:2607782" ;
+    inst:hasAsbPset asb:4B0W1WZQ ;
+    prop:GlobalId "0kRT78kK94A9FMWZoC1jTv" ;
+    prop:ObjectType "STB Stütze - rund:STB Stütze UKA2" .
+
+inst:42885 a bsdd:IfcBridgePartPIER ;
+    rdfs:label "STB Stütze - rund:STB Stütze UKA2:2607786" ;
+    inst:hasAsbPset asb:4B0W1WZQ ;
+    prop:GlobalId "0kRT78kK94A9FMWZoC1jTr" ;
+    prop:ObjectType "STB Stütze - rund:STB Stütze UKA2" .
+
+inst:42894 a bsdd:IfcBridgePartPIER ;
+    rdfs:label "STB Stütze - rund:STB Stütze UKA2:2607789" ;
+    inst:hasAsbPset asb:4B0W1WZQ ;
+    prop:GlobalId "0kRT78kK94A9FMWZoC1jTo" ;
+    prop:ObjectType "STB Stütze - rund:STB Stütze UKA2" .
+
+inst:42916 a bsdd:IfcBridgePartPIER ;
+    rdfs:label "STB Stütze - rund:STB Stütze UKA2:2608130" ;
+    prop:GlobalId "0kRT78kK94A9FMWZoC1j7T" ;
+    prop:ObjectType "STB Stütze - rund:STB Stütze UKA2" .
+
+inst:42925 a bsdd:IfcBridgePartPIER ;
+    rdfs:label "STB Stütze - rund:STB Stütze UKA2:2608134" ;
+    prop:GlobalId "0kRT78kK94A9FMWZoC1j7P" ;
+    prop:ObjectType "STB Stütze - rund:STB Stütze UKA2" .
+
+inst:42934 a bsdd:IfcBridgePartPIER ;
+    rdfs:label "STB Stütze - rund:STB Stütze UKA2:2608137" ;
+    prop:GlobalId "0kRT78kK94A9FMWZoC1j7M" ;
+    prop:ObjectType "STB Stütze - rund:STB Stütze UKA2" .
+
+inst:42952 a bsdd:IfcBridgePartFOUNDATION ;
+    rdfs:label "Foundation Slab:STB 750:2610123" ;
+    inst:hasAsbPset asb:4B0W1WX8 ;
+    prop:GlobalId "0kRT78kK94A9FMWZoC1iuK" ;
+    prop:ObjectType "Foundation Slab:STB 750" .
+
+inst:42976 a bsdd:IfcBridgePartFOUNDATION ;
+    rdfs:label "Foundation Slab:STB 750:2611769" ;
+    inst:hasAsbPset asb:4B0W1WX8 ;
+    prop:GlobalId "0kRT78kK94A9FMWZoC1iVc" ;
+    prop:ObjectType "Foundation Slab:STB 750" .
+
+inst:42999 a bsdd:IfcBridgePartPIER ;
+    rdfs:label "STB Stütze - rund:STB Stütze UKA2:2612857" ;
+    prop:GlobalId "0kRT78kK94A9FMWZoC1iEc" ;
+    prop:ObjectType "STB Stütze - rund:STB Stütze UKA2" .
+
+inst:43008 a bsdd:IfcBridgePartPIER ;
+    rdfs:label "STB Stütze - rund:STB Stütze UKA2:2612868" ;
+    prop:GlobalId "0kRT78kK94A9FMWZoC1iDR" ;
+    prop:ObjectType "STB Stütze - rund:STB Stütze UKA2" .
+
+inst:43017 a bsdd:IfcBridgePartPIER ;
+    rdfs:label "STB Stütze - rund:STB Stütze UKA2:2612878" ;
+    prop:GlobalId "0kRT78kK94A9FMWZoC1iDH" ;
+    prop:ObjectType "STB Stütze - rund:STB Stütze UKA2" .
+
+inst:43032 a bsdd:IfcBridgePartFOUNDATION ;
+    rdfs:label "Foundation Slab:STB 750:2612947" ;
+    inst:hasAsbPset asb:4B0W1WVO,
+        asb:4B0W1WX8,
+        asb:4B0W1WXL,
+        asb:4B0W1X9V,
+        asb:4D0G3L5Y,
+        asb:B115,
+        asb:B115_0 ;
+    prop:GlobalId "0kRT78kK94A9FMWZoC1iCC" ;
+    prop:ObjectType "Foundation Slab:STB 750" .
+
+inst:43048 a bsdd:IfcBridgePartFOUNDATION ;
+    rdfs:label "Foundation Slab:STB 750:2612955" ;
+    inst:hasAsbPset asb:4B0W1WX8 ;
+    prop:GlobalId "0kRT78kK94A9FMWZoC1iC4" ;
+    prop:ObjectType "Foundation Slab:STB 750" .
+
+inst:43067 a bsdd:IfcBridgePartFOUNDATION ;
+    rdfs:label "Foundation Slab:B 100:2614318" ;
+    inst:hasAsbPset asb:4B0W1WX8 ;
+    prop:GlobalId "1NPo85Ve97CfXh5JAfjUkp" ;
+    prop:ObjectType "Foundation Slab:B 100" .
+
+inst:43090 a bsdd:IfcBridgePartFOUNDATION ;
+    rdfs:label "Foundation Slab:B 100:2614921" ;
+    inst:hasAsbPset asb:4B0W1WX8 ;
+    prop:GlobalId "1NPo85Ve97CfXh5JAfjUaK" ;
+    prop:ObjectType "Foundation Slab:B 100" .
+
+inst:43395 a bsdd:IfcBridgePartABUTMENT ;
+    rdfs:label "Widerlager_Ost:Widerlager_Ost:2618100" ;
+    inst:hasAsbPset asb:4B0W1WZO ;
+    prop:GlobalId "16yDax3413NfiV9ItRaWy5" ;
+    prop:ObjectType "Widerlager_Ost:Widerlager_Ost" .
+
+inst:43411 a bsdd:IfcBridgePartFOUNDATION ;
+    rdfs:label "Foundation Slab:STB 1250:2649578" ;
+    inst:hasAsbPset asb:4B0W1WX8 ;
+    prop:GlobalId "38QDEArsTBkAcqZHjG1Zoa" ;
+    prop:ObjectType "Foundation Slab:STB 1250" .
+
+inst:43741 a bsdd:IfcBridgePartABUTMENT ;
+    rdfs:label "Widerlager_West:Widerlager_West:2656902" ;
+    inst:hasAsbPset asb:4B0W1WZR ;
+    prop:GlobalId "38QDEArsTBkAcqZHjG1jl8" ;
+    prop:ObjectType "Widerlager_West:Widerlager_West" .
+
+inst:43757 a bsdd:IfcBridgePartFOUNDATION ;
+    rdfs:label "Foundation Slab:STB 1250:2672995" ;
+    inst:hasAsbPset asb:4B0W1WX8 ;
+    prop:GlobalId "2F364W94j5XROPyN$EWq$d" ;
+    prop:ObjectType "Foundation Slab:STB 1250" .
+
+inst:43776 a bsdd:IfcBridgePartFOUNDATION ;
+    rdfs:label "Foundation Slab:B 100:2679800" ;
+    inst:hasAsbPset asb:4B0W1WX8 ;
+    prop:GlobalId "2F364W94j5XROPyN$EWsLy" ;
+    prop:ObjectType "Foundation Slab:B 100" .
+
+inst:43792 a bsdd:IfcBridgePartFOUNDATION ;
+    rdfs:label "Foundation Slab:B 100:2681219" ;
+    inst:hasAsbPset asb:4B0W1WX8 ;
+    prop:GlobalId "2F364W94j5XROPyN$EWsy7" ;
+    prop:ObjectType "Foundation Slab:B 100" .
+
+inst:43815 a bsdd:IfcBridgePart ;
+    rdfs:label "STB Stütze - rechteckig:Auflager UKA 2:2681918" ;
+    prop:GlobalId "3$6mKCz4v4o8_HdrI5bV$i" ;
+    prop:ObjectType "STB Stütze - rechteckig:Auflager UKA 2" .
+
+inst:43825 a bsdd:IfcBridgePart ;
+    rdfs:label "STB Stütze - rechteckig:Auflager UKA 2:2681922" ;
+    prop:GlobalId "3$6mKCz4v4o8_HdrI5bV_G" ;
+    prop:ObjectType "STB Stütze - rechteckig:Auflager UKA 2" .
+
+inst:43834 a bsdd:IfcBridgePart ;
+    rdfs:label "STB Stütze - rechteckig:Auflager UKA 2:2681925" ;
+    prop:GlobalId "3$6mKCz4v4o8_HdrI5bV_N" ;
+    prop:ObjectType "STB Stütze - rechteckig:Auflager UKA 2" .
+
+inst:43856 a bsdd:IfcBridgePart ;
+    rdfs:label "STB Stütze - rechteckig:Auflager UKA 2:2682013" ;
+    prop:GlobalId "3$6mKCz4v4o8_HdrI5bVzF" ;
+    prop:ObjectType "STB Stütze - rechteckig:Auflager UKA 2" .
+
+inst:43865 a bsdd:IfcBridgePart ;
+    rdfs:label "STB Stütze - rechteckig:Auflager UKA 2:2682016" ;
+    prop:GlobalId "3$6mKCz4v4o8_HdrI5bVzo" ;
+    prop:ObjectType "STB Stütze - rechteckig:Auflager UKA 2" .
+
+inst:43874 a bsdd:IfcBridgePart ;
+    rdfs:label "STB Stütze - rechteckig:Auflager UKA 2:2682019" ;
+    prop:GlobalId "3$6mKCz4v4o8_HdrI5bVzn" ;
+    prop:ObjectType "STB Stütze - rechteckig:Auflager UKA 2" .
+
+inst:43896 a bsdd:IfcBridgePart ;
+    rdfs:label "STB Stütze - rechteckig:Auflager UKA 2:2683232" ;
+    prop:GlobalId "3$6mKCz4v4o8_HdrI5bUAo" ;
+    prop:ObjectType "STB Stütze - rechteckig:Auflager UKA 2" .
+
+inst:43905 a bsdd:IfcBridgePart ;
+    rdfs:label "STB Stütze - rechteckig:Auflager UKA 2:2683236" ;
+    prop:GlobalId "3$6mKCz4v4o8_HdrI5bUAs" ;
+    prop:ObjectType "STB Stütze - rechteckig:Auflager UKA 2" .
+
+inst:43914 a bsdd:IfcBridgePart ;
+    rdfs:label "STB Stütze - rechteckig:Auflager UKA 2:2683239" ;
+    prop:GlobalId "3$6mKCz4v4o8_HdrI5bUAr" ;
+    prop:ObjectType "STB Stütze - rechteckig:Auflager UKA 2" .
+
+inst:43936 a bsdd:IfcBridgePart ;
+    rdfs:label "STB Stütze - rechteckig:Auflager UKA 2:2683393" ;
+    prop:GlobalId "3$6mKCz4v4o8_HdrI5bU7J" ;
+    prop:ObjectType "STB Stütze - rechteckig:Auflager UKA 2" .
+
+inst:43945 a bsdd:IfcBridgePart ;
+    rdfs:label "STB Stütze - rechteckig:Auflager UKA 2:2683436" ;
+    prop:GlobalId "3$6mKCz4v4o8_HdrI5bU7_" ;
+    prop:ObjectType "STB Stütze - rechteckig:Auflager UKA 2" .
+
+inst:43954 a bsdd:IfcBridgePart ;
+    rdfs:label "STB Stütze - rechteckig:Auflager UKA 2:2683439" ;
+    prop:GlobalId "3$6mKCz4v4o8_HdrI5bU7z" ;
+    prop:ObjectType "STB Stütze - rechteckig:Auflager UKA 2" .
+
+inst:80795 a bsdd:IfcRailing ;
+    rdfs:label "Railing:Vertikale Stäbe mit Handlauf:2682099" ;
+    inst:hasAsbPset asb:4B0W1WY6 ;
+    prop:GlobalId "3$6mKCz4v4o8_HdrI5bVyX" ;
+    prop:ObjectType "Railing:Vertikale Stäbe mit Handlauf" .
+
+bsdd:IfcBridgeGIRDER owl:equivalentClass brot:Bridge .
+
+bsdd:IfcBridgePartDECK owl:equivalentClass brcomp:Cap,
+        brcomp:GirderDeck .
+
+bsdd:IfcSite owl:equivalentClass brot:Site .
+
+brcomp:Abutment a owl:Class ;
+    rdfs:label "Widerlagerelement"@de,
+        "Abutment component"@en ;
+    rdfs:comment "Structural component that creates the transition between the bridge structure and the earth dam."@en ;
+    rdfs:subClassOf brcomp:SubStructureComponent .
+
+brcomp:Asphalt a owl:Class ;
+    rdfs:label "Asphalt"@en ;
+    rdfs:comment "Natural or technically produced mixture of the binder bitumen and aggregates used in road construction for road pavements."@en ;
+    rdfs:subClassOf brot:Coating .
+
+brcomp:Cap a owl:Class ;
+    rdfs:label "Kappe"@de,
+        "Cap"@en ;
+    rdfs:comment """Non-traveled edge formation of reinforced concrete or prestressed concrete bridges, which can also be formed as kerbs.
+
+ caps have to fulfil various functions. In addition to protecting the load-bearing bridge structure, they are used for anchoring passive protective devices and as bicycle and/or pedestrian paths. Due to their exposed position, they are exposed to particularly strong attacks, e.g. frost-thaw salt attacks. In addition, there are dynamic loads caused by traffic on the bridges. Even if the bridge caps undergo optical changes as a result of wear, load or weathering during the planned service life, concrete bridge caps are safe and durable if constructive and technical rules are observed."""@en ;
+    rdfs:subClassOf brcomp:FinishingComponent .
+
+brcomp:Foundation a owl:Class ;
+    rdfs:label "Gruendungselement einer Bruecke"@de,
+        "Foundation"@en ;
+    rdfs:comment "Component for the foundation of abutments and central supports and the transfer of bridge loads."@en ;
+    rdfs:subClassOf brcomp:SubStructureComponent .
+
+brcomp:Girder a owl:Class ;
+    rdfs:label "Girder"@en ;
+    rdfs:comment "Support beam used in construction. It is the main horizontal support of a structure which supports smaller beams. Girders often have an I-beam cross section composed of two load-bearing flanges separated by a stabilizing web, but may also have a box shape, Z shape, or other forms. A girder is commonly used to build bridges."@en ;
+    rdfs:subClassOf brcomp:SuperStructureComponent .
+
+brcomp:GirderDeck a owl:Class ;
+    rdfs:label "Brückenplatte"@de,
+        "Deck"@en ;
+    rdfs:comment "Obere Platte des Brueckendeckquerschnitts"@de,
+        "Upper plate of the bridge beam cross-section."@en ;
+    rdfs:subClassOf brcomp:GirderComponent .
+
+brcomp:Pier a owl:Class ;
+    rdfs:label "Pfeiler"@de,
+        "Pier"@en ;
+    rdfs:comment "Components that support the ends of spans between these abutments."@en ;
+    rdfs:subClassOf brcomp:SubStructureComponent .
+
+brcomp:Pile a owl:Class ;
+    rdfs:label "Pfahl"@de,
+        "Pile"@en ;
+    rdfs:comment "Rod-shaped component that reaches a certain depth into the soil and is connected to the Foundation."@en ;
+    rdfs:subClassOf brcomp:FoundationComponent .
+
+brcomp:Railing a owl:Class ;
+    rdfs:label "Geländer"@de,
+        "Railing"@en ;
+    rdfs:comment "Component for the fall protection of persons, which is often installed at the edge of the pavement."@en ;
+    rdfs:subClassOf brcomp:FinishingComponent .
+
+brot:Site a owl:Class ;
+    rdfs:label "Gelaende"@de,
+        "Site"@en ;
+    rdfs:comment "Area containing one or more bridges"@en ;
+    rdfs:subClassOf brot:SpatialZone .
+
+brot:aggregates a owl:ObjectProperty,
+        owl:TransitiveProperty ;
+    rdfs:label "beinhaltet"@de,
+        "aggregates"@en ;
+    rdfs:comment "Relationship between a Component and an aggregated Component as subcomponent."@en ;
+    rdfs:domain brot:Component ;
+    rdfs:range brot:Component .
+
+brot:containsZone a owl:ObjectProperty,
+        owl:TransitiveProperty ;
+    rdfs:label "enthält Zone"@de,
+        "contains zone"@en ;
+    rdfs:comment "Relationship between a SpatialZone and another contained SpatialZone (subzone)"@en ;
+    rdfs:domain brot:SpatialZone ;
+    rdfs:range brot:SpatialZone .
+
+brot:locatedBelow a owl:ObjectProperty,
+        owl:TransitiveProperty ;
+    rdfs:label "befindet sich unter"@de,
+        "located below"@en ;
+    schema1:domainIncludes brot:Component,
+        brot:SpatialZone ;
+    schema1:rangeIncludes brot:Component,
+        brot:SpatialZone ;
+    rdfs:comment "Diese Relation stellt dar, dass ein Component sich unter einem anderen befindet. Die Componente sind nicht gezwungen einen physicalischen bzw. logischen Kontakt zu haben. Die Relation zeigt bloß das räumliche Verhalten."@de,
+        "This relationship points that in a modell an Component located below an another Component. The Components are not obliged to have a physical or logical connection. The relationship shows only space atittude."@en .
+
+asb:4B0W1WW5 a asb:ASB_Pset_Fahrbahnuebergang ;
+    asb:AMT "533"^^xsd:string ;
+    asb:ART asb:660014810000000 ;
+    asb:ASPHMIGUT asb:660115200000000 ;
+    asb:AUSF_FIRMA asb:Beton_Asphaltmischwerke_Tholen_GmbH_52511_Geilenkirchen ;
+    asb:BAUJAHR "2013"^^xsd:year ;
+    asb:BAUMONAT asb:0 ;
+    asb:BAUTEILNR asb:0 ;
+    asb:BEARBEITER "Holzbach"^^xsd:string ;
+    asb:BEARB_DAT "2018-01-30T07:26:32"^^xsd:dateTime ;
+    asb:BWNR asb:B115 ;
+    asb:DECKS_KZ asb:1 ;
+    asb:EINBAUORT "Fahrbahn zwischen den Kappen***"^^xsd:string ;
+    asb:FB_BELNR asb:1 ;
+    asb:FLAECHE asb:882 ;
+    asb:IDENT asb:4B0W1WW5 ;
+    asb:ID_NR asb:B115_0 ;
+    asb:REF_SACHV asb:4B0W1X9D ;
+    asb:SCHICHTDIK asb:35 ;
+    asb:SCHICHTNR asb:1 ;
+    asb:TEIL_BWNR asb:0 .
+
+asb:4B0W1WXH a asb:ASB_Pset_Kappe ;
+    asb:AMT "533"^^xsd:string ;
+    asb:BAUJAHR "1978"^^xsd:year ;
+    asb:BAUTEILNR asb:130000000000000 ;
+    asb:BEARBEITER "Holzbach"^^xsd:string ;
+    asb:BEARB_DAT "2018-01-31T07:57:41"^^xsd:dateTime ;
+    asb:BEMERKUNG """\r
+***"""^^xsd:string ;
+    asb:BREITE asb:2_5 ;
+    asb:BWNR asb:B115 ;
+    asb:GR_BLOCKL "62.68"^^xsd:float ;
+    asb:IDENT asb:4B0W1WXH ;
+    asb:ID_NR asb:B115_0 ;
+    asb:KAPPENNR asb:1 ;
+    asb:KONSTRUKT asb:220021000000000 ;
+    asb:LAENGE "62.68"^^xsd:float ;
+    asb:ORT "Kragarm rechts ***"^^xsd:string ;
+    asb:REF_KAPPEN asb:4B0W1X9N ;
+    asb:TEIL_BWNR asb:0 ;
+    asb:VERANKER asb:220033000000000 .
+
+asb:4B0W1WZJ a asb:ASB_Pset_Vorspannung ;
+    asb:AMT "533"^^xsd:string ;
+    asb:ART_VERPR asb:150091000000000 ;
+    asb:BAUJAHR "1978"^^xsd:year ;
+    asb:BAUTEILNR asb:130011151000000 ;
+    asb:BEARBEITER "CODEKERK"^^xsd:string ;
+    asb:BEARB_DAT "2002-08-27T08:16:06.999000"^^xsd:dateTime ;
+    asb:BWNR asb:B115 ;
+    asb:DZULNR asb:Z_13_1_16 ;
+    asb:EZULNR asb:keine_Zuordnung ;
+    asb:HERSTELLER asb:150082220000000 ;
+    asb:IDENT asb:4B0W1WZJ ;
+    asb:ID_NR asb:B115_0 ;
+    asb:INT_EXT asb:150021000000000 ;
+    asb:ORT "Längsträger***"^^xsd:string ;
+    asb:REF_VSPANN asb:4B0W1X9O ;
+    asb:RICHTUNG asb:150011200000000 ;
+    asb:SPANNVERF asb:150042311000000 ;
+    asb:SP_BRUCHG asb:1630 ;
+    asb:SP_KRAFT asb:135 ;
+    asb:SP_STRECKG asb:1450 ;
+    asb:TEIL_BWNR asb:0 ;
+    asb:TYP asb:AK_163 ;
+    asb:VORSP_GRAD asb:150031000000000 ;
+    asb:VORSP_NR asb:1 .
+
+asb:4B0W1WZK a asb:ASB_Pset_Vorspannung ;
+    asb:AMT "533"^^xsd:string ;
+    asb:ART_VERPR asb:150091000000000 ;
+    asb:BAUJAHR "1978"^^xsd:year ;
+    asb:BAUTEILNR asb:130011151000000 ;
+    asb:BEARBEITER "Kliems"^^xsd:string ;
+    asb:BEARB_DAT "2012-03-12T15:08:53"^^xsd:dateTime ;
+    asb:BEMERKUNG " nach Bauwerksbuch von 1980 Spanntyp AK 163, gemäß freigegebenen Ausführungsplänen Typ AK 124***"^^xsd:string ;
+    asb:BWNR asb:B115 ;
+    asb:DZULNR asb:Z_13_1_16 ;
+    asb:EZULNR asb:keine_Zuordnung ;
+    asb:HERSTELLER asb:150082220000000 ;
+    asb:IDENT asb:4B0W1WZK ;
+    asb:ID_NR asb:B115_0 ;
+    asb:INT_EXT asb:150021000000000 ;
+    asb:ORT "End-Querträger***"^^xsd:string ;
+    asb:REF_VSPANN asb:4B0W1X9P ;
+    asb:RICHTUNG asb:150012000000000 ;
+    asb:SPANNVERF asb:150042311000000 ;
+    asb:SP_BRUCHG asb:1630 ;
+    asb:SP_KRAFT asb:135 ;
+    asb:SP_STRECKG asb:1450 ;
+    asb:TEIL_BWNR asb:0 ;
+    asb:TYP asb:AK_124 ;
+    asb:VORSP_GRAD asb:150031000000000 ;
+    asb:VORSP_NR asb:1 .
+
+asb:4B0W1WZL a asb:ASB_Pset_Vorspannung ;
+    asb:AMT "533"^^xsd:string ;
+    asb:ART_VERPR asb:150091000000000 ;
+    asb:BAUJAHR "1978"^^xsd:year ;
+    asb:BAUTEILNR asb:130011151000000 ;
+    asb:BEARBEITER "CODEKERK"^^xsd:string ;
+    asb:BEARB_DAT "2002-08-27T08:17:15.999000"^^xsd:dateTime ;
+    asb:BWNR asb:B115 ;
+    asb:DZULNR asb:Z_13_1_16 ;
+    asb:EZULNR asb:keine_Zuordnung ;
+    asb:HERSTELLER asb:150082220000000 ;
+    asb:IDENT asb:4B0W1WZL ;
+    asb:ID_NR asb:B115_0 ;
+    asb:INT_EXT asb:150021000000000 ;
+    asb:ORT "Fahrbahnplatte***"^^xsd:string ;
+    asb:REF_VSPANN asb:4B0W1X9Q ;
+    asb:RICHTUNG asb:150012000000000 ;
+    asb:SPANNVERF asb:150042311000000 ;
+    asb:SP_BRUCHG asb:1630 ;
+    asb:SP_KRAFT asb:103 ;
+    asb:SP_STRECKG asb:1450 ;
+    asb:TEIL_BWNR asb:0 ;
+    asb:TYP asb:AK_41 ;
+    asb:VORSP_GRAD asb:150031000000000 ;
+    asb:VORSP_NR asb:1 .
+
+asb:4B0W1WZO a asb:ASB_Pset_Feld ;
+    asb:AMT "533"^^xsd:string ;
+    asb:ANZAHL_ST 1 ;
+    asb:ART asb:40011100000000 ;
+    asb:BEARBEITER "CODEKERK"^^xsd:string ;
+    asb:BEARB_DAT "2002-08-27T08:34:54.999000"^^xsd:dateTime ;
+    asb:BEMERKUNG """Widerlager 1\r
+***"""^^xsd:string ;
+    asb:BWNR asb:B115 ;
+    asb:FELDNR asb:0 ;
+    asb:FELD_NR asb:1 ;
+    asb:IDENT asb:4B0W1WZO ;
+    asb:ID_NR asb:B115_0 ;
+    asb:REF_BRUCKE asb:4B0W1X9V ;
+    asb:REF_FELDER asb:4B0W1X9W ;
+    asb:SCHIFF_OEF asb:0 ;
+    asb:STUETZ_H "1.5"^^xsd:float ;
+    asb:TEIL_BWNR asb:0 .
+
+asb:4B0W1WZR a asb:ASB_Pset_Feld ;
+    asb:AMT "533"^^xsd:string ;
+    asb:ANZAHL_ST 1 ;
+    asb:ART asb:40011100000000 ;
+    asb:BEARBEITER "CODEKERK"^^xsd:string ;
+    asb:BEARB_DAT "2002-08-27T08:37:36"^^xsd:dateTime ;
+    asb:BEMERKUNG """Widerlager 2\r
+***"""^^xsd:string ;
+    asb:BWNR asb:B115 ;
+    asb:FELDNR asb:3 ;
+    asb:FELD_NR asb:1 ;
+    asb:IDENT asb:4B0W1WZR ;
+    asb:ID_NR asb:B115_0 ;
+    asb:REF_BRUCKE asb:4B0W1X9V ;
+    asb:REF_FELDER asb:4B0W1X9Z ;
+    asb:SCHIFF_OEF asb:0 ;
+    asb:STUETZ_H "1.5"^^xsd:float ;
+    asb:STUETZ_W "18.0"^^xsd:float ;
+    asb:TEIL_BWNR asb:0 .
+
+asb:4D0H3CP4 a asb:ASB_Pset_Kappe ;
+    asb:AMT "533"^^xsd:string ;
+    asb:BAUJAHR "1978"^^xsd:year ;
+    asb:BAUTEILNR asb:130000000000000 ;
+    asb:BEARBEITER "Holzbach"^^xsd:string ;
+    asb:BEARB_DAT "2018-01-31T07:58:57.999000"^^xsd:dateTime ;
+    asb:BEMERKUNG """\r
+***"""^^xsd:string ;
+    asb:BREITE asb:1_25 ;
+    asb:BWNR asb:B115 ;
+    asb:GR_BLOCKL "62.68"^^xsd:float ;
+    asb:IDENT asb:4D0H3CP4 ;
+    asb:ID_NR asb:B115_0 ;
+    asb:KAPPENNR asb:1 ;
+    asb:KONSTRUKT asb:220021000000000 ;
+    asb:LAENGE "62.68"^^xsd:float ;
+    asb:ORT "Kragarm links***"^^xsd:string ;
+    asb:REF_KAPPEN asb:4D0H3CP5 ;
+    asb:TEIL_BWNR asb:0 ;
+    asb:VERANKER asb:220033000000000 .
+
+asb:4D0H45VE a asb:ASB_Pset_Kappe ;
+    asb:AMT "533"^^xsd:string ;
+    asb:BAUJAHR "1978"^^xsd:year ;
+    asb:BAUTEILNR asb:130000000000000 ;
+    asb:BEARBEITER "Holzbach"^^xsd:string ;
+    asb:BEARB_DAT "2018-01-31T08:00:46.999000"^^xsd:dateTime ;
+    asb:BEMERKUNG "Länge gilt für alle vier Flügel***"^^xsd:string ;
+    asb:BREITE asb:0_95 ;
+    asb:BWNR asb:B115 ;
+    asb:GR_BLOCKL "5.64"^^xsd:float ;
+    asb:IDENT asb:4D0H45VE ;
+    asb:ID_NR asb:B115_0 ;
+    asb:KAPPENNR asb:1 ;
+    asb:KONSTRUKT asb:220022000000000 ;
+    asb:LAENGE "21.65"^^xsd:float ;
+    asb:ORT "alle Flügel***"^^xsd:string ;
+    asb:REF_KAPPEN asb:4D0H45VF ;
+    asb:TEIL_BWNR asb:0 ;
+    asb:VERANKER asb:220033000000000 .
+
+bsdd:IfcBridgePartABUTMENT owl:equivalentClass brcomp:Abutment .
+
+bsdd:IfcRailing owl:equivalentClass brcomp:Railing .
+
+brcomp:FoundationComponent a owl:Class ;
+    rdfs:label "Foundation component"@en ;
+    rdfs:comment "Component that is aggregated to the Foundation."@en ;
+    rdfs:subClassOf brcomp:SubStructureComponent .
+
+brcomp:MovableBearingComponent a owl:Class ;
+    rdfs:label "Bearing that transmits vertical forces and allows movements in at least one direction."@en ;
+    rdfs:subClassOf brcomp:Bearing .
+
+brcomp:TensionComponent a owl:Class ;
+    rdfs:label "Zugglied"@de,
+        "Tension component"@en ;
+    rdfs:comment "Zugglied des Ueberbaus"@de,
+        "Tension component of superstructure"@en ;
+    rdfs:subClassOf brcomp:SuperStructureComponent .
+
+brot:Bridge a owl:Class ;
+    rdfs:label "Brücke"@de,
+        "Bridge"@en ;
+    rdfs:comment "An engineering structure which guides traffic routes (such as roads, railway lines, footpaths and cycle paths, waterways, taxiways for aircraft) or supply facilities (such as pipelines, cable routes, conveyor belts) on an elevated, suspended or free-floating structure over obstacles or over the surface of the terrain in such a way that there is a distance between the route and the surface of the terrain and thus often a possibility of undercrossing by another traffic or supply route is made possible. Bridges can be cantilevered between two abutments (single span bridge) or rest between them on several supports (multi span bridge). However, they can also be suspended from pylons by using ropes."@en ;
+    rdfs:subClassOf brot:SpatialZone .
+
+brot:containsComponent a owl:ObjectProperty ;
+    rdfs:label "enthält Component"@de,
+        "contains Component"@en ;
+    rdfs:comment "Relationship between a SpatialZone and its contained Component"@en ;
+    rdfs:domain brot:SpatialZone ;
+    rdfs:range brot:Component ;
+    owl:propertyChainAxiom ( brot:containsComponent brot:aggregates ),
+        ( brot:containsZone brot:containsComponent ) .
+
+asb:4B0W1WVO a asb:ASB_Pset_BelagAbdichtung ;
+    asb:ABDICHT asb:210052511000000 ;
+    asb:ABDICHT_NR asb:1 ;
+    asb:AMT "533"^^xsd:string ;
+    asb:BAUJAHR "2013"^^xsd:year ;
+    asb:BAUTEILNR asb:130011151000000 ;
+    asb:BEARBEITER "Holzbach"^^xsd:string ;
+    asb:BEARB_DAT "2018-01-31T08:56:54.999000"^^xsd:dateTime ;
+    asb:BEH_UNTERL asb:210044000000000 ;
+    asb:BWNR asb:B115 ;
+    asb:DICHTUNG asb:210063000000000 ;
+    asb:DICKE_SCH asb:3_5 ;
+    asb:EINBAUORT "Zwischen den Kappen im Fahrbahnbereich***"^^xsd:string ;
+    asb:FIRMA asb:Bauunternehmug_Tholen_GmbH_52511_Geilenkirchen ;
+    asb:FLAECHE asb:882 ;
+    asb:HERSTELLER asb:VEDAG ;
+    asb:IDENT asb:4B0W1WVO ;
+    asb:ID_NR asb:B115_0 ;
+    asb:TEIL_BWNR asb:0 ;
+    asb:UNTERLAGE asb:210022000000000 ;
+    asb:VORB_UNTL asb:210037000000000 .
+
+asb:4B0W1WXL a asb:ASB_Pset_Leitung ;
+    asb:AMT "533"^^xsd:string ;
+    asb:ANZAHL 2 ;
+    asb:ART asb:260012110000000 ;
+    asb:BAUTEILNR asb:130011151000000 ;
+    asb:BEARBEITER "CODEKERK"^^xsd:string ;
+    asb:BEARB_DAT "2002-08-27T07:59:03"^^xsd:dateTime ;
+    asb:BUENDELUNG asb:0 ;
+    asb:BWNR asb:B115 ;
+    asb:DURCHM asb:80 ;
+    asb:IDENT asb:4B0W1WXL ;
+    asb:ID_NR asb:B115_0 ;
+    asb:LEITUNGSNR asb:1 ;
+    asb:LEITUNGSTR asb:Stawag ;
+    asb:NUTZVEREIN asb:0 ;
+    asb:ORT "Kappe rechts und links***"^^xsd:string ;
+    asb:TEIL_BWNR asb:0 .
+
+asb:4B0W1WY6 a asb:ASB_Pset_Schutzeinrichtungen ;
+    asb:AMT "533"^^xsd:string ;
+    asb:ANPRALLHEF asb:0 ;
+    asb:ART asb:230012111000000 ;
+    asb:AUFHALTEST asb:0 ;
+    asb:BAUJAHR "1978"^^xsd:year ;
+    asb:BAUTEILNR asb:130011151000000 ;
+    asb:BEARBEITER "Holzbach"^^xsd:string ;
+    asb:BEARB_DAT "2018-01-31T08:09:41.999000"^^xsd:dateTime ;
+    asb:BEMERKUNG "Länge glit für beide Seiten***"^^xsd:string ;
+    asb:BWNR asb:B115 ;
+    asb:HOEHE_FB "1.01"^^xsd:float ;
+    asb:IDENT asb:4B0W1WY6 ;
+    asb:ID_NR asb:B115_0 ;
+    asb:LAENGE "146.6"^^xsd:float ;
+    asb:ORT "beidseitig auf der Kappe***"^^xsd:string ;
+    asb:REF_SCHUTZ asb:4B0W1X9L ;
+    asb:SCHUTZ_NR asb:1 ;
+    asb:SYSTEM asb:0 ;
+    asb:TEIL_BWNR asb:0 ;
+    asb:WIRKBERKL asb:0 .
+
+asb:4B0W1WZP a asb:ASB_Pset_Feld ;
+    asb:AMT "533"^^xsd:string ;
+    asb:ANZAHL_ST 3 ;
+    asb:ART asb:40012100000000 ;
+    asb:BEARBEITER "CODEKERK"^^xsd:string ;
+    asb:BEARB_DAT "2002-08-27T08:36:38"^^xsd:dateTime ;
+    asb:BWNR asb:B115 ;
+    asb:FELDNR asb:1 ;
+    asb:FELD_NR asb:2 ;
+    asb:IDENT asb:4B0W1WZP ;
+    asb:ID_NR asb:B115_0 ;
+    asb:REF_BRUCKE asb:4B0W1X9V ;
+    asb:REF_FELDER asb:4B0W1X9X ;
+    asb:SCHIFF_OEF asb:0 ;
+    asb:STUETZ_H "6.0"^^xsd:float ;
+    asb:STUETZ_W "18.0"^^xsd:float ;
+    asb:TEIL_BWNR asb:0 .
+
+asb:4B0W1WZQ a asb:ASB_Pset_Feld ;
+    asb:AMT "533"^^xsd:string ;
+    asb:ANZAHL_ST 3 ;
+    asb:ART asb:40012100000000 ;
+    asb:BEARBEITER "CODEKERK"^^xsd:string ;
+    asb:BEARB_DAT "2002-08-27T08:37:07"^^xsd:dateTime ;
+    asb:BWNR asb:B115 ;
+    asb:FELDNR asb:2 ;
+    asb:FELD_NR asb:2 ;
+    asb:IDENT asb:4B0W1WZQ ;
+    asb:ID_NR asb:B115_0 ;
+    asb:REF_BRUCKE asb:4B0W1X9V ;
+    asb:REF_FELDER asb:4B0W1X9Y ;
+    asb:SCHIFF_OEF asb:0 ;
+    asb:STUETZ_H "6.0"^^xsd:float ;
+    asb:STUETZ_W "25.0"^^xsd:float ;
+    asb:TEIL_BWNR asb:0 .
+
+brcomp:AbutmentComponent a owl:Class ;
+    rdfs:label "Abutment component"@en ;
+    rdfs:comment "Component that is aggregated in a Abutment."@en ;
+    rdfs:subClassOf brcomp:SubStructureComponent .
+
+brcomp:Bearing a owl:Class ;
+    rdfs:label " bearing"@en ;
+    rdfs:comment "Have the task of transferring the forces generated by their own weight, traffic loads and braking and wind forces to the substructure and abutments. A Bearing must be designed in such a way that it allows movements and rotations due to traffic, temperature differences, earthquakes, prestressing, shrinkage and creep, etc."@en ;
+    rdfs:subClassOf brcomp:SubStructureComponent .
+
+brcomp:ReinforcingComponent a owl:Class ;
+    rdfs:label "Bewehrungselement einer Bruecke"@de,
+        "Reinforcing Component"@en ;
+    rdfs:comment "Composite component that is aggregated in concrete components to increase their load-bearing capacity."@en ;
+    rdfs:subClassOf brot:Component .
+
+brot:Coating a owl:Class ;
+    rdfs:label "Abdichtung"@de,
+        "Coating"@en ;
+    rdfs:comment "Covering that is applied to the surface of a Component. The purpose of applying Coating may be decorative, functional, or both."@en .
+
+brot:Joint a owl:Class ;
+    rdfs:label "Brückenfuge"@de,
+        "Bridge Joint"@en ;
+    rdfs:comment "A desired or tolerance-related gap or interspace between two partial areas or components."@en .
+
+brcomp:FixedBearingComponent a owl:Class ;
+    rdfs:comment "Fixed bearing"@en,
+        "Transmits vertical and horizontal forces from any direction."@en ;
+    rdfs:subClassOf brcomp:Bearing .
+
+brcomp:SuperStructureComponent a owl:Class ;
+    rdfs:label "Ueberbauelement"@de,
+        "Bridge superstructure element"@en ;
+    rdfs:comment "Component that is contained in the BridgeSuperStructure zone."@en ;
+    rdfs:subClassOf brot:Component .
+
+asb:4B0W1X9V a asb:ASB_Pset_Bruecke ;
+    asb:AMT "533"^^xsd:string ;
+    asb:ANZ_FELDER 3 ;
+    asb:ANZ_UEBERB 1 ;
+    asb:BEARBEITER "Holzbach"^^xsd:string ;
+    asb:BEARB_DAT "2005-12-06T14:29:33"^^xsd:dateTime ;
+    asb:BEM_BAUGR asb:Der_Baugrund_ist_setzungsempfindlich_Mittlere_zuaessige_Bodenpressung_300_KN_m2 ;
+    asb:BREITE asb:17_25 ;
+    asb:BR_FLAECHE asb:1052 ;
+    asb:BV_SP_UBB asb:30171000000000 ;
+    asb:BWNR asb:B115 ;
+    asb:BW_WINKEL asb:62_9 ;
+    asb:GES_BREITE asb:17_75 ;
+    asb:HOHLK_PLA asb:0 ;
+    asb:ID_NR asb:B115_0 ;
+    asb:KONS_H_MAX "1.5"^^xsd:float ;
+    asb:KONS_H_MIN "0.25"^^xsd:float ;
+    asb:KONS_MASN asb:30182000000000 ;
+    asb:KOPPELFUGE asb:0 ;
+    asb:KRUEMMUNG asb:30121000000000 ;
+    asb:LAENGE "61.0"^^xsd:float ;
+    asb:LI_HOEHE "6.0"^^xsd:float ;
+    asb:L_NEIG_MAX asb:1_1 ;
+    asb:QUER_HTR asb:30161000000000 ;
+    asb:QUER_UBB asb:30152210000000 ;
+    asb:Q_NEIG_MAX "2.5"^^xsd:float ;
+    asb:REF_BRUCKE asb:4B0W1X9V ;
+    asb:TEIL_BWNR asb:0 ;
+    asb:WINKEL asb:30141000000000 ;
+    asb:ZWR_UBB asb:0_0 .
+
+brcomp:GirderComponent a owl:Class ;
+    rdfs:label "Brueckendeck (gesamter Querschnitt des Fahrbahntragwerks)"@de,
+        " girder"@en ;
+    rdfs:comment "Component that is aggregated in a Girder."@en ;
+    rdfs:subClassOf brcomp:SuperStructureComponent .
+
+brcomp:FinishingComponent a owl:Class ;
+    rdfs:label "Ausbauelement einer Bruecke"@de,
+        " Finishing Component"@en ;
+    rdfs:comment "Component that is installed during the finishing phase of the bridge construction after the shell construction phase (e.g. railing, bridge cap, etc.). Has no load-bearing capacity."@en ;
+    rdfs:subClassOf brot:Component .
+
+bsdd:IfcBridgePartFOUNDATION owl:equivalentClass brcomp:Foundation .
+
+brcomp:SubStructureComponent a owl:Class ;
+    rdfs:label "Unterbauelement einer Bruecke"@de,
+        "Substructure Element"@en ;
+    rdfs:comment "Component that is contained in the BridgeSubStructure zone."@en ;
+    rdfs:subClassOf brot:Component .
+
+asb:4B0W1WX8 a asb:ASB_Pset_Gruendung ;
+    asb:AMT "533"^^xsd:string ;
+    asb:ART asb:160011000000000 ;
+    asb:BAUTEILNR asb:130011900000000 ;
+    asb:BEARBEITER "CODEKERK"^^xsd:string ;
+    asb:BEARB_DAT "2002-08-27T10:14:01"^^xsd:dateTime ;
+    asb:BWNR asb:B115 ;
+    asb:GRUENDNR asb:1 ;
+    asb:IDENT asb:4B0W1WX8 ;
+    asb:ID_NR asb:B115_0 ;
+    asb:JAHR "1977"^^xsd:year ;
+    asb:ORT "Widerlager und Stützen***"^^xsd:string ;
+    asb:REF_GRUND asb:4B0W1X9M ;
+    asb:TEIL_BWNR asb:0 .
+
+bsdd:IfcBridgePart owl:equivalentClass brot:Component .
+
+bsdd:IfcBridgePartPIER owl:equivalentClass brcomp:Pier .
+
+brot:SpatialZone a owl:Class ;
+    rdfs:label "Räumliche Zone in Brücke"@de,
+        "Bridge Spatial Zone"@en ;
+    rdfs:comment "A spatial 3D division of a bridge or a site consisting of bridge related constructions."@en .
+
+brot:Component a owl:Class ;
+    rdfs:label "BrueckenComponent"@de,
+        "Bridge Component"@en ;
+    rdfs:comment "Component that is contained in a bridge construction and has a characteristic technical function, form or position."@en .
+
+asb:B115_0 a asb:ASB_Pset_Teilbauwerk ;
+    asb:AMT "533"^^xsd:string ;
+    asb:BAULAST_KN asb:20104100000000 ;
+    asb:BEARBEITER "Holzbach"^^xsd:string ;
+    asb:BEARB_DAT "2017-12-15T09:35:14"^^xsd:dateTime ;
+    asb:BWART asb:20071150000000 ;
+    asb:BWNR asb:B115 ;
+    asb:BW_RICHT asb:0 ;
+    asb:BW_RICHT_T asb:in_Richtung_Aachen_West_Ost ;
+    asb:D_ERF_ABG asb:20142000000000 ;
+    asb:EIGNER asb:0 ;
+    asb:FUNKTION asb:20202000000000 ;
+    asb:ID_NR asb:B115_0 ;
+    asb:K asb:0 ;
+    asb:KONSTRUKT asb:Dreifeld_Spannbeton_Plattenbalken ;
+    asb:P asb:0 ;
+    asb:S asb:0 ;
+    asb:STADIUM asb:20082000000000 ;
+    asb:TEIL_BWNR asb:0 ;
+    asb:TW_NAME asb:Bruecke ;
+    asb:UHPF_KON asb:0 ;
+    asb:UHPF_WDL asb:0 ;
+    asb:UI_UA asb:20063310000000 .
+
+asb:B115 a asb:ASB_Pset_Bauwerk ;
+    asb:AMT "533"^^xsd:string ;
+    asb:ANZ_TEILBW 1 ;
+    asb:BEARBEITER "EHolzbac"^^xsd:string ;
+    asb:BEARB_DAT "2024-05-13T11:31:18"^^xsd:dateTime ;
+    asb:BEMERKUNG "Zuständigkeit E 18/530-4***"^^xsd:string ;
+    asb:BWNAME asb:Kullenhofstrasse ;
+    asb:BWNR asb:B115 ;
+    asb:CD_FLAG asb:0 ;
+    asb:ER_STRB_VW asb:0 ;
+    asb:GEMARKUNG asb:5334002008 ;
+    asb:IBWNR asb:B115 ;
+    asb:ID_NR asb:B115 ;
+    asb:LAENGE_BR "61.0"^^xsd:float ;
+    asb:ORT "Königshügel"^^xsd:string ;
+    asb:VERSION asb:5_0 ;
+    asb:VZ_IBWNR asb:0 ;
+    asb:VZ_MESSK asb:0 .
+

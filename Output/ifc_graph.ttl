@@ -1,0 +1,249 @@
+@prefix bsdd: <https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/> .
+@prefix inst: <http://ifc-instance.org/instances/> .
+@prefix prop: <https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+inst:28 inst:IfcRelAggregates inst:35 .
+
+inst:117644 a bsdd:IfcRailing ;
+    rdfs:label "Railing:Vertikale Stäbe mit Handlauf:2683131" ;
+    prop:GlobalId "3$6mKCz4v4o8_HdrI5bUCf" ;
+    prop:ObjectType "Railing:Vertikale Stäbe mit Handlauf" .
+
+inst:32 a bsdd:IfcBridgeGIRDER ;
+    inst:IfcRelContainedInSpatialStructure inst:117644,
+        inst:42750,
+        inst:42796,
+        inst:42819,
+        inst:42841,
+        inst:42863,
+        inst:42885,
+        inst:42894,
+        inst:42916,
+        inst:42925,
+        inst:42934,
+        inst:42952,
+        inst:42976,
+        inst:42999,
+        inst:43008,
+        inst:43017,
+        inst:43032,
+        inst:43048,
+        inst:43067,
+        inst:43090,
+        inst:43395,
+        inst:43411,
+        inst:43741,
+        inst:43757,
+        inst:43776,
+        inst:43792,
+        inst:43815,
+        inst:43825,
+        inst:43834,
+        inst:43856,
+        inst:43865,
+        inst:43874,
+        inst:43896,
+        inst:43905,
+        inst:43914,
+        inst:43936,
+        inst:43945,
+        inst:43954,
+        inst:80795 ;
+    prop:GlobalId "2B9jCywhbBAPv5PLpqgYNX" .
+
+inst:35 a bsdd:IfcSite ;
+    rdfs:label "Default" ;
+    inst:IfcRelAggregates inst:32 ;
+    prop:GlobalId "2B9jCywhbBAPv5PLpqgYNY" .
+
+inst:42750 a bsdd:IfcBridgePartDECK ;
+    rdfs:label "Plattenbalken:Plattenbalken:2545762" ;
+    prop:GlobalId "2ssuoJB5rEgxPlqRO4kY5g" ;
+    prop:ObjectType "Plattenbalken:Plattenbalken" .
+
+inst:42796 a bsdd:IfcBridgePartPIER ;
+    rdfs:label "STB Stütze - rund:STB Stütze UKA2:2606948" ;
+    prop:GlobalId "0kRT78kK94A9FMWZoC1jgx" ;
+    prop:ObjectType "STB Stütze - rund:STB Stütze UKA2" .
+
+inst:42819 a bsdd:IfcBridgePartPIER ;
+    rdfs:label "STB Stütze - rund:STB Stütze UKA2:2607161" ;
+    prop:GlobalId "0kRT78kK94A9FMWZoC1jNc" ;
+    prop:ObjectType "STB Stütze - rund:STB Stütze UKA2" .
+
+inst:42841 a bsdd:IfcBridgePartPIER ;
+    rdfs:label "STB Stütze - rund:STB Stütze UKA2:2607172" ;
+    prop:GlobalId "0kRT78kK94A9FMWZoC1jMR" ;
+    prop:ObjectType "STB Stütze - rund:STB Stütze UKA2" .
+
+inst:42863 a bsdd:IfcBridgePartPIER ;
+    rdfs:label "STB Stütze - rund:STB Stütze UKA2:2607782" ;
+    prop:GlobalId "0kRT78kK94A9FMWZoC1jTv" ;
+    prop:ObjectType "STB Stütze - rund:STB Stütze UKA2" .
+
+inst:42885 a bsdd:IfcBridgePartPIER ;
+    rdfs:label "STB Stütze - rund:STB Stütze UKA2:2607786" ;
+    prop:GlobalId "0kRT78kK94A9FMWZoC1jTr" ;
+    prop:ObjectType "STB Stütze - rund:STB Stütze UKA2" .
+
+inst:42894 a bsdd:IfcBridgePartPIER ;
+    rdfs:label "STB Stütze - rund:STB Stütze UKA2:2607789" ;
+    prop:GlobalId "0kRT78kK94A9FMWZoC1jTo" ;
+    prop:ObjectType "STB Stütze - rund:STB Stütze UKA2" .
+
+inst:42916 a bsdd:IfcBridgePartPIER ;
+    rdfs:label "STB Stütze - rund:STB Stütze UKA2:2608130" ;
+    prop:GlobalId "0kRT78kK94A9FMWZoC1j7T" ;
+    prop:ObjectType "STB Stütze - rund:STB Stütze UKA2" .
+
+inst:42925 a bsdd:IfcBridgePartPIER ;
+    rdfs:label "STB Stütze - rund:STB Stütze UKA2:2608134" ;
+    prop:GlobalId "0kRT78kK94A9FMWZoC1j7P" ;
+    prop:ObjectType "STB Stütze - rund:STB Stütze UKA2" .
+
+inst:42934 a bsdd:IfcBridgePartPIER ;
+    rdfs:label "STB Stütze - rund:STB Stütze UKA2:2608137" ;
+    prop:GlobalId "0kRT78kK94A9FMWZoC1j7M" ;
+    prop:ObjectType "STB Stütze - rund:STB Stütze UKA2" .
+
+inst:42952 a bsdd:IfcBridgePartFOUNDATION ;
+    rdfs:label "Foundation Slab:STB 750:2610123" ;
+    prop:GlobalId "0kRT78kK94A9FMWZoC1iuK" ;
+    prop:ObjectType "Foundation Slab:STB 750" .
+
+inst:42976 a bsdd:IfcBridgePartFOUNDATION ;
+    rdfs:label "Foundation Slab:STB 750:2611769" ;
+    prop:GlobalId "0kRT78kK94A9FMWZoC1iVc" ;
+    prop:ObjectType "Foundation Slab:STB 750" .
+
+inst:42999 a bsdd:IfcBridgePartPIER ;
+    rdfs:label "STB Stütze - rund:STB Stütze UKA2:2612857" ;
+    prop:GlobalId "0kRT78kK94A9FMWZoC1iEc" ;
+    prop:ObjectType "STB Stütze - rund:STB Stütze UKA2" .
+
+inst:43008 a bsdd:IfcBridgePartPIER ;
+    rdfs:label "STB Stütze - rund:STB Stütze UKA2:2612868" ;
+    prop:GlobalId "0kRT78kK94A9FMWZoC1iDR" ;
+    prop:ObjectType "STB Stütze - rund:STB Stütze UKA2" .
+
+inst:43017 a bsdd:IfcBridgePartPIER ;
+    rdfs:label "STB Stütze - rund:STB Stütze UKA2:2612878" ;
+    prop:GlobalId "0kRT78kK94A9FMWZoC1iDH" ;
+    prop:ObjectType "STB Stütze - rund:STB Stütze UKA2" .
+
+inst:43032 a bsdd:IfcBridgePartFOUNDATION ;
+    rdfs:label "Foundation Slab:STB 750:2612947" ;
+    prop:GlobalId "0kRT78kK94A9FMWZoC1iCC" ;
+    prop:ObjectType "Foundation Slab:STB 750" .
+
+inst:43048 a bsdd:IfcBridgePartFOUNDATION ;
+    rdfs:label "Foundation Slab:STB 750:2612955" ;
+    prop:GlobalId "0kRT78kK94A9FMWZoC1iC4" ;
+    prop:ObjectType "Foundation Slab:STB 750" .
+
+inst:43067 a bsdd:IfcBridgePartFOUNDATION ;
+    rdfs:label "Foundation Slab:B 100:2614318" ;
+    prop:GlobalId "1NPo85Ve97CfXh5JAfjUkp" ;
+    prop:ObjectType "Foundation Slab:B 100" .
+
+inst:43090 a bsdd:IfcBridgePartFOUNDATION ;
+    rdfs:label "Foundation Slab:B 100:2614921" ;
+    prop:GlobalId "1NPo85Ve97CfXh5JAfjUaK" ;
+    prop:ObjectType "Foundation Slab:B 100" .
+
+inst:43395 a bsdd:IfcBridgePartABUTMENT ;
+    rdfs:label "Widerlager_Ost:Widerlager_Ost:2618100" ;
+    prop:GlobalId "16yDax3413NfiV9ItRaWy5" ;
+    prop:ObjectType "Widerlager_Ost:Widerlager_Ost" .
+
+inst:43411 a bsdd:IfcBridgePartFOUNDATION ;
+    rdfs:label "Foundation Slab:STB 1250:2649578" ;
+    prop:GlobalId "38QDEArsTBkAcqZHjG1Zoa" ;
+    prop:ObjectType "Foundation Slab:STB 1250" .
+
+inst:43741 a bsdd:IfcBridgePartABUTMENT ;
+    rdfs:label "Widerlager_West:Widerlager_West:2656902" ;
+    prop:GlobalId "38QDEArsTBkAcqZHjG1jl8" ;
+    prop:ObjectType "Widerlager_West:Widerlager_West" .
+
+inst:43757 a bsdd:IfcBridgePartFOUNDATION ;
+    rdfs:label "Foundation Slab:STB 1250:2672995" ;
+    prop:GlobalId "2F364W94j5XROPyN$EWq$d" ;
+    prop:ObjectType "Foundation Slab:STB 1250" .
+
+inst:43776 a bsdd:IfcBridgePartFOUNDATION ;
+    rdfs:label "Foundation Slab:B 100:2679800" ;
+    prop:GlobalId "2F364W94j5XROPyN$EWsLy" ;
+    prop:ObjectType "Foundation Slab:B 100" .
+
+inst:43792 a bsdd:IfcBridgePartFOUNDATION ;
+    rdfs:label "Foundation Slab:B 100:2681219" ;
+    prop:GlobalId "2F364W94j5XROPyN$EWsy7" ;
+    prop:ObjectType "Foundation Slab:B 100" .
+
+inst:43815 a bsdd:IfcBridgePart ;
+    rdfs:label "STB Stütze - rechteckig:Auflager UKA 2:2681918" ;
+    prop:GlobalId "3$6mKCz4v4o8_HdrI5bV$i" ;
+    prop:ObjectType "STB Stütze - rechteckig:Auflager UKA 2" .
+
+inst:43825 a bsdd:IfcBridgePart ;
+    rdfs:label "STB Stütze - rechteckig:Auflager UKA 2:2681922" ;
+    prop:GlobalId "3$6mKCz4v4o8_HdrI5bV_G" ;
+    prop:ObjectType "STB Stütze - rechteckig:Auflager UKA 2" .
+
+inst:43834 a bsdd:IfcBridgePart ;
+    rdfs:label "STB Stütze - rechteckig:Auflager UKA 2:2681925" ;
+    prop:GlobalId "3$6mKCz4v4o8_HdrI5bV_N" ;
+    prop:ObjectType "STB Stütze - rechteckig:Auflager UKA 2" .
+
+inst:43856 a bsdd:IfcBridgePart ;
+    rdfs:label "STB Stütze - rechteckig:Auflager UKA 2:2682013" ;
+    prop:GlobalId "3$6mKCz4v4o8_HdrI5bVzF" ;
+    prop:ObjectType "STB Stütze - rechteckig:Auflager UKA 2" .
+
+inst:43865 a bsdd:IfcBridgePart ;
+    rdfs:label "STB Stütze - rechteckig:Auflager UKA 2:2682016" ;
+    prop:GlobalId "3$6mKCz4v4o8_HdrI5bVzo" ;
+    prop:ObjectType "STB Stütze - rechteckig:Auflager UKA 2" .
+
+inst:43874 a bsdd:IfcBridgePart ;
+    rdfs:label "STB Stütze - rechteckig:Auflager UKA 2:2682019" ;
+    prop:GlobalId "3$6mKCz4v4o8_HdrI5bVzn" ;
+    prop:ObjectType "STB Stütze - rechteckig:Auflager UKA 2" .
+
+inst:43896 a bsdd:IfcBridgePart ;
+    rdfs:label "STB Stütze - rechteckig:Auflager UKA 2:2683232" ;
+    prop:GlobalId "3$6mKCz4v4o8_HdrI5bUAo" ;
+    prop:ObjectType "STB Stütze - rechteckig:Auflager UKA 2" .
+
+inst:43905 a bsdd:IfcBridgePart ;
+    rdfs:label "STB Stütze - rechteckig:Auflager UKA 2:2683236" ;
+    prop:GlobalId "3$6mKCz4v4o8_HdrI5bUAs" ;
+    prop:ObjectType "STB Stütze - rechteckig:Auflager UKA 2" .
+
+inst:43914 a bsdd:IfcBridgePart ;
+    rdfs:label "STB Stütze - rechteckig:Auflager UKA 2:2683239" ;
+    prop:GlobalId "3$6mKCz4v4o8_HdrI5bUAr" ;
+    prop:ObjectType "STB Stütze - rechteckig:Auflager UKA 2" .
+
+inst:43936 a bsdd:IfcBridgePart ;
+    rdfs:label "STB Stütze - rechteckig:Auflager UKA 2:2683393" ;
+    prop:GlobalId "3$6mKCz4v4o8_HdrI5bU7J" ;
+    prop:ObjectType "STB Stütze - rechteckig:Auflager UKA 2" .
+
+inst:43945 a bsdd:IfcBridgePart ;
+    rdfs:label "STB Stütze - rechteckig:Auflager UKA 2:2683436" ;
+    prop:GlobalId "3$6mKCz4v4o8_HdrI5bU7_" ;
+    prop:ObjectType "STB Stütze - rechteckig:Auflager UKA 2" .
+
+inst:43954 a bsdd:IfcBridgePart ;
+    rdfs:label "STB Stütze - rechteckig:Auflager UKA 2:2683439" ;
+    prop:GlobalId "3$6mKCz4v4o8_HdrI5bU7z" ;
+    prop:ObjectType "STB Stütze - rechteckig:Auflager UKA 2" .
+
+inst:80795 a bsdd:IfcRailing ;
+    rdfs:label "Railing:Vertikale Stäbe mit Handlauf:2682099" ;
+    prop:GlobalId "3$6mKCz4v4o8_HdrI5bVyX" ;
+    prop:ObjectType "Railing:Vertikale Stäbe mit Handlauf" .
+
