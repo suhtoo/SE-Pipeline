@@ -1,0 +1,4162 @@
+[
+  {
+    "@id": "http://asb-example.org/4B0W1WZZ",
+    "@type": [
+      "http://asb-example.org/ASB_Pset_Lager"
+    ],
+    "http://asb-example.org/AMT": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "533"
+      }
+    ],
+    "http://asb-example.org/ANZAHL": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 2
+      }
+    ],
+    "http://asb-example.org/ART": [
+      {
+        "@id": "http://asb-example.org/Bewehrt_OhneFesthaltung"
+      }
+    ],
+    "http://asb-example.org/BAUJAHR": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#year",
+        "@value": "1978"
+      }
+    ],
+    "http://asb-example.org/BAUTEILNR": [
+      {
+        "@id": "http://asb-example.org/40011100000000"
+      }
+    ],
+    "http://asb-example.org/BEARBEITER": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "CODEKERK"
+      }
+    ],
+    "http://asb-example.org/BEARB_DAT": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2002-08-27"
+      }
+    ],
+    "http://asb-example.org/BWNR": [
+      {
+        "@id": "http://asb-example.org/B115"
+      }
+    ],
+    "http://asb-example.org/EINBAUORT": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Auflagerbank***"
+      }
+    ],
+    "http://asb-example.org/FELD_NR": [
+      {
+        "@id": "http://asb-example.org/3"
+      }
+    ],
+    "http://asb-example.org/HERSTELLER": [
+      {
+        "@id": "http://asb-example.org/VorspannTechnik_Ratingen"
+      }
+    ],
+    "http://asb-example.org/IDENT": [
+      {
+        "@id": "http://asb-example.org/4B0W1WZZ"
+      }
+    ],
+    "http://asb-example.org/ID_NR": [
+      {
+        "@id": "http://asb-example.org/B115_0"
+      }
+    ],
+    "http://asb-example.org/LAGER_NR": [
+      {
+        "@id": "http://asb-example.org/1"
+      }
+    ],
+    "http://asb-example.org/REF_FELDER": [
+      {
+        "@id": "http://asb-example.org/4B0W1X9Z"
+      }
+    ],
+    "http://asb-example.org/REF_LAGER": [
+      {
+        "@id": "http://asb-example.org/4B0W1X9U"
+      }
+    ],
+    "http://asb-example.org/TEIL_BWNR": [
+      {
+        "@id": "http://asb-example.org/0"
+      }
+    ],
+    "http://asb-example.org/TEMP_SOMM": [
+      {
+        "@id": "http://asb-example.org/0_0"
+      }
+    ],
+    "http://asb-example.org/TEMP_WINT": [
+      {
+        "@id": "http://asb-example.org/0_0"
+      }
+    ]
+  },
+  {
+    "@id": "http://asb-example.org/4B0W1WVY",
+    "@type": [
+      "http://asb-example.org/ASB_Pset_Ausstattungen"
+    ],
+    "http://asb-example.org/AMT": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "533"
+      }
+    ],
+    "http://asb-example.org/ART": [
+      {
+        "@id": "http://asb-example.org/Laengsleitung"
+      }
+    ],
+    "http://asb-example.org/AUSST_NR": [
+      {
+        "@id": "http://asb-example.org/2"
+      }
+    ],
+    "http://asb-example.org/BAUTEILNR": [
+      {
+        "@id": "http://asb-example.org/Ueberbau"
+      }
+    ],
+    "http://asb-example.org/BEARBEITER": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "CODEKERK"
+      }
+    ],
+    "http://asb-example.org/BEARB_DAT": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2002-08-27"
+      }
+    ],
+    "http://asb-example.org/BWNR": [
+      {
+        "@id": "http://asb-example.org/B115"
+      }
+    ],
+    "http://asb-example.org/IDENT": [
+      {
+        "@id": "http://asb-example.org/4B0W1WVY"
+      }
+    ],
+    "http://asb-example.org/ID_NR": [
+      {
+        "@id": "http://asb-example.org/B115_0"
+      }
+    ],
+    "http://asb-example.org/LEIT_DURCH": [
+      {
+        "@id": "http://asb-example.org/200"
+      }
+    ],
+    "http://asb-example.org/ORT": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "an der Innenseite der beiden äußeren Längsträger***"
+      }
+    ],
+    "http://asb-example.org/REF_AUSSTA": [
+      {
+        "@id": "http://asb-example.org/4B0W1X9J"
+      }
+    ],
+    "http://asb-example.org/TEIL_BWNR": [
+      {
+        "@id": "http://asb-example.org/0"
+      }
+    ]
+  },
+  {
+    "@id": "http://asb-example.org/4B0W1WZO",
+    "@type": [
+      "http://asb-example.org/ASB_Pset_Feld"
+    ],
+    "http://asb-example.org/AMT": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "533"
+      }
+    ],
+    "http://asb-example.org/ANZAHL_ST": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 1
+      }
+    ],
+    "http://asb-example.org/ART": [
+      {
+        "@id": "http://asb-example.org/40011100000000"
+      }
+    ],
+    "http://asb-example.org/BEARBEITER": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "CODEKERK"
+      }
+    ],
+    "http://asb-example.org/BEARB_DAT": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2002-08-27"
+      }
+    ],
+    "http://asb-example.org/BEMERKUNG": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Widerlager 1\r\n***"
+      }
+    ],
+    "http://asb-example.org/BWNR": [
+      {
+        "@id": "http://asb-example.org/B115"
+      }
+    ],
+    "http://asb-example.org/FELDNR": [
+      {
+        "@id": "http://asb-example.org/0"
+      }
+    ],
+    "http://asb-example.org/FELD_NR": [
+      {
+        "@id": "http://asb-example.org/1"
+      }
+    ],
+    "http://asb-example.org/IDENT": [
+      {
+        "@id": "http://asb-example.org/4B0W1WZO"
+      }
+    ],
+    "http://asb-example.org/ID_NR": [
+      {
+        "@id": "http://asb-example.org/B115_0"
+      }
+    ],
+    "http://asb-example.org/REF_BRUCKE": [
+      {
+        "@id": "http://asb-example.org/4B0W1X9V"
+      }
+    ],
+    "http://asb-example.org/REF_FELDER": [
+      {
+        "@id": "http://asb-example.org/4B0W1X9W"
+      }
+    ],
+    "http://asb-example.org/SCHIFF_OEF": [
+      {
+        "@id": "http://asb-example.org/0"
+      }
+    ],
+    "http://asb-example.org/STUETZ_H": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "1.5"
+      }
+    ],
+    "http://asb-example.org/STUETZ_W": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.0"
+      }
+    ],
+    "http://asb-example.org/TEIL_BWNR": [
+      {
+        "@id": "http://asb-example.org/0"
+      }
+    ]
+  },
+  {
+    "@id": "http://asb-example.org/4D0H45VE",
+    "@type": [
+      "http://asb-example.org/ASB_Pset_Kappe"
+    ],
+    "http://asb-example.org/AMT": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "533"
+      }
+    ],
+    "http://asb-example.org/BAUJAHR": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#year",
+        "@value": "1978"
+      }
+    ],
+    "http://asb-example.org/BAUTEILNR": [
+      {
+        "@id": "http://asb-example.org/130000000000000"
+      }
+    ],
+    "http://asb-example.org/BEARBEITER": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Holzbach"
+      }
+    ],
+    "http://asb-example.org/BEARB_DAT": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-01-31"
+      }
+    ],
+    "http://asb-example.org/BEMERKUNG": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Länge gilt für alle vier Flügel***"
+      }
+    ],
+    "http://asb-example.org/BREITE": [
+      {
+        "@id": "http://asb-example.org/0_95"
+      }
+    ],
+    "http://asb-example.org/BWNR": [
+      {
+        "@id": "http://asb-example.org/B115"
+      }
+    ],
+    "http://asb-example.org/GR_BLOCKL": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "5.64"
+      }
+    ],
+    "http://asb-example.org/IDENT": [
+      {
+        "@id": "http://asb-example.org/4D0H45VE"
+      }
+    ],
+    "http://asb-example.org/ID_NR": [
+      {
+        "@id": "http://asb-example.org/B115_0"
+      }
+    ],
+    "http://asb-example.org/KAPPENNR": [
+      {
+        "@id": "http://asb-example.org/1"
+      }
+    ],
+    "http://asb-example.org/KONSTRUKT": [
+      {
+        "@id": "http://asb-example.org/TeilDerBrueckenplatteOderDesFluegels"
+      }
+    ],
+    "http://asb-example.org/LAENGE": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "21.65"
+      }
+    ],
+    "http://asb-example.org/ORT": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "alle Flügel***"
+      }
+    ],
+    "http://asb-example.org/REF_KAPPEN": [
+      {
+        "@id": "http://asb-example.org/4D0H45VF"
+      }
+    ],
+    "http://asb-example.org/TEIL_BWNR": [
+      {
+        "@id": "http://asb-example.org/0"
+      }
+    ],
+    "http://asb-example.org/VERANKER": [
+      {
+        "@id": "http://asb-example.org/Anschlussbewehrung"
+      }
+    ]
+  },
+  {
+    "@id": "http://asb-example.org/4B0W1WVP",
+    "@type": [
+      "http://asb-example.org/ASB_Pset_BelagAbdichtung"
+    ],
+    "http://asb-example.org/ABDICHT": [
+      {
+        "@id": "http://asb-example.org/ZweilagigeBitumendichtungsbahn"
+      }
+    ],
+    "http://asb-example.org/ABDICHT_NR": [
+      {
+        "@id": "http://asb-example.org/2"
+      }
+    ],
+    "http://asb-example.org/AMT": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "533"
+      }
+    ],
+    "http://asb-example.org/BAUJAHR": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#year",
+        "@value": "1978"
+      }
+    ],
+    "http://asb-example.org/BAUTEILNR": [
+      {
+        "@id": "http://asb-example.org/Ueberbau"
+      }
+    ],
+    "http://asb-example.org/BEARBEITER": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Holzbach"
+      }
+    ],
+    "http://asb-example.org/BEARB_DAT": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-01-31"
+      }
+    ],
+    "http://asb-example.org/BEH_UNTERL": [
+      {
+        "@id": "http://asb-example.org/Bitumenvoranstrich"
+      }
+    ],
+    "http://asb-example.org/BEMERKUNG": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "beim Rückbau der Kappenverbreiterung 2012 wurde keine Abdichtung unter der Kappe vorgefunden ***"
+      }
+    ],
+    "http://asb-example.org/BWNR": [
+      {
+        "@id": "http://asb-example.org/B115"
+      }
+    ],
+    "http://asb-example.org/DICHTUNG": [
+      {
+        "@id": "http://asb-example.org/Beton"
+      }
+    ],
+    "http://asb-example.org/DICKE_SCH": [
+      {
+        "@id": "http://asb-example.org/15_0"
+      }
+    ],
+    "http://asb-example.org/EINBAUORT": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Im Kappenbereich***"
+      }
+    ],
+    "http://asb-example.org/FIRMA": [
+      {
+        "@id": "http://asb-example.org/Fa_Erens_Dueren"
+      }
+    ],
+    "http://asb-example.org/FLAECHE": [
+      {
+        "@id": "http://asb-example.org/192"
+      }
+    ],
+    "http://asb-example.org/IDENT": [
+      {
+        "@id": "http://asb-example.org/4B0W1WVP"
+      }
+    ],
+    "http://asb-example.org/ID_NR": [
+      {
+        "@id": "http://asb-example.org/B115_0"
+      }
+    ],
+    "http://asb-example.org/TEIL_BWNR": [
+      {
+        "@id": "http://asb-example.org/0"
+      }
+    ],
+    "http://asb-example.org/UNTERLAGE": [
+      {
+        "@id": "http://asb-example.org/Beton"
+      }
+    ],
+    "http://asb-example.org/VORB_UNTL": [
+      {
+        "@id": "http://asb-example.org/SonstigeVorbereitung"
+      }
+    ]
+  },
+  {
+    "@id": "http://ifc-instance.org/instances/32",
+    "@type": [
+      "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/IfcBridgeGIRDER"
+    ],
+    "http://ifc-instance.org/instances/IfcRelContainedInSpatialStructure": [
+      {
+        "@id": "http://ifc-instance.org/instances/43825"
+      },
+      {
+        "@id": "http://ifc-instance.org/instances/43936"
+      },
+      {
+        "@id": "http://ifc-instance.org/instances/42863"
+      },
+      {
+        "@id": "http://ifc-instance.org/instances/42894"
+      },
+      {
+        "@id": "http://ifc-instance.org/instances/42976"
+      },
+      {
+        "@id": "http://ifc-instance.org/instances/43905"
+      },
+      {
+        "@id": "http://ifc-instance.org/instances/42999"
+      },
+      {
+        "@id": "http://ifc-instance.org/instances/42796"
+      },
+      {
+        "@id": "http://ifc-instance.org/instances/43008"
+      },
+      {
+        "@id": "http://ifc-instance.org/instances/43411"
+      },
+      {
+        "@id": "http://ifc-instance.org/instances/80795"
+      },
+      {
+        "@id": "http://ifc-instance.org/instances/117644"
+      },
+      {
+        "@id": "http://ifc-instance.org/instances/43067"
+      },
+      {
+        "@id": "http://ifc-instance.org/instances/42885"
+      },
+      {
+        "@id": "http://ifc-instance.org/instances/43954"
+      },
+      {
+        "@id": "http://ifc-instance.org/instances/42819"
+      },
+      {
+        "@id": "http://ifc-instance.org/instances/42841"
+      },
+      {
+        "@id": "http://ifc-instance.org/instances/42934"
+      },
+      {
+        "@id": "http://ifc-instance.org/instances/43914"
+      },
+      {
+        "@id": "http://ifc-instance.org/instances/43741"
+      },
+      {
+        "@id": "http://ifc-instance.org/instances/43834"
+      },
+      {
+        "@id": "http://ifc-instance.org/instances/43874"
+      },
+      {
+        "@id": "http://ifc-instance.org/instances/43757"
+      },
+      {
+        "@id": "http://ifc-instance.org/instances/42750"
+      },
+      {
+        "@id": "http://ifc-instance.org/instances/42916"
+      },
+      {
+        "@id": "http://ifc-instance.org/instances/42952"
+      },
+      {
+        "@id": "http://ifc-instance.org/instances/43865"
+      },
+      {
+        "@id": "http://ifc-instance.org/instances/43395"
+      },
+      {
+        "@id": "http://ifc-instance.org/instances/43776"
+      },
+      {
+        "@id": "http://ifc-instance.org/instances/43815"
+      },
+      {
+        "@id": "http://ifc-instance.org/instances/43856"
+      },
+      {
+        "@id": "http://ifc-instance.org/instances/42925"
+      },
+      {
+        "@id": "http://ifc-instance.org/instances/43032"
+      },
+      {
+        "@id": "http://ifc-instance.org/instances/43090"
+      },
+      {
+        "@id": "http://ifc-instance.org/instances/43017"
+      },
+      {
+        "@id": "http://ifc-instance.org/instances/43945"
+      },
+      {
+        "@id": "http://ifc-instance.org/instances/43048"
+      },
+      {
+        "@id": "http://ifc-instance.org/instances/43792"
+      },
+      {
+        "@id": "http://ifc-instance.org/instances/43896"
+      }
+    ],
+    "http://ifc-instance.org/instances/hasAsbPset": [
+      {
+        "@id": "http://asb-example.org/4B0W1WXL"
+      },
+      {
+        "@id": "http://asb-example.org/B115_0"
+      },
+      {
+        "@id": "http://asb-example.org/4D0G3L5Y"
+      },
+      {
+        "@id": "http://asb-example.org/4B0W1X9V"
+      },
+      {
+        "@id": "http://asb-example.org/4B0W1WVO"
+      },
+      {
+        "@id": "http://asb-example.org/B115"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/GlobalId": [
+      {
+        "@value": "2B9jCywhbBAPv5PLpqgYNX"
+      }
+    ]
+  },
+  {
+    "@id": "http://asb-example.org/4B0W1WXH",
+    "@type": [
+      "http://asb-example.org/ASB_Pset_Kappe"
+    ],
+    "http://asb-example.org/AMT": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "533"
+      }
+    ],
+    "http://asb-example.org/BAUJAHR": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#year",
+        "@value": "1978"
+      }
+    ],
+    "http://asb-example.org/BAUTEILNR": [
+      {
+        "@id": "http://asb-example.org/130000000000000"
+      }
+    ],
+    "http://asb-example.org/BEARBEITER": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Holzbach"
+      }
+    ],
+    "http://asb-example.org/BEARB_DAT": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-01-31"
+      }
+    ],
+    "http://asb-example.org/BEMERKUNG": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "\r\n***"
+      }
+    ],
+    "http://asb-example.org/BREITE": [
+      {
+        "@id": "http://asb-example.org/2_5"
+      }
+    ],
+    "http://asb-example.org/BWNR": [
+      {
+        "@id": "http://asb-example.org/B115"
+      }
+    ],
+    "http://asb-example.org/GR_BLOCKL": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "62.68"
+      }
+    ],
+    "http://asb-example.org/IDENT": [
+      {
+        "@id": "http://asb-example.org/4B0W1WXH"
+      }
+    ],
+    "http://asb-example.org/ID_NR": [
+      {
+        "@id": "http://asb-example.org/B115_0"
+      }
+    ],
+    "http://asb-example.org/KAPPENNR": [
+      {
+        "@id": "http://asb-example.org/1"
+      }
+    ],
+    "http://asb-example.org/KONSTRUKT": [
+      {
+        "@id": "http://asb-example.org/AufDerAbdichtungAufliegendesZusammenhaengendesBetonteil"
+      }
+    ],
+    "http://asb-example.org/LAENGE": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "62.68"
+      }
+    ],
+    "http://asb-example.org/ORT": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Kragarm rechts ***"
+      }
+    ],
+    "http://asb-example.org/REF_KAPPEN": [
+      {
+        "@id": "http://asb-example.org/4B0W1X9N"
+      }
+    ],
+    "http://asb-example.org/TEIL_BWNR": [
+      {
+        "@id": "http://asb-example.org/0"
+      }
+    ],
+    "http://asb-example.org/VERANKER": [
+      {
+        "@id": "http://asb-example.org/Anschlussbewehrung"
+      }
+    ]
+  },
+  {
+    "@id": "http://asb-example.org/4B0W1WZX",
+    "@type": [
+      "http://asb-example.org/ASB_Pset_Lager"
+    ],
+    "http://asb-example.org/AMT": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "533"
+      }
+    ],
+    "http://asb-example.org/ANZAHL": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 2
+      }
+    ],
+    "http://asb-example.org/ART": [
+      {
+        "@id": "http://asb-example.org/Bewehrt_OhneFesthaltung"
+      }
+    ],
+    "http://asb-example.org/BAUJAHR": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#year",
+        "@value": "1978"
+      }
+    ],
+    "http://asb-example.org/BAUTEILNR": [
+      {
+        "@id": "http://asb-example.org/40011100000000"
+      }
+    ],
+    "http://asb-example.org/BEARBEITER": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "CODEKERK"
+      }
+    ],
+    "http://asb-example.org/BEARB_DAT": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2002-08-27"
+      }
+    ],
+    "http://asb-example.org/BWNR": [
+      {
+        "@id": "http://asb-example.org/B115"
+      }
+    ],
+    "http://asb-example.org/EINBAUORT": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Auflagerbank***"
+      }
+    ],
+    "http://asb-example.org/FELD_NR": [
+      {
+        "@id": "http://asb-example.org/0"
+      }
+    ],
+    "http://asb-example.org/HERSTELLER": [
+      {
+        "@id": "http://asb-example.org/VorspannTechnik_Ratingen"
+      }
+    ],
+    "http://asb-example.org/IDENT": [
+      {
+        "@id": "http://asb-example.org/4B0W1WZX"
+      }
+    ],
+    "http://asb-example.org/ID_NR": [
+      {
+        "@id": "http://asb-example.org/B115_0"
+      }
+    ],
+    "http://asb-example.org/LAGER_NR": [
+      {
+        "@id": "http://asb-example.org/1"
+      }
+    ],
+    "http://asb-example.org/REF_FELDER": [
+      {
+        "@id": "http://asb-example.org/4B0W1X9W"
+      }
+    ],
+    "http://asb-example.org/REF_LAGER": [
+      {
+        "@id": "http://asb-example.org/4B0W1X9S"
+      }
+    ],
+    "http://asb-example.org/TEIL_BWNR": [
+      {
+        "@id": "http://asb-example.org/0"
+      }
+    ],
+    "http://asb-example.org/TEMP_SOMM": [
+      {
+        "@id": "http://asb-example.org/0_0"
+      }
+    ],
+    "http://asb-example.org/TEMP_WINT": [
+      {
+        "@id": "http://asb-example.org/0_0"
+      }
+    ]
+  },
+  {
+    "@id": "http://ifc-instance.org/instances/43825",
+    "@type": [
+      "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/IfcBridgePart"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "STB Stütze - rechteckig:Auflager UKA 2:2681922"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/GlobalId": [
+      {
+        "@value": "3$6mKCz4v4o8_HdrI5bV_G"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/ObjectType": [
+      {
+        "@value": "STB Stütze - rechteckig:Auflager UKA 2"
+      }
+    ]
+  },
+  {
+    "@id": "http://ifc-instance.org/instances/43757",
+    "@type": [
+      "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/IfcBridgePartFOUNDATION"
+    ],
+    "http://ifc-instance.org/instances/hasAsbPset": [
+      {
+        "@id": "http://asb-example.org/4B0W1WX8"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Foundation Slab:STB 1250:2672995"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/GlobalId": [
+      {
+        "@value": "2F364W94j5XROPyN$EWq$d"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/ObjectType": [
+      {
+        "@value": "Foundation Slab:STB 1250"
+      }
+    ]
+  },
+  {
+    "@id": "http://asb-example.org/4B0W1WY6",
+    "@type": [
+      "http://asb-example.org/ASB_Pset_Schutzeinrichtungen"
+    ],
+    "http://asb-example.org/AMT": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "533"
+      }
+    ],
+    "http://asb-example.org/ANPRALLHEF": [
+      {
+        "@id": "http://asb-example.org/0"
+      }
+    ],
+    "http://asb-example.org/ART": [
+      {
+        "@id": "http://asb-example.org/Fuellstabgelaender"
+      }
+    ],
+    "http://asb-example.org/AUFHALTEST": [
+      {
+        "@id": "http://asb-example.org/0"
+      }
+    ],
+    "http://asb-example.org/BAUJAHR": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#year",
+        "@value": "1978"
+      }
+    ],
+    "http://asb-example.org/BAUTEILNR": [
+      {
+        "@id": "http://asb-example.org/Ueberbau"
+      }
+    ],
+    "http://asb-example.org/BEARBEITER": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Holzbach"
+      }
+    ],
+    "http://asb-example.org/BEARB_DAT": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-01-31"
+      }
+    ],
+    "http://asb-example.org/BEMERKUNG": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Länge glit für beide Seiten***"
+      }
+    ],
+    "http://asb-example.org/BWNR": [
+      {
+        "@id": "http://asb-example.org/B115"
+      }
+    ],
+    "http://asb-example.org/HOEHE_FB": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "1.01"
+      }
+    ],
+    "http://asb-example.org/IDENT": [
+      {
+        "@id": "http://asb-example.org/4B0W1WY6"
+      }
+    ],
+    "http://asb-example.org/ID_NR": [
+      {
+        "@id": "http://asb-example.org/B115_0"
+      }
+    ],
+    "http://asb-example.org/LAENGE": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "146.6"
+      }
+    ],
+    "http://asb-example.org/ORT": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "beidseitig auf der Kappe***"
+      }
+    ],
+    "http://asb-example.org/REF_SCHUTZ": [
+      {
+        "@id": "http://asb-example.org/4B0W1X9L"
+      }
+    ],
+    "http://asb-example.org/SCHUTZ_NR": [
+      {
+        "@id": "http://asb-example.org/1"
+      }
+    ],
+    "http://asb-example.org/SYSTEM": [
+      {
+        "@id": "http://asb-example.org/0"
+      }
+    ],
+    "http://asb-example.org/TEIL_BWNR": [
+      {
+        "@id": "http://asb-example.org/0"
+      }
+    ],
+    "http://asb-example.org/WIRKBERKL": [
+      {
+        "@id": "http://asb-example.org/0"
+      }
+    ]
+  },
+  {
+    "@id": "http://asb-example.org/4B0W1WVX",
+    "@type": [
+      "http://asb-example.org/ASB_Pset_Ausstattungen"
+    ],
+    "http://asb-example.org/AMT": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "533"
+      }
+    ],
+    "http://asb-example.org/ART": [
+      {
+        "@id": "http://asb-example.org/LeuchtenAufBesonderenPfostenOderMasten_BefestigtAuf_anDerKappe"
+      }
+    ],
+    "http://asb-example.org/AUSST_NR": [
+      {
+        "@id": "http://asb-example.org/1"
+      }
+    ],
+    "http://asb-example.org/BAUTEILNR": [
+      {
+        "@id": "http://asb-example.org/Ueberbau"
+      }
+    ],
+    "http://asb-example.org/BEARBEITER": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Holzbach"
+      }
+    ],
+    "http://asb-example.org/BEARB_DAT": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-01-31"
+      }
+    ],
+    "http://asb-example.org/BWNR": [
+      {
+        "@id": "http://asb-example.org/B115"
+      }
+    ],
+    "http://asb-example.org/IDENT": [
+      {
+        "@id": "http://asb-example.org/4B0W1WVX"
+      }
+    ],
+    "http://asb-example.org/ID_NR": [
+      {
+        "@id": "http://asb-example.org/B115_0"
+      }
+    ],
+    "http://asb-example.org/LEIT_DURCH": [
+      {
+        "@id": "http://asb-example.org/0"
+      }
+    ],
+    "http://asb-example.org/ORT": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Kappe außen***"
+      }
+    ],
+    "http://asb-example.org/REF_AUSSTA": [
+      {
+        "@id": "http://asb-example.org/4B0W1X9I"
+      }
+    ],
+    "http://asb-example.org/TEIL_BWNR": [
+      {
+        "@id": "http://asb-example.org/0"
+      }
+    ]
+  },
+  {
+    "@id": "http://ifc-instance.org/instances/42925",
+    "@type": [
+      "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/IfcBridgePartPIER"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "STB Stütze - rund:STB Stütze UKA2:2608134"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/GlobalId": [
+      {
+        "@value": "0kRT78kK94A9FMWZoC1j7P"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/ObjectType": [
+      {
+        "@value": "STB Stütze - rund:STB Stütze UKA2"
+      }
+    ]
+  },
+  {
+    "@id": "http://ifc-instance.org/instances/43914",
+    "@type": [
+      "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/IfcBridgePart"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "STB Stütze - rechteckig:Auflager UKA 2:2683239"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/GlobalId": [
+      {
+        "@value": "3$6mKCz4v4o8_HdrI5bUAr"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/ObjectType": [
+      {
+        "@value": "STB Stütze - rechteckig:Auflager UKA 2"
+      }
+    ]
+  },
+  {
+    "@id": "http://asb-example.org/4B0W1WZL",
+    "@type": [
+      "http://asb-example.org/ASB_Pset_Vorspannung"
+    ],
+    "http://asb-example.org/AMT": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "533"
+      }
+    ],
+    "http://asb-example.org/ART_VERPR": [
+      {
+        "@id": "http://asb-example.org/Moertel"
+      }
+    ],
+    "http://asb-example.org/BAUJAHR": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#year",
+        "@value": "1978"
+      }
+    ],
+    "http://asb-example.org/BAUTEILNR": [
+      {
+        "@id": "http://asb-example.org/Ueberbau"
+      }
+    ],
+    "http://asb-example.org/BEARBEITER": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "CODEKERK"
+      }
+    ],
+    "http://asb-example.org/BEARB_DAT": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2002-08-27"
+      }
+    ],
+    "http://asb-example.org/BWNR": [
+      {
+        "@id": "http://asb-example.org/B115"
+      }
+    ],
+    "http://asb-example.org/DZULNR": [
+      {
+        "@id": "http://asb-example.org/Z_13_1_16"
+      }
+    ],
+    "http://asb-example.org/EZULNR": [
+      {
+        "@id": "http://asb-example.org/keine_Zuordnung"
+      }
+    ],
+    "http://asb-example.org/HERSTELLER": [
+      {
+        "@id": "http://asb-example.org/FriedrichKruppHuettenwerke_frueher_3AHuettenwerkeRheinhausen"
+      }
+    ],
+    "http://asb-example.org/IDENT": [
+      {
+        "@id": "http://asb-example.org/4B0W1WZL"
+      }
+    ],
+    "http://asb-example.org/ID_NR": [
+      {
+        "@id": "http://asb-example.org/B115_0"
+      }
+    ],
+    "http://asb-example.org/INT_EXT": [
+      {
+        "@id": "http://asb-example.org/InterneVorspannung"
+      }
+    ],
+    "http://asb-example.org/ORT": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Fahrbahnplatte***"
+      }
+    ],
+    "http://asb-example.org/REF_VSPANN": [
+      {
+        "@id": "http://asb-example.org/4B0W1X9Q"
+      }
+    ],
+    "http://asb-example.org/RICHTUNG": [
+      {
+        "@id": "http://asb-example.org/Quer"
+      }
+    ],
+    "http://asb-example.org/SPANNVERF": [
+      {
+        "@id": "http://asb-example.org/AK_5Bz13116_5D"
+      }
+    ],
+    "http://asb-example.org/SP_BRUCHG": [
+      {
+        "@id": "http://asb-example.org/1630"
+      }
+    ],
+    "http://asb-example.org/SP_KRAFT": [
+      {
+        "@id": "http://asb-example.org/103"
+      }
+    ],
+    "http://asb-example.org/SP_STRECKG": [
+      {
+        "@id": "http://asb-example.org/1450"
+      }
+    ],
+    "http://asb-example.org/TEIL_BWNR": [
+      {
+        "@id": "http://asb-example.org/0"
+      }
+    ],
+    "http://asb-example.org/TYP": [
+      {
+        "@id": "http://asb-example.org/AK_41"
+      }
+    ],
+    "http://asb-example.org/VORSP_GRAD": [
+      {
+        "@id": "http://asb-example.org/VolleVorspannung"
+      }
+    ],
+    "http://asb-example.org/VORSP_NR": [
+      {
+        "@id": "http://asb-example.org/1"
+      }
+    ]
+  },
+  {
+    "@id": "http://asb-example.org/4B0W1WX8",
+    "@type": [
+      "http://asb-example.org/ASB_Pset_Gruendung"
+    ],
+    "http://asb-example.org/AMT": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "533"
+      }
+    ],
+    "http://asb-example.org/ART": [
+      {
+        "@id": "http://asb-example.org/Flachgruendung"
+      }
+    ],
+    "http://asb-example.org/BAUTEILNR": [
+      {
+        "@id": "http://asb-example.org/Unterbau"
+      }
+    ],
+    "http://asb-example.org/BEARBEITER": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "CODEKERK"
+      }
+    ],
+    "http://asb-example.org/BEARB_DAT": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2002-08-27"
+      }
+    ],
+    "http://asb-example.org/BWNR": [
+      {
+        "@id": "http://asb-example.org/B115"
+      }
+    ],
+    "http://asb-example.org/GRUENDNR": [
+      {
+        "@id": "http://asb-example.org/1"
+      }
+    ],
+    "http://asb-example.org/IDENT": [
+      {
+        "@id": "http://asb-example.org/4B0W1WX8"
+      }
+    ],
+    "http://asb-example.org/ID_NR": [
+      {
+        "@id": "http://asb-example.org/B115_0"
+      }
+    ],
+    "http://asb-example.org/JAHR": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#year",
+        "@value": "1977"
+      }
+    ],
+    "http://asb-example.org/ORT": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Widerlager und Stützen***"
+      }
+    ],
+    "http://asb-example.org/REF_GRUND": [
+      {
+        "@id": "http://asb-example.org/4B0W1X9M"
+      }
+    ],
+    "http://asb-example.org/TEIL_BWNR": [
+      {
+        "@id": "http://asb-example.org/0"
+      }
+    ]
+  },
+  {
+    "@id": "http://ifc-instance.org/instances/42916",
+    "@type": [
+      "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/IfcBridgePartPIER"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "STB Stütze - rund:STB Stütze UKA2:2608130"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/GlobalId": [
+      {
+        "@value": "0kRT78kK94A9FMWZoC1j7T"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/ObjectType": [
+      {
+        "@value": "STB Stütze - rund:STB Stütze UKA2"
+      }
+    ]
+  },
+  {
+    "@id": "http://asb-example.org/4B0W1WZR",
+    "@type": [
+      "http://asb-example.org/ASB_Pset_Feld"
+    ],
+    "http://asb-example.org/AMT": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "533"
+      }
+    ],
+    "http://asb-example.org/ANZAHL_ST": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 1
+      }
+    ],
+    "http://asb-example.org/ART": [
+      {
+        "@id": "http://asb-example.org/40011100000000"
+      }
+    ],
+    "http://asb-example.org/BEARBEITER": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "CODEKERK"
+      }
+    ],
+    "http://asb-example.org/BEARB_DAT": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2002-08-27"
+      }
+    ],
+    "http://asb-example.org/BEMERKUNG": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Widerlager 2\r\n***"
+      }
+    ],
+    "http://asb-example.org/BWNR": [
+      {
+        "@id": "http://asb-example.org/B115"
+      }
+    ],
+    "http://asb-example.org/FELDNR": [
+      {
+        "@id": "http://asb-example.org/3"
+      }
+    ],
+    "http://asb-example.org/FELD_NR": [
+      {
+        "@id": "http://asb-example.org/1"
+      }
+    ],
+    "http://asb-example.org/IDENT": [
+      {
+        "@id": "http://asb-example.org/4B0W1WZR"
+      }
+    ],
+    "http://asb-example.org/ID_NR": [
+      {
+        "@id": "http://asb-example.org/B115_0"
+      }
+    ],
+    "http://asb-example.org/REF_BRUCKE": [
+      {
+        "@id": "http://asb-example.org/4B0W1X9V"
+      }
+    ],
+    "http://asb-example.org/REF_FELDER": [
+      {
+        "@id": "http://asb-example.org/4B0W1X9Z"
+      }
+    ],
+    "http://asb-example.org/SCHIFF_OEF": [
+      {
+        "@id": "http://asb-example.org/0"
+      }
+    ],
+    "http://asb-example.org/STUETZ_H": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "1.5"
+      }
+    ],
+    "http://asb-example.org/STUETZ_W": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "18.0"
+      }
+    ],
+    "http://asb-example.org/TEIL_BWNR": [
+      {
+        "@id": "http://asb-example.org/0"
+      }
+    ]
+  },
+  {
+    "@id": "http://ifc-instance.org/instances/42894",
+    "@type": [
+      "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/IfcBridgePartPIER"
+    ],
+    "http://ifc-instance.org/instances/hasAsbPset": [
+      {
+        "@id": "http://asb-example.org/4B0W1WZQ"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "STB Stütze - rund:STB Stütze UKA2:2607789"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/GlobalId": [
+      {
+        "@value": "0kRT78kK94A9FMWZoC1jTo"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/ObjectType": [
+      {
+        "@value": "STB Stütze - rund:STB Stütze UKA2"
+      }
+    ]
+  },
+  {
+    "@id": "http://ifc-instance.org/instances/42999",
+    "@type": [
+      "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/IfcBridgePartPIER"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "STB Stütze - rund:STB Stütze UKA2:2612857"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/GlobalId": [
+      {
+        "@value": "0kRT78kK94A9FMWZoC1iEc"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/ObjectType": [
+      {
+        "@value": "STB Stütze - rund:STB Stütze UKA2"
+      }
+    ]
+  },
+  {
+    "@id": "http://ifc-instance.org/instances/43874",
+    "@type": [
+      "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/IfcBridgePart"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "STB Stütze - rechteckig:Auflager UKA 2:2682019"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/GlobalId": [
+      {
+        "@value": "3$6mKCz4v4o8_HdrI5bVzn"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/ObjectType": [
+      {
+        "@value": "STB Stütze - rechteckig:Auflager UKA 2"
+      }
+    ]
+  },
+  {
+    "@id": "http://ifc-instance.org/instances/43032",
+    "@type": [
+      "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/IfcBridgePartFOUNDATION"
+    ],
+    "http://ifc-instance.org/instances/hasAsbPset": [
+      {
+        "@id": "http://asb-example.org/4D0G3L5Y"
+      },
+      {
+        "@id": "http://asb-example.org/B115"
+      },
+      {
+        "@id": "http://asb-example.org/4B0W1WX8"
+      },
+      {
+        "@id": "http://asb-example.org/4B0W1WVO"
+      },
+      {
+        "@id": "http://asb-example.org/4B0W1X9V"
+      },
+      {
+        "@id": "http://asb-example.org/4B0W1WXL"
+      },
+      {
+        "@id": "http://asb-example.org/B115_0"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Foundation Slab:STB 750:2612947"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/GlobalId": [
+      {
+        "@value": "0kRT78kK94A9FMWZoC1iCC"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/ObjectType": [
+      {
+        "@value": "Foundation Slab:STB 750"
+      }
+    ]
+  },
+  {
+    "@id": "http://ifc-instance.org/instances/42952",
+    "@type": [
+      "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/IfcBridgePartFOUNDATION"
+    ],
+    "http://ifc-instance.org/instances/hasAsbPset": [
+      {
+        "@id": "http://asb-example.org/4B0W1WX8"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Foundation Slab:STB 750:2610123"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/GlobalId": [
+      {
+        "@value": "0kRT78kK94A9FMWZoC1iuK"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/ObjectType": [
+      {
+        "@value": "Foundation Slab:STB 750"
+      }
+    ]
+  },
+  {
+    "@id": "http://ifc-instance.org/instances/42796",
+    "@type": [
+      "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/IfcBridgePartPIER"
+    ],
+    "http://ifc-instance.org/instances/hasAsbPset": [
+      {
+        "@id": "http://asb-example.org/4B0W1WZP"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "STB Stütze - rund:STB Stütze UKA2:2606948"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/GlobalId": [
+      {
+        "@value": "0kRT78kK94A9FMWZoC1jgx"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/ObjectType": [
+      {
+        "@value": "STB Stütze - rund:STB Stütze UKA2"
+      }
+    ]
+  },
+  {
+    "@id": "http://ifc-instance.org/instances/42885",
+    "@type": [
+      "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/IfcBridgePartPIER"
+    ],
+    "http://ifc-instance.org/instances/hasAsbPset": [
+      {
+        "@id": "http://asb-example.org/4B0W1WZQ"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "STB Stütze - rund:STB Stütze UKA2:2607786"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/GlobalId": [
+      {
+        "@value": "0kRT78kK94A9FMWZoC1jTr"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/ObjectType": [
+      {
+        "@value": "STB Stütze - rund:STB Stütze UKA2"
+      }
+    ]
+  },
+  {
+    "@id": "http://ifc-instance.org/instances/35",
+    "@type": [
+      "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/IfcSite"
+    ],
+    "http://ifc-instance.org/instances/IfcRelAggregates": [
+      {
+        "@id": "http://ifc-instance.org/instances/32"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Default"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/GlobalId": [
+      {
+        "@value": "2B9jCywhbBAPv5PLpqgYNY"
+      }
+    ]
+  },
+  {
+    "@id": "http://ifc-instance.org/instances/43067",
+    "@type": [
+      "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/IfcBridgePartFOUNDATION"
+    ],
+    "http://ifc-instance.org/instances/hasAsbPset": [
+      {
+        "@id": "http://asb-example.org/4B0W1WX8"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Foundation Slab:B 100:2614318"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/GlobalId": [
+      {
+        "@value": "1NPo85Ve97CfXh5JAfjUkp"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/ObjectType": [
+      {
+        "@value": "Foundation Slab:B 100"
+      }
+    ]
+  },
+  {
+    "@id": "http://ifc-instance.org/instances/43936",
+    "@type": [
+      "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/IfcBridgePart"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "STB Stütze - rechteckig:Auflager UKA 2:2683393"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/GlobalId": [
+      {
+        "@value": "3$6mKCz4v4o8_HdrI5bU7J"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/ObjectType": [
+      {
+        "@value": "STB Stütze - rechteckig:Auflager UKA 2"
+      }
+    ]
+  },
+  {
+    "@id": "http://ifc-instance.org/instances/42863",
+    "@type": [
+      "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/IfcBridgePartPIER"
+    ],
+    "http://ifc-instance.org/instances/hasAsbPset": [
+      {
+        "@id": "http://asb-example.org/4B0W1WZQ"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "STB Stütze - rund:STB Stütze UKA2:2607782"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/GlobalId": [
+      {
+        "@value": "0kRT78kK94A9FMWZoC1jTv"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/ObjectType": [
+      {
+        "@value": "STB Stütze - rund:STB Stütze UKA2"
+      }
+    ]
+  },
+  {
+    "@id": "http://asb-example.org/B115",
+    "@type": [
+      "http://asb-example.org/ASB_Pset_Bauwerk"
+    ],
+    "http://asb-example.org/AMT": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "533"
+      }
+    ],
+    "http://asb-example.org/ANZ_TEILBW": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 1
+      }
+    ],
+    "http://asb-example.org/BEARBEITER": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "EHolzbac"
+      }
+    ],
+    "http://asb-example.org/BEARB_DAT": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-05-13"
+      }
+    ],
+    "http://asb-example.org/BEMERKUNG": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Zuständigkeit E 18/530-4***"
+      }
+    ],
+    "http://asb-example.org/BWNAME": [
+      {
+        "@id": "http://asb-example.org/Kullenhofstrasse"
+      }
+    ],
+    "http://asb-example.org/BWNR": [
+      {
+        "@id": "http://asb-example.org/B115"
+      }
+    ],
+    "http://asb-example.org/CD_FLAG": [
+      {
+        "@id": "http://asb-example.org/0"
+      }
+    ],
+    "http://asb-example.org/ER_STRB_VW": [
+      {
+        "@id": "http://asb-example.org/0"
+      }
+    ],
+    "http://asb-example.org/GEMARKUNG": [
+      {
+        "@id": "http://asb-example.org/5334002008"
+      }
+    ],
+    "http://asb-example.org/IBWNR": [
+      {
+        "@id": "http://asb-example.org/B115"
+      }
+    ],
+    "http://asb-example.org/ID_NR": [
+      {
+        "@id": "http://asb-example.org/B115"
+      }
+    ],
+    "http://asb-example.org/LAENGE_BR": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "61.0"
+      }
+    ],
+    "http://asb-example.org/LAENGE_LA": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.0"
+      }
+    ],
+    "http://asb-example.org/LAENGE_ST": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.0"
+      }
+    ],
+    "http://asb-example.org/LAENGE_TU": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.0"
+      }
+    ],
+    "http://asb-example.org/ORT": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Königshügel"
+      }
+    ],
+    "http://asb-example.org/VERSION": [
+      {
+        "@id": "http://asb-example.org/5_0"
+      }
+    ],
+    "http://asb-example.org/VZ_IBWNR": [
+      {
+        "@id": "http://asb-example.org/0"
+      }
+    ],
+    "http://asb-example.org/VZ_MESSK": [
+      {
+        "@id": "http://asb-example.org/0"
+      }
+    ]
+  },
+  {
+    "@id": "http://asb-example.org/4B0W1WXL",
+    "@type": [
+      "http://asb-example.org/ASB_Pset_Leitung"
+    ],
+    "http://asb-example.org/AMT": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "533"
+      }
+    ],
+    "http://asb-example.org/ANZAHL": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 2
+      }
+    ],
+    "http://asb-example.org/ART": [
+      {
+        "@id": "http://asb-example.org/Strassenbeleuchtungsleitung"
+      }
+    ],
+    "http://asb-example.org/BAUTEILNR": [
+      {
+        "@id": "http://asb-example.org/Ueberbau"
+      }
+    ],
+    "http://asb-example.org/BEARBEITER": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "CODEKERK"
+      }
+    ],
+    "http://asb-example.org/BEARB_DAT": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2002-08-27"
+      }
+    ],
+    "http://asb-example.org/BUENDELUNG": [
+      {
+        "@id": "http://asb-example.org/0"
+      }
+    ],
+    "http://asb-example.org/BWNR": [
+      {
+        "@id": "http://asb-example.org/B115"
+      }
+    ],
+    "http://asb-example.org/DURCHM": [
+      {
+        "@id": "http://asb-example.org/80"
+      }
+    ],
+    "http://asb-example.org/IDENT": [
+      {
+        "@id": "http://asb-example.org/4B0W1WXL"
+      }
+    ],
+    "http://asb-example.org/ID_NR": [
+      {
+        "@id": "http://asb-example.org/B115_0"
+      }
+    ],
+    "http://asb-example.org/LEITUNGSNR": [
+      {
+        "@id": "http://asb-example.org/1"
+      }
+    ],
+    "http://asb-example.org/LEITUNGSTR": [
+      {
+        "@id": "http://asb-example.org/Stawag"
+      }
+    ],
+    "http://asb-example.org/NUTZVEREIN": [
+      {
+        "@id": "http://asb-example.org/0"
+      }
+    ],
+    "http://asb-example.org/ORT": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Kappe rechts und links***"
+      }
+    ],
+    "http://asb-example.org/TEIL_BWNR": [
+      {
+        "@id": "http://asb-example.org/0"
+      }
+    ]
+  },
+  {
+    "@id": "http://ifc-instance.org/instances/hasAsbPset",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ]
+  },
+  {
+    "@id": "http://ifc-instance.org/instances/43896",
+    "@type": [
+      "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/IfcBridgePart"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "STB Stütze - rechteckig:Auflager UKA 2:2683232"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/GlobalId": [
+      {
+        "@value": "3$6mKCz4v4o8_HdrI5bUAo"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/ObjectType": [
+      {
+        "@value": "STB Stütze - rechteckig:Auflager UKA 2"
+      }
+    ]
+  },
+  {
+    "@id": "http://ifc-instance.org/instances/43865",
+    "@type": [
+      "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/IfcBridgePart"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "STB Stütze - rechteckig:Auflager UKA 2:2682016"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/GlobalId": [
+      {
+        "@value": "3$6mKCz4v4o8_HdrI5bVzo"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/ObjectType": [
+      {
+        "@value": "STB Stütze - rechteckig:Auflager UKA 2"
+      }
+    ]
+  },
+  {
+    "@id": "http://ifc-instance.org/instances/42976",
+    "@type": [
+      "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/IfcBridgePartFOUNDATION"
+    ],
+    "http://ifc-instance.org/instances/hasAsbPset": [
+      {
+        "@id": "http://asb-example.org/4B0W1WX8"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Foundation Slab:STB 750:2611769"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/GlobalId": [
+      {
+        "@value": "0kRT78kK94A9FMWZoC1iVc"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/ObjectType": [
+      {
+        "@value": "Foundation Slab:STB 750"
+      }
+    ]
+  },
+  {
+    "@id": "http://asb-example.org/4D0JOGTK",
+    "@type": [
+      "http://asb-example.org/ASB_Pset_Lager"
+    ],
+    "http://asb-example.org/AMT": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "533"
+      }
+    ],
+    "http://asb-example.org/ANZAHL": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 3
+      }
+    ],
+    "http://asb-example.org/ART": [
+      {
+        "@id": "http://asb-example.org/Bewehrt_OhneFesthaltung"
+      }
+    ],
+    "http://asb-example.org/BAUJAHR": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#year",
+        "@value": "1978"
+      }
+    ],
+    "http://asb-example.org/BAUTEILNR": [
+      {
+        "@id": "http://asb-example.org/40012100000000"
+      }
+    ],
+    "http://asb-example.org/BEARBEITER": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Holzbach"
+      }
+    ],
+    "http://asb-example.org/BEARB_DAT": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-01-31"
+      }
+    ],
+    "http://asb-example.org/BWNR": [
+      {
+        "@id": "http://asb-example.org/B115"
+      }
+    ],
+    "http://asb-example.org/EINBAUORT": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "auf jedem Pfeiler eins***"
+      }
+    ],
+    "http://asb-example.org/FELD_NR": [
+      {
+        "@id": "http://asb-example.org/2"
+      }
+    ],
+    "http://asb-example.org/HERSTELLER": [
+      {
+        "@id": "http://asb-example.org/VorspannTechnik_Ratingen"
+      }
+    ],
+    "http://asb-example.org/IDENT": [
+      {
+        "@id": "http://asb-example.org/4D0JOGTK"
+      }
+    ],
+    "http://asb-example.org/ID_NR": [
+      {
+        "@id": "http://asb-example.org/B115_0"
+      }
+    ],
+    "http://asb-example.org/LAGER_NR": [
+      {
+        "@id": "http://asb-example.org/1"
+      }
+    ],
+    "http://asb-example.org/REF_FELDER": [
+      {
+        "@id": "http://asb-example.org/4B0W1X9Y"
+      }
+    ],
+    "http://asb-example.org/REF_LAGER": [
+      {
+        "@id": "http://asb-example.org/4D0JOGTJ"
+      }
+    ],
+    "http://asb-example.org/TEIL_BWNR": [
+      {
+        "@id": "http://asb-example.org/0"
+      }
+    ]
+  },
+  {
+    "@id": "http://asb-example.org/4B0W1WZP",
+    "@type": [
+      "http://asb-example.org/ASB_Pset_Feld"
+    ],
+    "http://asb-example.org/AMT": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "533"
+      }
+    ],
+    "http://asb-example.org/ANZAHL_ST": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 3
+      }
+    ],
+    "http://asb-example.org/ART": [
+      {
+        "@id": "http://asb-example.org/40012100000000"
+      }
+    ],
+    "http://asb-example.org/BEARBEITER": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "CODEKERK"
+      }
+    ],
+    "http://asb-example.org/BEARB_DAT": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2002-08-27"
+      }
+    ],
+    "http://asb-example.org/BWNR": [
+      {
+        "@id": "http://asb-example.org/B115"
+      }
+    ],
+    "http://asb-example.org/FELDNR": [
+      {
+        "@id": "http://asb-example.org/1"
+      }
+    ],
+    "http://asb-example.org/FELD_NR": [
+      {
+        "@id": "http://asb-example.org/2"
+      }
+    ],
+    "http://asb-example.org/IDENT": [
+      {
+        "@id": "http://asb-example.org/4B0W1WZP"
+      }
+    ],
+    "http://asb-example.org/ID_NR": [
+      {
+        "@id": "http://asb-example.org/B115_0"
+      }
+    ],
+    "http://asb-example.org/REF_BRUCKE": [
+      {
+        "@id": "http://asb-example.org/4B0W1X9V"
+      }
+    ],
+    "http://asb-example.org/REF_FELDER": [
+      {
+        "@id": "http://asb-example.org/4B0W1X9X"
+      }
+    ],
+    "http://asb-example.org/SCHIFF_OEF": [
+      {
+        "@id": "http://asb-example.org/0"
+      }
+    ],
+    "http://asb-example.org/STUETZ_H": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "6.0"
+      }
+    ],
+    "http://asb-example.org/STUETZ_W": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "18.0"
+      }
+    ],
+    "http://asb-example.org/TEIL_BWNR": [
+      {
+        "@id": "http://asb-example.org/0"
+      }
+    ]
+  },
+  {
+    "@id": "http://asb-example.org/4B0W1WVO",
+    "@type": [
+      "http://asb-example.org/ASB_Pset_BelagAbdichtung"
+    ],
+    "http://asb-example.org/ABDICHT": [
+      {
+        "@id": "http://asb-example.org/EinlagigeBitumendichtungsbahn"
+      }
+    ],
+    "http://asb-example.org/ABDICHT_NR": [
+      {
+        "@id": "http://asb-example.org/1"
+      }
+    ],
+    "http://asb-example.org/AMT": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "533"
+      }
+    ],
+    "http://asb-example.org/BAUJAHR": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#year",
+        "@value": "2013"
+      }
+    ],
+    "http://asb-example.org/BAUTEILNR": [
+      {
+        "@id": "http://asb-example.org/Ueberbau"
+      }
+    ],
+    "http://asb-example.org/BEARBEITER": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Holzbach"
+      }
+    ],
+    "http://asb-example.org/BEARB_DAT": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-01-31"
+      }
+    ],
+    "http://asb-example.org/BEH_UNTERL": [
+      {
+        "@id": "http://asb-example.org/KratzspachtelungMitEpoxidharzSandGemisch"
+      }
+    ],
+    "http://asb-example.org/BWNR": [
+      {
+        "@id": "http://asb-example.org/B115"
+      }
+    ],
+    "http://asb-example.org/DICHTUNG": [
+      {
+        "@id": "http://asb-example.org/Gussasphalt"
+      }
+    ],
+    "http://asb-example.org/DICKE_SCH": [
+      {
+        "@id": "http://asb-example.org/3_5"
+      }
+    ],
+    "http://asb-example.org/EINBAUORT": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Zwischen den Kappen im Fahrbahnbereich***"
+      }
+    ],
+    "http://asb-example.org/FIRMA": [
+      {
+        "@id": "http://asb-example.org/Bauunternehmug_Tholen_GmbH_52511_Geilenkirchen"
+      }
+    ],
+    "http://asb-example.org/FLAECHE": [
+      {
+        "@id": "http://asb-example.org/882"
+      }
+    ],
+    "http://asb-example.org/HERSTELLER": [
+      {
+        "@id": "http://asb-example.org/VEDAG"
+      }
+    ],
+    "http://asb-example.org/IDENT": [
+      {
+        "@id": "http://asb-example.org/4B0W1WVO"
+      }
+    ],
+    "http://asb-example.org/ID_NR": [
+      {
+        "@id": "http://asb-example.org/B115_0"
+      }
+    ],
+    "http://asb-example.org/TEIL_BWNR": [
+      {
+        "@id": "http://asb-example.org/0"
+      }
+    ],
+    "http://asb-example.org/UNTERLAGE": [
+      {
+        "@id": "http://asb-example.org/Beton"
+      }
+    ],
+    "http://asb-example.org/VORB_UNTL": [
+      {
+        "@id": "http://asb-example.org/FraesenMitAnschliessendemStrahlenMitFestenStrahlmitteln"
+      }
+    ]
+  },
+  {
+    "@id": "http://ifc-instance.org/instances/117644",
+    "@type": [
+      "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/IfcRailing"
+    ],
+    "http://ifc-instance.org/instances/hasAsbPset": [
+      {
+        "@id": "http://asb-example.org/4B0W1WY6"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Railing:Vertikale Stäbe mit Handlauf:2683131"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/GlobalId": [
+      {
+        "@value": "3$6mKCz4v4o8_HdrI5bUCf"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/ObjectType": [
+      {
+        "@value": "Railing:Vertikale Stäbe mit Handlauf"
+      }
+    ]
+  },
+  {
+    "@id": "http://ifc-instance.org/instances/43815",
+    "@type": [
+      "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/IfcBridgePart"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "STB Stütze - rechteckig:Auflager UKA 2:2681918"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/GlobalId": [
+      {
+        "@value": "3$6mKCz4v4o8_HdrI5bV$i"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/ObjectType": [
+      {
+        "@value": "STB Stütze - rechteckig:Auflager UKA 2"
+      }
+    ]
+  },
+  {
+    "@id": "http://ifc-instance.org/instances/43792",
+    "@type": [
+      "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/IfcBridgePartFOUNDATION"
+    ],
+    "http://ifc-instance.org/instances/hasAsbPset": [
+      {
+        "@id": "http://asb-example.org/4B0W1WX8"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Foundation Slab:B 100:2681219"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/GlobalId": [
+      {
+        "@value": "2F364W94j5XROPyN$EWsy7"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/ObjectType": [
+      {
+        "@value": "Foundation Slab:B 100"
+      }
+    ]
+  },
+  {
+    "@id": "http://ifc-instance.org/instances/43905",
+    "@type": [
+      "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/IfcBridgePart"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "STB Stütze - rechteckig:Auflager UKA 2:2683236"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/GlobalId": [
+      {
+        "@value": "3$6mKCz4v4o8_HdrI5bUAs"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/ObjectType": [
+      {
+        "@value": "STB Stütze - rechteckig:Auflager UKA 2"
+      }
+    ]
+  },
+  {
+    "@id": "http://asb-example.org/4D0H3CP4",
+    "@type": [
+      "http://asb-example.org/ASB_Pset_Kappe"
+    ],
+    "http://asb-example.org/AMT": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "533"
+      }
+    ],
+    "http://asb-example.org/BAUJAHR": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#year",
+        "@value": "1978"
+      }
+    ],
+    "http://asb-example.org/BAUTEILNR": [
+      {
+        "@id": "http://asb-example.org/130000000000000"
+      }
+    ],
+    "http://asb-example.org/BEARBEITER": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Holzbach"
+      }
+    ],
+    "http://asb-example.org/BEARB_DAT": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-01-31"
+      }
+    ],
+    "http://asb-example.org/BEMERKUNG": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "\r\n***"
+      }
+    ],
+    "http://asb-example.org/BREITE": [
+      {
+        "@id": "http://asb-example.org/1_25"
+      }
+    ],
+    "http://asb-example.org/BWNR": [
+      {
+        "@id": "http://asb-example.org/B115"
+      }
+    ],
+    "http://asb-example.org/GR_BLOCKL": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "62.68"
+      }
+    ],
+    "http://asb-example.org/IDENT": [
+      {
+        "@id": "http://asb-example.org/4D0H3CP4"
+      }
+    ],
+    "http://asb-example.org/ID_NR": [
+      {
+        "@id": "http://asb-example.org/B115_0"
+      }
+    ],
+    "http://asb-example.org/KAPPENNR": [
+      {
+        "@id": "http://asb-example.org/1"
+      }
+    ],
+    "http://asb-example.org/KONSTRUKT": [
+      {
+        "@id": "http://asb-example.org/AufDerAbdichtungAufliegendesZusammenhaengendesBetonteil"
+      }
+    ],
+    "http://asb-example.org/LAENGE": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "62.68"
+      }
+    ],
+    "http://asb-example.org/ORT": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Kragarm links***"
+      }
+    ],
+    "http://asb-example.org/REF_KAPPEN": [
+      {
+        "@id": "http://asb-example.org/4D0H3CP5"
+      }
+    ],
+    "http://asb-example.org/TEIL_BWNR": [
+      {
+        "@id": "http://asb-example.org/0"
+      }
+    ],
+    "http://asb-example.org/VERANKER": [
+      {
+        "@id": "http://asb-example.org/Anschlussbewehrung"
+      }
+    ]
+  },
+  {
+    "@id": "http://ifc-instance.org/instances/43954",
+    "@type": [
+      "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/IfcBridgePart"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "STB Stütze - rechteckig:Auflager UKA 2:2683439"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/GlobalId": [
+      {
+        "@value": "3$6mKCz4v4o8_HdrI5bU7z"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/ObjectType": [
+      {
+        "@value": "STB Stütze - rechteckig:Auflager UKA 2"
+      }
+    ]
+  },
+  {
+    "@id": "http://ifc-instance.org/instances/43834",
+    "@type": [
+      "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/IfcBridgePart"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "STB Stütze - rechteckig:Auflager UKA 2:2681925"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/GlobalId": [
+      {
+        "@value": "3$6mKCz4v4o8_HdrI5bV_N"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/ObjectType": [
+      {
+        "@value": "STB Stütze - rechteckig:Auflager UKA 2"
+      }
+    ]
+  },
+  {
+    "@id": "http://ifc-instance.org/instances/42934",
+    "@type": [
+      "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/IfcBridgePartPIER"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "STB Stütze - rund:STB Stütze UKA2:2608137"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/GlobalId": [
+      {
+        "@value": "0kRT78kK94A9FMWZoC1j7M"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/ObjectType": [
+      {
+        "@value": "STB Stütze - rund:STB Stütze UKA2"
+      }
+    ]
+  },
+  {
+    "@id": "http://ifc-instance.org/instances/43008",
+    "@type": [
+      "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/IfcBridgePartPIER"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "STB Stütze - rund:STB Stütze UKA2:2612868"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/GlobalId": [
+      {
+        "@value": "0kRT78kK94A9FMWZoC1iDR"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/ObjectType": [
+      {
+        "@value": "STB Stütze - rund:STB Stütze UKA2"
+      }
+    ]
+  },
+  {
+    "@id": "http://ifc-instance.org/instances/43945",
+    "@type": [
+      "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/IfcBridgePart"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "STB Stütze - rechteckig:Auflager UKA 2:2683436"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/GlobalId": [
+      {
+        "@value": "3$6mKCz4v4o8_HdrI5bU7_"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/ObjectType": [
+      {
+        "@value": "STB Stütze - rechteckig:Auflager UKA 2"
+      }
+    ]
+  },
+  {
+    "@id": "http://ifc-instance.org/instances/28",
+    "http://ifc-instance.org/instances/IfcRelAggregates": [
+      {
+        "@id": "http://ifc-instance.org/instances/35"
+      }
+    ]
+  },
+  {
+    "@id": "http://ifc-instance.org/instances/43411",
+    "@type": [
+      "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/IfcBridgePartFOUNDATION"
+    ],
+    "http://ifc-instance.org/instances/hasAsbPset": [
+      {
+        "@id": "http://asb-example.org/4B0W1WX8"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Foundation Slab:STB 1250:2649578"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/GlobalId": [
+      {
+        "@value": "38QDEArsTBkAcqZHjG1Zoa"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/ObjectType": [
+      {
+        "@value": "Foundation Slab:STB 1250"
+      }
+    ]
+  },
+  {
+    "@id": "http://asb-example.org/4B0W1X9V",
+    "@type": [
+      "http://asb-example.org/ASB_Pset_Bruecke"
+    ],
+    "http://asb-example.org/AMT": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "533"
+      }
+    ],
+    "http://asb-example.org/ANZ_FELDER": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 3
+      }
+    ],
+    "http://asb-example.org/ANZ_STEGE": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 0
+      }
+    ],
+    "http://asb-example.org/ANZ_UEBERB": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 1
+      }
+    ],
+    "http://asb-example.org/BEARBEITER": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Holzbach"
+      }
+    ],
+    "http://asb-example.org/BEARB_DAT": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2005-12-06"
+      }
+    ],
+    "http://asb-example.org/BEM_BAUGR": [
+      {
+        "@id": "http://asb-example.org/Der_Baugrund_ist_setzungsempfindlich_Mittlere_zuaessige_Bodenpressung_300_KN_m2"
+      }
+    ],
+    "http://asb-example.org/BREITE": [
+      {
+        "@id": "http://asb-example.org/17_25"
+      }
+    ],
+    "http://asb-example.org/BR_FLAECHE": [
+      {
+        "@id": "http://asb-example.org/1052"
+      }
+    ],
+    "http://asb-example.org/BV_SP_UBB": [
+      {
+        "@id": "http://asb-example.org/30171000000000"
+      }
+    ],
+    "http://asb-example.org/BWNR": [
+      {
+        "@id": "http://asb-example.org/B115"
+      }
+    ],
+    "http://asb-example.org/BW_WINKEL": [
+      {
+        "@id": "http://asb-example.org/62_9"
+      }
+    ],
+    "http://asb-example.org/GES_BREITE": [
+      {
+        "@id": "http://asb-example.org/17_75"
+      }
+    ],
+    "http://asb-example.org/HOHLK_PLA": [
+      {
+        "@id": "http://asb-example.org/0"
+      }
+    ],
+    "http://asb-example.org/ID_NR": [
+      {
+        "@id": "http://asb-example.org/B115_0"
+      }
+    ],
+    "http://asb-example.org/KONS_H_MAX": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "1.5"
+      }
+    ],
+    "http://asb-example.org/KONS_H_MIN": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.25"
+      }
+    ],
+    "http://asb-example.org/KONS_MASN": [
+      {
+        "@id": "http://asb-example.org/30182000000000"
+      }
+    ],
+    "http://asb-example.org/KOPPELFUGE": [
+      {
+        "@id": "http://asb-example.org/0"
+      }
+    ],
+    "http://asb-example.org/KRUEMMUNG": [
+      {
+        "@id": "http://asb-example.org/30121000000000"
+      }
+    ],
+    "http://asb-example.org/LAENGE": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "61.0"
+      }
+    ],
+    "http://asb-example.org/LI_HOEHE": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "6.0"
+      }
+    ],
+    "http://asb-example.org/LI_WEITE": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.0"
+      }
+    ],
+    "http://asb-example.org/L_NEIG_MAX": [
+      {
+        "@id": "http://asb-example.org/1_1"
+      }
+    ],
+    "http://asb-example.org/QUER_HTR": [
+      {
+        "@id": "http://asb-example.org/30161000000000"
+      }
+    ],
+    "http://asb-example.org/QUER_UBB": [
+      {
+        "@id": "http://asb-example.org/30152210000000"
+      }
+    ],
+    "http://asb-example.org/Q_NEIG_MAX": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "2.5"
+      }
+    ],
+    "http://asb-example.org/REF_BRUCKE": [
+      {
+        "@id": "http://asb-example.org/4B0W1X9V"
+      }
+    ],
+    "http://asb-example.org/TEIL_BWNR": [
+      {
+        "@id": "http://asb-example.org/0"
+      }
+    ],
+    "http://asb-example.org/UBERS_MAX": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.0"
+      }
+    ],
+    "http://asb-example.org/UBERS_MIN": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.0"
+      }
+    ],
+    "http://asb-example.org/WINKEL": [
+      {
+        "@id": "http://asb-example.org/30141000000000"
+      }
+    ],
+    "http://asb-example.org/ZWR_UBB": [
+      {
+        "@id": "http://asb-example.org/0_0"
+      }
+    ]
+  },
+  {
+    "@id": "http://asb-example.org/4B0W1WZJ",
+    "@type": [
+      "http://asb-example.org/ASB_Pset_Vorspannung"
+    ],
+    "http://asb-example.org/AMT": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "533"
+      }
+    ],
+    "http://asb-example.org/ART_VERPR": [
+      {
+        "@id": "http://asb-example.org/Moertel"
+      }
+    ],
+    "http://asb-example.org/BAUJAHR": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#year",
+        "@value": "1978"
+      }
+    ],
+    "http://asb-example.org/BAUTEILNR": [
+      {
+        "@id": "http://asb-example.org/Ueberbau"
+      }
+    ],
+    "http://asb-example.org/BEARBEITER": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "CODEKERK"
+      }
+    ],
+    "http://asb-example.org/BEARB_DAT": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2002-08-27"
+      }
+    ],
+    "http://asb-example.org/BWNR": [
+      {
+        "@id": "http://asb-example.org/B115"
+      }
+    ],
+    "http://asb-example.org/DZULNR": [
+      {
+        "@id": "http://asb-example.org/Z_13_1_16"
+      }
+    ],
+    "http://asb-example.org/EZULNR": [
+      {
+        "@id": "http://asb-example.org/keine_Zuordnung"
+      }
+    ],
+    "http://asb-example.org/HERSTELLER": [
+      {
+        "@id": "http://asb-example.org/FriedrichKruppHuettenwerke_frueher_3AHuettenwerkeRheinhausen"
+      }
+    ],
+    "http://asb-example.org/IDENT": [
+      {
+        "@id": "http://asb-example.org/4B0W1WZJ"
+      }
+    ],
+    "http://asb-example.org/ID_NR": [
+      {
+        "@id": "http://asb-example.org/B115_0"
+      }
+    ],
+    "http://asb-example.org/INT_EXT": [
+      {
+        "@id": "http://asb-example.org/InterneVorspannung"
+      }
+    ],
+    "http://asb-example.org/ORT": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Längsträger***"
+      }
+    ],
+    "http://asb-example.org/REF_VSPANN": [
+      {
+        "@id": "http://asb-example.org/4B0W1X9O"
+      }
+    ],
+    "http://asb-example.org/RICHTUNG": [
+      {
+        "@id": "http://asb-example.org/Exzentrisch_entsprechendMomentenverlauf"
+      }
+    ],
+    "http://asb-example.org/SPANNVERF": [
+      {
+        "@id": "http://asb-example.org/AK_5Bz13116_5D"
+      }
+    ],
+    "http://asb-example.org/SP_BRUCHG": [
+      {
+        "@id": "http://asb-example.org/1630"
+      }
+    ],
+    "http://asb-example.org/SP_KRAFT": [
+      {
+        "@id": "http://asb-example.org/135"
+      }
+    ],
+    "http://asb-example.org/SP_STRECKG": [
+      {
+        "@id": "http://asb-example.org/1450"
+      }
+    ],
+    "http://asb-example.org/TEIL_BWNR": [
+      {
+        "@id": "http://asb-example.org/0"
+      }
+    ],
+    "http://asb-example.org/TYP": [
+      {
+        "@id": "http://asb-example.org/AK_163"
+      }
+    ],
+    "http://asb-example.org/VORSP_GRAD": [
+      {
+        "@id": "http://asb-example.org/VolleVorspannung"
+      }
+    ],
+    "http://asb-example.org/VORSP_NR": [
+      {
+        "@id": "http://asb-example.org/1"
+      }
+    ]
+  },
+  {
+    "@id": "http://asb-example.org/4B0W1WZQ",
+    "@type": [
+      "http://asb-example.org/ASB_Pset_Feld"
+    ],
+    "http://asb-example.org/AMT": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "533"
+      }
+    ],
+    "http://asb-example.org/ANZAHL_ST": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 3
+      }
+    ],
+    "http://asb-example.org/ART": [
+      {
+        "@id": "http://asb-example.org/40012100000000"
+      }
+    ],
+    "http://asb-example.org/BEARBEITER": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "CODEKERK"
+      }
+    ],
+    "http://asb-example.org/BEARB_DAT": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2002-08-27"
+      }
+    ],
+    "http://asb-example.org/BWNR": [
+      {
+        "@id": "http://asb-example.org/B115"
+      }
+    ],
+    "http://asb-example.org/FELDNR": [
+      {
+        "@id": "http://asb-example.org/2"
+      }
+    ],
+    "http://asb-example.org/FELD_NR": [
+      {
+        "@id": "http://asb-example.org/2"
+      }
+    ],
+    "http://asb-example.org/IDENT": [
+      {
+        "@id": "http://asb-example.org/4B0W1WZQ"
+      }
+    ],
+    "http://asb-example.org/ID_NR": [
+      {
+        "@id": "http://asb-example.org/B115_0"
+      }
+    ],
+    "http://asb-example.org/REF_BRUCKE": [
+      {
+        "@id": "http://asb-example.org/4B0W1X9V"
+      }
+    ],
+    "http://asb-example.org/REF_FELDER": [
+      {
+        "@id": "http://asb-example.org/4B0W1X9Y"
+      }
+    ],
+    "http://asb-example.org/SCHIFF_OEF": [
+      {
+        "@id": "http://asb-example.org/0"
+      }
+    ],
+    "http://asb-example.org/STUETZ_H": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "6.0"
+      }
+    ],
+    "http://asb-example.org/STUETZ_W": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "25.0"
+      }
+    ],
+    "http://asb-example.org/TEIL_BWNR": [
+      {
+        "@id": "http://asb-example.org/0"
+      }
+    ]
+  },
+  {
+    "@id": "http://ifc-instance.org/instances/42750",
+    "@type": [
+      "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/IfcBridgePartDECK"
+    ],
+    "http://ifc-instance.org/instances/hasAsbPset": [
+      {
+        "@id": "http://asb-example.org/4B0W1WZJ"
+      },
+      {
+        "@id": "http://asb-example.org/4D0H45VE"
+      },
+      {
+        "@id": "http://asb-example.org/4B0W1WZL"
+      },
+      {
+        "@id": "http://asb-example.org/4D0H3CP4"
+      },
+      {
+        "@id": "http://asb-example.org/4B0W1WW5"
+      },
+      {
+        "@id": "http://asb-example.org/4B0W1WZK"
+      },
+      {
+        "@id": "http://asb-example.org/4B0W1WXH"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Plattenbalken:Plattenbalken:2545762"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/GlobalId": [
+      {
+        "@value": "2ssuoJB5rEgxPlqRO4kY5g"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/ObjectType": [
+      {
+        "@value": "Plattenbalken:Plattenbalken"
+      }
+    ]
+  },
+  {
+    "@id": "http://asb-example.org/4B0W1WZW",
+    "@type": [
+      "http://asb-example.org/ASB_Pset_Lager"
+    ],
+    "http://asb-example.org/AMT": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "533"
+      }
+    ],
+    "http://asb-example.org/ANZAHL": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 1
+      }
+    ],
+    "http://asb-example.org/ART": [
+      {
+        "@id": "http://asb-example.org/Bewehrt_MitFesthaltung"
+      }
+    ],
+    "http://asb-example.org/BAUJAHR": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#year",
+        "@value": "1978"
+      }
+    ],
+    "http://asb-example.org/BAUTEILNR": [
+      {
+        "@id": "http://asb-example.org/40011100000000"
+      }
+    ],
+    "http://asb-example.org/BEARBEITER": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "CODEKERK"
+      }
+    ],
+    "http://asb-example.org/BEARB_DAT": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2002-08-27"
+      }
+    ],
+    "http://asb-example.org/BWNR": [
+      {
+        "@id": "http://asb-example.org/B115"
+      }
+    ],
+    "http://asb-example.org/EINBAUORT": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Auflagerbank***"
+      }
+    ],
+    "http://asb-example.org/FELD_NR": [
+      {
+        "@id": "http://asb-example.org/0"
+      }
+    ],
+    "http://asb-example.org/HERSTELLER": [
+      {
+        "@id": "http://asb-example.org/VorspannTechnik_Ratingen"
+      }
+    ],
+    "http://asb-example.org/IDENT": [
+      {
+        "@id": "http://asb-example.org/4B0W1WZW"
+      }
+    ],
+    "http://asb-example.org/ID_NR": [
+      {
+        "@id": "http://asb-example.org/B115_0"
+      }
+    ],
+    "http://asb-example.org/LAGER_NR": [
+      {
+        "@id": "http://asb-example.org/1"
+      }
+    ],
+    "http://asb-example.org/REF_FELDER": [
+      {
+        "@id": "http://asb-example.org/4B0W1X9W"
+      }
+    ],
+    "http://asb-example.org/REF_LAGER": [
+      {
+        "@id": "http://asb-example.org/4B0W1X9R"
+      }
+    ],
+    "http://asb-example.org/TEIL_BWNR": [
+      {
+        "@id": "http://asb-example.org/0"
+      }
+    ],
+    "http://asb-example.org/TEMP_SOMM": [
+      {
+        "@id": "http://asb-example.org/0_0"
+      }
+    ],
+    "http://asb-example.org/TEMP_WINT": [
+      {
+        "@id": "http://asb-example.org/0_0"
+      }
+    ]
+  },
+  {
+    "@id": "http://asb-example.org/4B0W1WW5",
+    "@type": [
+      "http://asb-example.org/ASB_Pset_Fahrbahnuebergang"
+    ],
+    "http://asb-example.org/AMT": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "533"
+      }
+    ],
+    "http://asb-example.org/ART": [
+      {
+        "@id": "http://asb-example.org/BindemittelBitumen"
+      }
+    ],
+    "http://asb-example.org/ASPHMIGUT": [
+      {
+        "@id": "http://asb-example.org/SMA8S"
+      }
+    ],
+    "http://asb-example.org/AUSF_FIRMA": [
+      {
+        "@id": "http://asb-example.org/Beton_Asphaltmischwerke_Tholen_GmbH_52511_Geilenkirchen"
+      }
+    ],
+    "http://asb-example.org/BAUJAHR": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#year",
+        "@value": "2013"
+      }
+    ],
+    "http://asb-example.org/BAUMONAT": [
+      {
+        "@id": "http://asb-example.org/0"
+      }
+    ],
+    "http://asb-example.org/BAUTEILNR": [
+      {
+        "@id": "http://asb-example.org/0"
+      }
+    ],
+    "http://asb-example.org/BEARBEITER": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Holzbach"
+      }
+    ],
+    "http://asb-example.org/BEARB_DAT": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-01-30"
+      }
+    ],
+    "http://asb-example.org/BWNR": [
+      {
+        "@id": "http://asb-example.org/B115"
+      }
+    ],
+    "http://asb-example.org/DECKS_KZ": [
+      {
+        "@id": "http://asb-example.org/1"
+      }
+    ],
+    "http://asb-example.org/EINBAUORT": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Fahrbahn zwischen den Kappen***"
+      }
+    ],
+    "http://asb-example.org/FB_BELNR": [
+      {
+        "@id": "http://asb-example.org/1"
+      }
+    ],
+    "http://asb-example.org/FLAECHE": [
+      {
+        "@id": "http://asb-example.org/882"
+      }
+    ],
+    "http://asb-example.org/IDENT": [
+      {
+        "@id": "http://asb-example.org/4B0W1WW5"
+      }
+    ],
+    "http://asb-example.org/ID_NR": [
+      {
+        "@id": "http://asb-example.org/B115_0"
+      }
+    ],
+    "http://asb-example.org/REF_SACHV": [
+      {
+        "@id": "http://asb-example.org/4B0W1X9D"
+      }
+    ],
+    "http://asb-example.org/SCHICHTDIK": [
+      {
+        "@id": "http://asb-example.org/35"
+      }
+    ],
+    "http://asb-example.org/SCHICHTNR": [
+      {
+        "@id": "http://asb-example.org/1"
+      }
+    ],
+    "http://asb-example.org/TEIL_BWNR": [
+      {
+        "@id": "http://asb-example.org/0"
+      }
+    ]
+  },
+  {
+    "@id": "http://ifc-instance.org/instances/43395",
+    "@type": [
+      "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/IfcBridgePartABUTMENT"
+    ],
+    "http://ifc-instance.org/instances/hasAsbPset": [
+      {
+        "@id": "http://asb-example.org/4B0W1WZO"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Widerlager_Ost:Widerlager_Ost:2618100"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/GlobalId": [
+      {
+        "@value": "16yDax3413NfiV9ItRaWy5"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/ObjectType": [
+      {
+        "@value": "Widerlager_Ost:Widerlager_Ost"
+      }
+    ]
+  },
+  {
+    "@id": "http://ifc-instance.org/instances/42841",
+    "@type": [
+      "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/IfcBridgePartPIER"
+    ],
+    "http://ifc-instance.org/instances/hasAsbPset": [
+      {
+        "@id": "http://asb-example.org/4B0W1WZP"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "STB Stütze - rund:STB Stütze UKA2:2607172"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/GlobalId": [
+      {
+        "@value": "0kRT78kK94A9FMWZoC1jMR"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/ObjectType": [
+      {
+        "@value": "STB Stütze - rund:STB Stütze UKA2"
+      }
+    ]
+  },
+  {
+    "@id": "http://asb-example.org/4D0JGLT7",
+    "@type": [
+      "http://asb-example.org/ASB_Pset_Lager"
+    ],
+    "http://asb-example.org/AMT": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "533"
+      }
+    ],
+    "http://asb-example.org/ANZAHL": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 3
+      }
+    ],
+    "http://asb-example.org/ART": [
+      {
+        "@id": "http://asb-example.org/Bewehrt_OhneFesthaltung"
+      }
+    ],
+    "http://asb-example.org/BAUJAHR": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#year",
+        "@value": "1978"
+      }
+    ],
+    "http://asb-example.org/BAUTEILNR": [
+      {
+        "@id": "http://asb-example.org/40012100000000"
+      }
+    ],
+    "http://asb-example.org/BEARBEITER": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Holzbach"
+      }
+    ],
+    "http://asb-example.org/BEARB_DAT": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-01-31"
+      }
+    ],
+    "http://asb-example.org/BWNR": [
+      {
+        "@id": "http://asb-example.org/B115"
+      }
+    ],
+    "http://asb-example.org/EINBAUORT": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "auf jedem Pfeiler eins***"
+      }
+    ],
+    "http://asb-example.org/FELD_NR": [
+      {
+        "@id": "http://asb-example.org/1"
+      }
+    ],
+    "http://asb-example.org/HERSTELLER": [
+      {
+        "@id": "http://asb-example.org/VorspannTechnik_Ratingen"
+      }
+    ],
+    "http://asb-example.org/IDENT": [
+      {
+        "@id": "http://asb-example.org/4D0JGLT7"
+      }
+    ],
+    "http://asb-example.org/ID_NR": [
+      {
+        "@id": "http://asb-example.org/B115_0"
+      }
+    ],
+    "http://asb-example.org/LAGER_NR": [
+      {
+        "@id": "http://asb-example.org/1"
+      }
+    ],
+    "http://asb-example.org/REF_FELDER": [
+      {
+        "@id": "http://asb-example.org/4B0W1X9X"
+      }
+    ],
+    "http://asb-example.org/REF_LAGER": [
+      {
+        "@id": "http://asb-example.org/4D0JGLT6"
+      }
+    ],
+    "http://asb-example.org/TEIL_BWNR": [
+      {
+        "@id": "http://asb-example.org/0"
+      }
+    ]
+  },
+  {
+    "@id": "http://ifc-instance.org/instances/43017",
+    "@type": [
+      "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/IfcBridgePartPIER"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "STB Stütze - rund:STB Stütze UKA2:2612878"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/GlobalId": [
+      {
+        "@value": "0kRT78kK94A9FMWZoC1iDH"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/ObjectType": [
+      {
+        "@value": "STB Stütze - rund:STB Stütze UKA2"
+      }
+    ]
+  },
+  {
+    "@id": "http://asb-example.org/B115_0",
+    "@type": [
+      "http://asb-example.org/ASB_Pset_Teilbauwerk"
+    ],
+    "http://asb-example.org/AMT": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "533"
+      }
+    ],
+    "http://asb-example.org/BAULAST_KN": [
+      {
+        "@id": "http://asb-example.org/20104100000000"
+      }
+    ],
+    "http://asb-example.org/BEARBEITER": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Holzbach"
+      }
+    ],
+    "http://asb-example.org/BEARB_DAT": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2017-12-15"
+      }
+    ],
+    "http://asb-example.org/BWART": [
+      {
+        "@id": "http://asb-example.org/20071150000000"
+      }
+    ],
+    "http://asb-example.org/BWNR": [
+      {
+        "@id": "http://asb-example.org/B115"
+      }
+    ],
+    "http://asb-example.org/BW_RICHT": [
+      {
+        "@id": "http://asb-example.org/0"
+      }
+    ],
+    "http://asb-example.org/BW_RICHT_T": [
+      {
+        "@id": "http://asb-example.org/in_Richtung_Aachen_West_Ost"
+      }
+    ],
+    "http://asb-example.org/D_ERF_ABG": [
+      {
+        "@id": "http://asb-example.org/20142000000000"
+      }
+    ],
+    "http://asb-example.org/EIGNER": [
+      {
+        "@id": "http://asb-example.org/0"
+      }
+    ],
+    "http://asb-example.org/FUNKTION": [
+      {
+        "@id": "http://asb-example.org/20202000000000"
+      }
+    ],
+    "http://asb-example.org/ID_NR": [
+      {
+        "@id": "http://asb-example.org/B115_0"
+      }
+    ],
+    "http://asb-example.org/K": [
+      {
+        "@id": "http://asb-example.org/0"
+      }
+    ],
+    "http://asb-example.org/KONSTRUKT": [
+      {
+        "@id": "http://asb-example.org/Dreifeld_Spannbeton_Plattenbalken"
+      }
+    ],
+    "http://asb-example.org/P": [
+      {
+        "@id": "http://asb-example.org/0"
+      }
+    ],
+    "http://asb-example.org/S": [
+      {
+        "@id": "http://asb-example.org/0"
+      }
+    ],
+    "http://asb-example.org/STADIUM": [
+      {
+        "@id": "http://asb-example.org/20082000000000"
+      }
+    ],
+    "http://asb-example.org/TEIL_BWNR": [
+      {
+        "@id": "http://asb-example.org/0"
+      }
+    ],
+    "http://asb-example.org/TW_NAME": [
+      {
+        "@id": "http://asb-example.org/Bruecke"
+      }
+    ],
+    "http://asb-example.org/UHPF_KON": [
+      {
+        "@id": "http://asb-example.org/0"
+      }
+    ],
+    "http://asb-example.org/UHPF_WDL": [
+      {
+        "@id": "http://asb-example.org/0"
+      }
+    ],
+    "http://asb-example.org/UI_UA": [
+      {
+        "@id": "http://asb-example.org/20063310000000"
+      }
+    ]
+  },
+  {
+    "@id": "http://asb-example.org/4B0W1WZY",
+    "@type": [
+      "http://asb-example.org/ASB_Pset_Lager"
+    ],
+    "http://asb-example.org/AMT": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "533"
+      }
+    ],
+    "http://asb-example.org/ANZAHL": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 1
+      }
+    ],
+    "http://asb-example.org/ART": [
+      {
+        "@id": "http://asb-example.org/Bewehrt_MitFesthaltung"
+      }
+    ],
+    "http://asb-example.org/BAUJAHR": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#year",
+        "@value": "1978"
+      }
+    ],
+    "http://asb-example.org/BAUTEILNR": [
+      {
+        "@id": "http://asb-example.org/40011100000000"
+      }
+    ],
+    "http://asb-example.org/BEARBEITER": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "CODEKERK"
+      }
+    ],
+    "http://asb-example.org/BEARB_DAT": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2002-08-27"
+      }
+    ],
+    "http://asb-example.org/BWNR": [
+      {
+        "@id": "http://asb-example.org/B115"
+      }
+    ],
+    "http://asb-example.org/EINBAUORT": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Auflagerbank***"
+      }
+    ],
+    "http://asb-example.org/FELD_NR": [
+      {
+        "@id": "http://asb-example.org/3"
+      }
+    ],
+    "http://asb-example.org/HERSTELLER": [
+      {
+        "@id": "http://asb-example.org/VorspannTechnik_Ratingen"
+      }
+    ],
+    "http://asb-example.org/IDENT": [
+      {
+        "@id": "http://asb-example.org/4B0W1WZY"
+      }
+    ],
+    "http://asb-example.org/ID_NR": [
+      {
+        "@id": "http://asb-example.org/B115_0"
+      }
+    ],
+    "http://asb-example.org/LAGER_NR": [
+      {
+        "@id": "http://asb-example.org/1"
+      }
+    ],
+    "http://asb-example.org/REF_FELDER": [
+      {
+        "@id": "http://asb-example.org/4B0W1X9Z"
+      }
+    ],
+    "http://asb-example.org/REF_LAGER": [
+      {
+        "@id": "http://asb-example.org/4B0W1X9T"
+      }
+    ],
+    "http://asb-example.org/TEIL_BWNR": [
+      {
+        "@id": "http://asb-example.org/0"
+      }
+    ],
+    "http://asb-example.org/TEMP_SOMM": [
+      {
+        "@id": "http://asb-example.org/0_0"
+      }
+    ],
+    "http://asb-example.org/TEMP_WINT": [
+      {
+        "@id": "http://asb-example.org/0_0"
+      }
+    ]
+  },
+  {
+    "@id": "http://ifc-instance.org/instances/43048",
+    "@type": [
+      "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/IfcBridgePartFOUNDATION"
+    ],
+    "http://ifc-instance.org/instances/hasAsbPset": [
+      {
+        "@id": "http://asb-example.org/4B0W1WX8"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Foundation Slab:STB 750:2612955"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/GlobalId": [
+      {
+        "@value": "0kRT78kK94A9FMWZoC1iC4"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/ObjectType": [
+      {
+        "@value": "Foundation Slab:STB 750"
+      }
+    ]
+  },
+  {
+    "@id": "http://asb-example.org/4B0W1WZK",
+    "@type": [
+      "http://asb-example.org/ASB_Pset_Vorspannung"
+    ],
+    "http://asb-example.org/AMT": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "533"
+      }
+    ],
+    "http://asb-example.org/ART_VERPR": [
+      {
+        "@id": "http://asb-example.org/Moertel"
+      }
+    ],
+    "http://asb-example.org/BAUJAHR": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#year",
+        "@value": "1978"
+      }
+    ],
+    "http://asb-example.org/BAUTEILNR": [
+      {
+        "@id": "http://asb-example.org/Ueberbau"
+      }
+    ],
+    "http://asb-example.org/BEARBEITER": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Kliems"
+      }
+    ],
+    "http://asb-example.org/BEARB_DAT": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2012-03-12"
+      }
+    ],
+    "http://asb-example.org/BEMERKUNG": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": " nach Bauwerksbuch von 1980 Spanntyp AK 163, gemäß freigegebenen Ausführungsplänen Typ AK 124***"
+      }
+    ],
+    "http://asb-example.org/BWNR": [
+      {
+        "@id": "http://asb-example.org/B115"
+      }
+    ],
+    "http://asb-example.org/DZULNR": [
+      {
+        "@id": "http://asb-example.org/Z_13_1_16"
+      }
+    ],
+    "http://asb-example.org/EZULNR": [
+      {
+        "@id": "http://asb-example.org/keine_Zuordnung"
+      }
+    ],
+    "http://asb-example.org/HERSTELLER": [
+      {
+        "@id": "http://asb-example.org/FriedrichKruppHuettenwerke_frueher_3AHuettenwerkeRheinhausen"
+      }
+    ],
+    "http://asb-example.org/IDENT": [
+      {
+        "@id": "http://asb-example.org/4B0W1WZK"
+      }
+    ],
+    "http://asb-example.org/ID_NR": [
+      {
+        "@id": "http://asb-example.org/B115_0"
+      }
+    ],
+    "http://asb-example.org/INT_EXT": [
+      {
+        "@id": "http://asb-example.org/InterneVorspannung"
+      }
+    ],
+    "http://asb-example.org/ORT": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "End-Querträger***"
+      }
+    ],
+    "http://asb-example.org/REF_VSPANN": [
+      {
+        "@id": "http://asb-example.org/4B0W1X9P"
+      }
+    ],
+    "http://asb-example.org/RICHTUNG": [
+      {
+        "@id": "http://asb-example.org/Quer"
+      }
+    ],
+    "http://asb-example.org/SPANNVERF": [
+      {
+        "@id": "http://asb-example.org/AK_5Bz13116_5D"
+      }
+    ],
+    "http://asb-example.org/SP_BRUCHG": [
+      {
+        "@id": "http://asb-example.org/1630"
+      }
+    ],
+    "http://asb-example.org/SP_KRAFT": [
+      {
+        "@id": "http://asb-example.org/135"
+      }
+    ],
+    "http://asb-example.org/SP_STRECKG": [
+      {
+        "@id": "http://asb-example.org/1450"
+      }
+    ],
+    "http://asb-example.org/TEIL_BWNR": [
+      {
+        "@id": "http://asb-example.org/0"
+      }
+    ],
+    "http://asb-example.org/TYP": [
+      {
+        "@id": "http://asb-example.org/AK_124"
+      }
+    ],
+    "http://asb-example.org/VORSP_GRAD": [
+      {
+        "@id": "http://asb-example.org/VolleVorspannung"
+      }
+    ],
+    "http://asb-example.org/VORSP_NR": [
+      {
+        "@id": "http://asb-example.org/1"
+      }
+    ]
+  },
+  {
+    "@id": "http://asb-example.org/4B0W1WW4",
+    "@type": [
+      "http://asb-example.org/ASB_Pset_Fahrbahnuebergang"
+    ],
+    "http://asb-example.org/AMT": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "533"
+      }
+    ],
+    "http://asb-example.org/ART": [
+      {
+        "@id": "http://asb-example.org/Gussasphalt"
+      }
+    ],
+    "http://asb-example.org/ASPHMIGUT": [
+      {
+        "@id": "http://asb-example.org/MA8S"
+      }
+    ],
+    "http://asb-example.org/AUSF_FIRMA": [
+      {
+        "@id": "http://asb-example.org/Beton_Asphaltmischwerke_Tholen_GmbH_52511_Geilenkirchen"
+      }
+    ],
+    "http://asb-example.org/BAUJAHR": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#year",
+        "@value": "2013"
+      }
+    ],
+    "http://asb-example.org/BAUMONAT": [
+      {
+        "@id": "http://asb-example.org/0"
+      }
+    ],
+    "http://asb-example.org/BAUTEILNR": [
+      {
+        "@id": "http://asb-example.org/0"
+      }
+    ],
+    "http://asb-example.org/BEARBEITER": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Holzbach"
+      }
+    ],
+    "http://asb-example.org/BEARB_DAT": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-01-30"
+      }
+    ],
+    "http://asb-example.org/BEMERKUNG": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Schutzschicht***"
+      }
+    ],
+    "http://asb-example.org/BWNR": [
+      {
+        "@id": "http://asb-example.org/B115"
+      }
+    ],
+    "http://asb-example.org/DECKS_KZ": [
+      {
+        "@id": "http://asb-example.org/0"
+      }
+    ],
+    "http://asb-example.org/EINBAUORT": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Fahrbahn zwischen den Kappen***"
+      }
+    ],
+    "http://asb-example.org/FB_BELNR": [
+      {
+        "@id": "http://asb-example.org/1"
+      }
+    ],
+    "http://asb-example.org/FLAECHE": [
+      {
+        "@id": "http://asb-example.org/882"
+      }
+    ],
+    "http://asb-example.org/IDENT": [
+      {
+        "@id": "http://asb-example.org/4B0W1WW4"
+      }
+    ],
+    "http://asb-example.org/ID_NR": [
+      {
+        "@id": "http://asb-example.org/B115_0"
+      }
+    ],
+    "http://asb-example.org/REF_SACHV": [
+      {
+        "@id": "http://asb-example.org/4B0W1X9D"
+      }
+    ],
+    "http://asb-example.org/SCHICHTDIK": [
+      {
+        "@id": "http://asb-example.org/35"
+      }
+    ],
+    "http://asb-example.org/SCHICHTNR": [
+      {
+        "@id": "http://asb-example.org/2"
+      }
+    ],
+    "http://asb-example.org/TEIL_BWNR": [
+      {
+        "@id": "http://asb-example.org/0"
+      }
+    ]
+  },
+  {
+    "@id": "http://ifc-instance.org/instances/43741",
+    "@type": [
+      "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/IfcBridgePartABUTMENT"
+    ],
+    "http://ifc-instance.org/instances/hasAsbPset": [
+      {
+        "@id": "http://asb-example.org/4B0W1WZR"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Widerlager_West:Widerlager_West:2656902"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/GlobalId": [
+      {
+        "@value": "38QDEArsTBkAcqZHjG1jl8"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/ObjectType": [
+      {
+        "@value": "Widerlager_West:Widerlager_West"
+      }
+    ]
+  },
+  {
+    "@id": "http://ifc-instance.org/instances/43090",
+    "@type": [
+      "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/IfcBridgePartFOUNDATION"
+    ],
+    "http://ifc-instance.org/instances/hasAsbPset": [
+      {
+        "@id": "http://asb-example.org/4B0W1WX8"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Foundation Slab:B 100:2614921"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/GlobalId": [
+      {
+        "@value": "1NPo85Ve97CfXh5JAfjUaK"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/ObjectType": [
+      {
+        "@value": "Foundation Slab:B 100"
+      }
+    ]
+  },
+  {
+    "@id": "http://ifc-instance.org/instances/43776",
+    "@type": [
+      "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/IfcBridgePartFOUNDATION"
+    ],
+    "http://ifc-instance.org/instances/hasAsbPset": [
+      {
+        "@id": "http://asb-example.org/4B0W1WX8"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Foundation Slab:B 100:2679800"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/GlobalId": [
+      {
+        "@value": "2F364W94j5XROPyN$EWsLy"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/ObjectType": [
+      {
+        "@value": "Foundation Slab:B 100"
+      }
+    ]
+  },
+  {
+    "@id": "http://ifc-instance.org/instances/80795",
+    "@type": [
+      "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/IfcRailing"
+    ],
+    "http://ifc-instance.org/instances/hasAsbPset": [
+      {
+        "@id": "http://asb-example.org/4B0W1WY6"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Railing:Vertikale Stäbe mit Handlauf:2682099"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/GlobalId": [
+      {
+        "@value": "3$6mKCz4v4o8_HdrI5bVyX"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/ObjectType": [
+      {
+        "@value": "Railing:Vertikale Stäbe mit Handlauf"
+      }
+    ]
+  },
+  {
+    "@id": "http://ifc-instance.org/instances/43856",
+    "@type": [
+      "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/IfcBridgePart"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "STB Stütze - rechteckig:Auflager UKA 2:2682013"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/GlobalId": [
+      {
+        "@value": "3$6mKCz4v4o8_HdrI5bVzF"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/ObjectType": [
+      {
+        "@value": "STB Stütze - rechteckig:Auflager UKA 2"
+      }
+    ]
+  },
+  {
+    "@id": "http://ifc-instance.org/instances/42819",
+    "@type": [
+      "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/IfcBridgePartPIER"
+    ],
+    "http://ifc-instance.org/instances/hasAsbPset": [
+      {
+        "@id": "http://asb-example.org/4B0W1WZP"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "STB Stütze - rund:STB Stütze UKA2:2607161"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/GlobalId": [
+      {
+        "@value": "0kRT78kK94A9FMWZoC1jNc"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/ObjectType": [
+      {
+        "@value": "STB Stütze - rund:STB Stütze UKA2"
+      }
+    ]
+  }
+]

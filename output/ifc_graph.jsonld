@@ -1,0 +1,980 @@
+[
+  {
+    "@id": "http://ifc-instance.org/instances/32",
+    "@type": [
+      "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/IfcBridgeGIRDER"
+    ],
+    "http://ifc-instance.org/instances/IfcRelContainedInSpatialStructure": [
+      {
+        "@id": "http://ifc-instance.org/instances/42750"
+      },
+      {
+        "@id": "http://ifc-instance.org/instances/42796"
+      },
+      {
+        "@id": "http://ifc-instance.org/instances/42819"
+      },
+      {
+        "@id": "http://ifc-instance.org/instances/42841"
+      },
+      {
+        "@id": "http://ifc-instance.org/instances/42863"
+      },
+      {
+        "@id": "http://ifc-instance.org/instances/42885"
+      },
+      {
+        "@id": "http://ifc-instance.org/instances/42894"
+      },
+      {
+        "@id": "http://ifc-instance.org/instances/42916"
+      },
+      {
+        "@id": "http://ifc-instance.org/instances/42925"
+      },
+      {
+        "@id": "http://ifc-instance.org/instances/42934"
+      },
+      {
+        "@id": "http://ifc-instance.org/instances/42952"
+      },
+      {
+        "@id": "http://ifc-instance.org/instances/42976"
+      },
+      {
+        "@id": "http://ifc-instance.org/instances/42999"
+      },
+      {
+        "@id": "http://ifc-instance.org/instances/43008"
+      },
+      {
+        "@id": "http://ifc-instance.org/instances/43017"
+      },
+      {
+        "@id": "http://ifc-instance.org/instances/43032"
+      },
+      {
+        "@id": "http://ifc-instance.org/instances/43048"
+      },
+      {
+        "@id": "http://ifc-instance.org/instances/43067"
+      },
+      {
+        "@id": "http://ifc-instance.org/instances/43090"
+      },
+      {
+        "@id": "http://ifc-instance.org/instances/43395"
+      },
+      {
+        "@id": "http://ifc-instance.org/instances/43411"
+      },
+      {
+        "@id": "http://ifc-instance.org/instances/43741"
+      },
+      {
+        "@id": "http://ifc-instance.org/instances/43757"
+      },
+      {
+        "@id": "http://ifc-instance.org/instances/43776"
+      },
+      {
+        "@id": "http://ifc-instance.org/instances/43792"
+      },
+      {
+        "@id": "http://ifc-instance.org/instances/43815"
+      },
+      {
+        "@id": "http://ifc-instance.org/instances/43825"
+      },
+      {
+        "@id": "http://ifc-instance.org/instances/43834"
+      },
+      {
+        "@id": "http://ifc-instance.org/instances/43856"
+      },
+      {
+        "@id": "http://ifc-instance.org/instances/43865"
+      },
+      {
+        "@id": "http://ifc-instance.org/instances/43874"
+      },
+      {
+        "@id": "http://ifc-instance.org/instances/43896"
+      },
+      {
+        "@id": "http://ifc-instance.org/instances/43905"
+      },
+      {
+        "@id": "http://ifc-instance.org/instances/43914"
+      },
+      {
+        "@id": "http://ifc-instance.org/instances/43936"
+      },
+      {
+        "@id": "http://ifc-instance.org/instances/43945"
+      },
+      {
+        "@id": "http://ifc-instance.org/instances/43954"
+      },
+      {
+        "@id": "http://ifc-instance.org/instances/80795"
+      },
+      {
+        "@id": "http://ifc-instance.org/instances/117644"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/GlobalId": [
+      {
+        "@value": "2B9jCywhbBAPv5PLpqgYNX"
+      }
+    ]
+  },
+  {
+    "@id": "http://ifc-instance.org/instances/43825",
+    "@type": [
+      "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/IfcBridgePart"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "STB Stütze - rechteckig:Auflager UKA 2:2681922"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/GlobalId": [
+      {
+        "@value": "3$6mKCz4v4o8_HdrI5bV_G"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/ObjectType": [
+      {
+        "@value": "STB Stütze - rechteckig:Auflager UKA 2"
+      }
+    ]
+  },
+  {
+    "@id": "http://ifc-instance.org/instances/43757",
+    "@type": [
+      "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/IfcBridgePartFOUNDATION"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Foundation Slab:STB 1250:2672995"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/GlobalId": [
+      {
+        "@value": "2F364W94j5XROPyN$EWq$d"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/ObjectType": [
+      {
+        "@value": "Foundation Slab:STB 1250"
+      }
+    ]
+  },
+  {
+    "@id": "http://ifc-instance.org/instances/42925",
+    "@type": [
+      "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/IfcBridgePartPIER"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "STB Stütze - rund:STB Stütze UKA2:2608134"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/GlobalId": [
+      {
+        "@value": "0kRT78kK94A9FMWZoC1j7P"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/ObjectType": [
+      {
+        "@value": "STB Stütze - rund:STB Stütze UKA2"
+      }
+    ]
+  },
+  {
+    "@id": "http://ifc-instance.org/instances/43914",
+    "@type": [
+      "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/IfcBridgePart"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "STB Stütze - rechteckig:Auflager UKA 2:2683239"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/GlobalId": [
+      {
+        "@value": "3$6mKCz4v4o8_HdrI5bUAr"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/ObjectType": [
+      {
+        "@value": "STB Stütze - rechteckig:Auflager UKA 2"
+      }
+    ]
+  },
+  {
+    "@id": "http://ifc-instance.org/instances/42916",
+    "@type": [
+      "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/IfcBridgePartPIER"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "STB Stütze - rund:STB Stütze UKA2:2608130"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/GlobalId": [
+      {
+        "@value": "0kRT78kK94A9FMWZoC1j7T"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/ObjectType": [
+      {
+        "@value": "STB Stütze - rund:STB Stütze UKA2"
+      }
+    ]
+  },
+  {
+    "@id": "http://ifc-instance.org/instances/42894",
+    "@type": [
+      "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/IfcBridgePartPIER"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "STB Stütze - rund:STB Stütze UKA2:2607789"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/GlobalId": [
+      {
+        "@value": "0kRT78kK94A9FMWZoC1jTo"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/ObjectType": [
+      {
+        "@value": "STB Stütze - rund:STB Stütze UKA2"
+      }
+    ]
+  },
+  {
+    "@id": "http://ifc-instance.org/instances/42999",
+    "@type": [
+      "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/IfcBridgePartPIER"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "STB Stütze - rund:STB Stütze UKA2:2612857"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/GlobalId": [
+      {
+        "@value": "0kRT78kK94A9FMWZoC1iEc"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/ObjectType": [
+      {
+        "@value": "STB Stütze - rund:STB Stütze UKA2"
+      }
+    ]
+  },
+  {
+    "@id": "http://ifc-instance.org/instances/43032",
+    "@type": [
+      "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/IfcBridgePartFOUNDATION"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Foundation Slab:STB 750:2612947"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/GlobalId": [
+      {
+        "@value": "0kRT78kK94A9FMWZoC1iCC"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/ObjectType": [
+      {
+        "@value": "Foundation Slab:STB 750"
+      }
+    ]
+  },
+  {
+    "@id": "http://ifc-instance.org/instances/43874",
+    "@type": [
+      "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/IfcBridgePart"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "STB Stütze - rechteckig:Auflager UKA 2:2682019"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/GlobalId": [
+      {
+        "@value": "3$6mKCz4v4o8_HdrI5bVzn"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/ObjectType": [
+      {
+        "@value": "STB Stütze - rechteckig:Auflager UKA 2"
+      }
+    ]
+  },
+  {
+    "@id": "http://ifc-instance.org/instances/42952",
+    "@type": [
+      "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/IfcBridgePartFOUNDATION"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Foundation Slab:STB 750:2610123"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/GlobalId": [
+      {
+        "@value": "0kRT78kK94A9FMWZoC1iuK"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/ObjectType": [
+      {
+        "@value": "Foundation Slab:STB 750"
+      }
+    ]
+  },
+  {
+    "@id": "http://ifc-instance.org/instances/42796",
+    "@type": [
+      "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/IfcBridgePartPIER"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "STB Stütze - rund:STB Stütze UKA2:2606948"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/GlobalId": [
+      {
+        "@value": "0kRT78kK94A9FMWZoC1jgx"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/ObjectType": [
+      {
+        "@value": "STB Stütze - rund:STB Stütze UKA2"
+      }
+    ]
+  },
+  {
+    "@id": "http://ifc-instance.org/instances/42885",
+    "@type": [
+      "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/IfcBridgePartPIER"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "STB Stütze - rund:STB Stütze UKA2:2607786"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/GlobalId": [
+      {
+        "@value": "0kRT78kK94A9FMWZoC1jTr"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/ObjectType": [
+      {
+        "@value": "STB Stütze - rund:STB Stütze UKA2"
+      }
+    ]
+  },
+  {
+    "@id": "http://ifc-instance.org/instances/35",
+    "@type": [
+      "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/IfcSite"
+    ],
+    "http://ifc-instance.org/instances/IfcRelAggregates": [
+      {
+        "@id": "http://ifc-instance.org/instances/32"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Default"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/GlobalId": [
+      {
+        "@value": "2B9jCywhbBAPv5PLpqgYNY"
+      }
+    ]
+  },
+  {
+    "@id": "http://ifc-instance.org/instances/43067",
+    "@type": [
+      "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/IfcBridgePartFOUNDATION"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Foundation Slab:B 100:2614318"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/GlobalId": [
+      {
+        "@value": "1NPo85Ve97CfXh5JAfjUkp"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/ObjectType": [
+      {
+        "@value": "Foundation Slab:B 100"
+      }
+    ]
+  },
+  {
+    "@id": "http://ifc-instance.org/instances/43936",
+    "@type": [
+      "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/IfcBridgePart"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "STB Stütze - rechteckig:Auflager UKA 2:2683393"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/GlobalId": [
+      {
+        "@value": "3$6mKCz4v4o8_HdrI5bU7J"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/ObjectType": [
+      {
+        "@value": "STB Stütze - rechteckig:Auflager UKA 2"
+      }
+    ]
+  },
+  {
+    "@id": "http://ifc-instance.org/instances/42863",
+    "@type": [
+      "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/IfcBridgePartPIER"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "STB Stütze - rund:STB Stütze UKA2:2607782"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/GlobalId": [
+      {
+        "@value": "0kRT78kK94A9FMWZoC1jTv"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/ObjectType": [
+      {
+        "@value": "STB Stütze - rund:STB Stütze UKA2"
+      }
+    ]
+  },
+  {
+    "@id": "http://ifc-instance.org/instances/43896",
+    "@type": [
+      "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/IfcBridgePart"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "STB Stütze - rechteckig:Auflager UKA 2:2683232"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/GlobalId": [
+      {
+        "@value": "3$6mKCz4v4o8_HdrI5bUAo"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/ObjectType": [
+      {
+        "@value": "STB Stütze - rechteckig:Auflager UKA 2"
+      }
+    ]
+  },
+  {
+    "@id": "http://ifc-instance.org/instances/43865",
+    "@type": [
+      "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/IfcBridgePart"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "STB Stütze - rechteckig:Auflager UKA 2:2682016"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/GlobalId": [
+      {
+        "@value": "3$6mKCz4v4o8_HdrI5bVzo"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/ObjectType": [
+      {
+        "@value": "STB Stütze - rechteckig:Auflager UKA 2"
+      }
+    ]
+  },
+  {
+    "@id": "http://ifc-instance.org/instances/42976",
+    "@type": [
+      "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/IfcBridgePartFOUNDATION"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Foundation Slab:STB 750:2611769"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/GlobalId": [
+      {
+        "@value": "0kRT78kK94A9FMWZoC1iVc"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/ObjectType": [
+      {
+        "@value": "Foundation Slab:STB 750"
+      }
+    ]
+  },
+  {
+    "@id": "http://ifc-instance.org/instances/117644",
+    "@type": [
+      "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/IfcRailing"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Railing:Vertikale Stäbe mit Handlauf:2683131"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/GlobalId": [
+      {
+        "@value": "3$6mKCz4v4o8_HdrI5bUCf"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/ObjectType": [
+      {
+        "@value": "Railing:Vertikale Stäbe mit Handlauf"
+      }
+    ]
+  },
+  {
+    "@id": "http://ifc-instance.org/instances/43792",
+    "@type": [
+      "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/IfcBridgePartFOUNDATION"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Foundation Slab:B 100:2681219"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/GlobalId": [
+      {
+        "@value": "2F364W94j5XROPyN$EWsy7"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/ObjectType": [
+      {
+        "@value": "Foundation Slab:B 100"
+      }
+    ]
+  },
+  {
+    "@id": "http://ifc-instance.org/instances/43905",
+    "@type": [
+      "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/IfcBridgePart"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "STB Stütze - rechteckig:Auflager UKA 2:2683236"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/GlobalId": [
+      {
+        "@value": "3$6mKCz4v4o8_HdrI5bUAs"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/ObjectType": [
+      {
+        "@value": "STB Stütze - rechteckig:Auflager UKA 2"
+      }
+    ]
+  },
+  {
+    "@id": "http://ifc-instance.org/instances/43017",
+    "@type": [
+      "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/IfcBridgePartPIER"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "STB Stütze - rund:STB Stütze UKA2:2612878"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/GlobalId": [
+      {
+        "@value": "0kRT78kK94A9FMWZoC1iDH"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/ObjectType": [
+      {
+        "@value": "STB Stütze - rund:STB Stütze UKA2"
+      }
+    ]
+  },
+  {
+    "@id": "http://ifc-instance.org/instances/43815",
+    "@type": [
+      "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/IfcBridgePart"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "STB Stütze - rechteckig:Auflager UKA 2:2681918"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/GlobalId": [
+      {
+        "@value": "3$6mKCz4v4o8_HdrI5bV$i"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/ObjectType": [
+      {
+        "@value": "STB Stütze - rechteckig:Auflager UKA 2"
+      }
+    ]
+  },
+  {
+    "@id": "http://ifc-instance.org/instances/43834",
+    "@type": [
+      "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/IfcBridgePart"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "STB Stütze - rechteckig:Auflager UKA 2:2681925"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/GlobalId": [
+      {
+        "@value": "3$6mKCz4v4o8_HdrI5bV_N"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/ObjectType": [
+      {
+        "@value": "STB Stütze - rechteckig:Auflager UKA 2"
+      }
+    ]
+  },
+  {
+    "@id": "http://ifc-instance.org/instances/43954",
+    "@type": [
+      "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/IfcBridgePart"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "STB Stütze - rechteckig:Auflager UKA 2:2683439"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/GlobalId": [
+      {
+        "@value": "3$6mKCz4v4o8_HdrI5bU7z"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/ObjectType": [
+      {
+        "@value": "STB Stütze - rechteckig:Auflager UKA 2"
+      }
+    ]
+  },
+  {
+    "@id": "http://ifc-instance.org/instances/42934",
+    "@type": [
+      "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/IfcBridgePartPIER"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "STB Stütze - rund:STB Stütze UKA2:2608137"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/GlobalId": [
+      {
+        "@value": "0kRT78kK94A9FMWZoC1j7M"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/ObjectType": [
+      {
+        "@value": "STB Stütze - rund:STB Stütze UKA2"
+      }
+    ]
+  },
+  {
+    "@id": "http://ifc-instance.org/instances/43945",
+    "@type": [
+      "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/IfcBridgePart"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "STB Stütze - rechteckig:Auflager UKA 2:2683436"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/GlobalId": [
+      {
+        "@value": "3$6mKCz4v4o8_HdrI5bU7_"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/ObjectType": [
+      {
+        "@value": "STB Stütze - rechteckig:Auflager UKA 2"
+      }
+    ]
+  },
+  {
+    "@id": "http://ifc-instance.org/instances/43008",
+    "@type": [
+      "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/IfcBridgePartPIER"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "STB Stütze - rund:STB Stütze UKA2:2612868"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/GlobalId": [
+      {
+        "@value": "0kRT78kK94A9FMWZoC1iDR"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/ObjectType": [
+      {
+        "@value": "STB Stütze - rund:STB Stütze UKA2"
+      }
+    ]
+  },
+  {
+    "@id": "http://ifc-instance.org/instances/28",
+    "http://ifc-instance.org/instances/IfcRelAggregates": [
+      {
+        "@id": "http://ifc-instance.org/instances/35"
+      }
+    ]
+  },
+  {
+    "@id": "http://ifc-instance.org/instances/43411",
+    "@type": [
+      "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/IfcBridgePartFOUNDATION"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Foundation Slab:STB 1250:2649578"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/GlobalId": [
+      {
+        "@value": "38QDEArsTBkAcqZHjG1Zoa"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/ObjectType": [
+      {
+        "@value": "Foundation Slab:STB 1250"
+      }
+    ]
+  },
+  {
+    "@id": "http://ifc-instance.org/instances/42750",
+    "@type": [
+      "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/IfcBridgePartDECK"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Plattenbalken:Plattenbalken:2545762"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/GlobalId": [
+      {
+        "@value": "2ssuoJB5rEgxPlqRO4kY5g"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/ObjectType": [
+      {
+        "@value": "Plattenbalken:Plattenbalken"
+      }
+    ]
+  },
+  {
+    "@id": "http://ifc-instance.org/instances/43395",
+    "@type": [
+      "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/IfcBridgePartABUTMENT"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Widerlager_Ost:Widerlager_Ost:2618100"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/GlobalId": [
+      {
+        "@value": "16yDax3413NfiV9ItRaWy5"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/ObjectType": [
+      {
+        "@value": "Widerlager_Ost:Widerlager_Ost"
+      }
+    ]
+  },
+  {
+    "@id": "http://ifc-instance.org/instances/42841",
+    "@type": [
+      "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/IfcBridgePartPIER"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "STB Stütze - rund:STB Stütze UKA2:2607172"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/GlobalId": [
+      {
+        "@value": "0kRT78kK94A9FMWZoC1jMR"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/ObjectType": [
+      {
+        "@value": "STB Stütze - rund:STB Stütze UKA2"
+      }
+    ]
+  },
+  {
+    "@id": "http://ifc-instance.org/instances/43048",
+    "@type": [
+      "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/IfcBridgePartFOUNDATION"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Foundation Slab:STB 750:2612955"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/GlobalId": [
+      {
+        "@value": "0kRT78kK94A9FMWZoC1iC4"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/ObjectType": [
+      {
+        "@value": "Foundation Slab:STB 750"
+      }
+    ]
+  },
+  {
+    "@id": "http://ifc-instance.org/instances/43741",
+    "@type": [
+      "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/IfcBridgePartABUTMENT"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Widerlager_West:Widerlager_West:2656902"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/GlobalId": [
+      {
+        "@value": "38QDEArsTBkAcqZHjG1jl8"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/ObjectType": [
+      {
+        "@value": "Widerlager_West:Widerlager_West"
+      }
+    ]
+  },
+  {
+    "@id": "http://ifc-instance.org/instances/43090",
+    "@type": [
+      "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/IfcBridgePartFOUNDATION"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Foundation Slab:B 100:2614921"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/GlobalId": [
+      {
+        "@value": "1NPo85Ve97CfXh5JAfjUaK"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/ObjectType": [
+      {
+        "@value": "Foundation Slab:B 100"
+      }
+    ]
+  },
+  {
+    "@id": "http://ifc-instance.org/instances/43776",
+    "@type": [
+      "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/IfcBridgePartFOUNDATION"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Foundation Slab:B 100:2679800"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/GlobalId": [
+      {
+        "@value": "2F364W94j5XROPyN$EWsLy"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/ObjectType": [
+      {
+        "@value": "Foundation Slab:B 100"
+      }
+    ]
+  },
+  {
+    "@id": "http://ifc-instance.org/instances/80795",
+    "@type": [
+      "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/IfcRailing"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Railing:Vertikale Stäbe mit Handlauf:2682099"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/GlobalId": [
+      {
+        "@value": "3$6mKCz4v4o8_HdrI5bVyX"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/ObjectType": [
+      {
+        "@value": "Railing:Vertikale Stäbe mit Handlauf"
+      }
+    ]
+  },
+  {
+    "@id": "http://ifc-instance.org/instances/43856",
+    "@type": [
+      "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/IfcBridgePart"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "STB Stütze - rechteckig:Auflager UKA 2:2682013"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/GlobalId": [
+      {
+        "@value": "3$6mKCz4v4o8_HdrI5bVzF"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/ObjectType": [
+      {
+        "@value": "STB Stütze - rechteckig:Auflager UKA 2"
+      }
+    ]
+  },
+  {
+    "@id": "http://ifc-instance.org/instances/42819",
+    "@type": [
+      "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/IfcBridgePartPIER"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "STB Stütze - rund:STB Stütze UKA2:2607161"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/GlobalId": [
+      {
+        "@value": "0kRT78kK94A9FMWZoC1jNc"
+      }
+    ],
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/prop/ObjectType": [
+      {
+        "@value": "STB Stütze - rund:STB Stütze UKA2"
+      }
+    ]
+  }
+]
